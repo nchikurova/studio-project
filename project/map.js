@@ -1,6 +1,6 @@
-const width = window.innerWidth * 0.9,
-    height = window.innerHeight * 0.7,
-    margin = { top: 80, bottom: 50, left: 60, right: 40 };
+width = innerWidth * 0.3,
+    height = innerHeight * 0.3,
+    margin = { top: 60, bottom: 50, left: 20, right: 40 };
 
 
 let svg;
@@ -53,8 +53,11 @@ function init() {
     svg = d3
         .select("#map-container")
         .append("svg")
-        .attr("width", width)
-        .attr("height", height);
+        .attr("viewBox", "0 0 400 300")
+        .append("g")
+        .attr("transform", "translate(0,0)")
+    // .attr("width", width)
+    // .attr("height", height);
 
     // CLEANING DATA
     cleanData = d3.groups(state.week_1, d => d.state)
@@ -91,9 +94,10 @@ function init() {
         .domain([d3.min(state.week_1, d => d.noconf), 1300000])
         .range(["#C8E1E5", "#0e2629"])
 
+    //console.log("color", colorScale.domain())
 
-    // console.log("color", colorScale.domain())
     formatTime = d3.format(",")
+
     svg
         .selectAll(".state")
         // all of the features of the geojson, meaning all the states as individuals
@@ -103,32 +107,34 @@ function init() {
         .attr("class", "state")
         .style("stroke", "black")
         .attr("fill", d => {
+            //console.log("d", d)
             let value = noconfByState.get(d.properties.STUSPS);
             return (value != 0 ? colorScale(value) : "grey")
+            // console.log("value", value)
         })
-        .on('mouseover', d => {
-            div
-                .transition()
-                .duration(50)
-                .style('opacity', 0.9);
-            div
-                .html("<h2><strong>Week 1</strong></h2>" +
-                    "<p style ='font-size:16px;' ><strong> In "
-                    + d.properties.NAME
-                    + "</strong></p>" + "<b>"
-                    + "<p style='color: #e7eff0; font-size: 20 px;'><strong> "
-                    + formatTime(noconfByState.get(d.properties.STUSPS))
-                    + '</strong>' + " people had no confidence in paying rent next month" + '</p>'
-                )
-                .style("left", (d3.event.pageX) + "px")
-                .style("top", (d3.event.pageY - 28) + "px");
-        })
-        .on('mouseout', () => {
-            div
-                .transition()
-                .duration(100)
-                .style('opacity', 0);
-        })
+    // .on('mouseover', d => {
+    //     div
+    //         .transition()
+    //         .duration(50)
+    //         .style('opacity', 0.9);
+    //     div
+    //         .html("<h2><strong>Week 1</strong></h2>" +
+    //             "<p style ='font-size:16px;' ><strong> In "
+    //             + d.properties.NAME
+    //             + "</strong></p>" + "<b>"
+    //             + "<p style='color: #e7eff0; font-size: 20 px;'><strong> "
+    //             + formatTime(noconfByState.get(d.properties.STUSPS))
+    //             + '</strong>' + " people had no confidence in paying rent next month" + '</p>'
+    //         )
+    //         .style("left", (d3.event.pageX) + "px")
+    //         .style("top", (d3.event.pageY - 28) + "px");
+    // })
+    // .on('mouseout', () => {
+    //     div
+    //         .transition()//
+    //         .duration(100)
+    //         .style('opacity', 0);
+    // })
     div = d3.select("body").append("div")
         .attr("class", "tooltip")
         .style("opacity", 0);

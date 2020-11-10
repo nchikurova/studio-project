@@ -14,42 +14,113 @@
 
 <body>
     <div id="tooltip-contaner"></div>
-    <section id="intro-article">
-        <div></div>
-        <div>
-            <div id="intro-title">
+    <section id="intro-block">
+        <div id="intro-text">
+            <div></div>
+            <div>
+                <div id="intro-title">
 
-                Confidence in paying rent
-            </div>
-            <div id="intro-subtitle">
-                Most of Americnas were not prepared for pandemic. let's see how the confidence is dropping lol
-            </div>
-            <div id="intro-text">
-                whatever text i will put in here
+                    Were Americans ready
+                    for COVID-19?
+                </div>
+                <div id="intro-subtitle">
+                    Coronavirus rent crisis: ‘Millions of Americans will have trouble paying rent this month’
+                    (03/27/2020)
+                </div>
+                <div id="intro-subtext">
+                    As job losses and unemployment continue to increase as a result of the coronavirus pandemic, more
+                    than half of Americans who rent their residence say they lack confidence they will be able to pay
+                    May rent in full.
+                </div>
             </div>
         </div>
     </section>
 
     <section id="map-content">
-        <div></div>
-        <div id="map-title">
-            Map title will be here
+        <div id="map-container">
+            <div id="map-title">
+                Americans' confidence in being able to pay April rent
+            </div>
+            <br>
+            <button id="button" name="button" class="button" style="align-self: center;">Week 1</button>
+            <button id="button" name="button" class="button">Week 2</button>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Week 1</label><br>
+            <div id="tooltip" class="tooltip"></div>
+
         </div>
-        <div id="map-container"> </div>
+        <div id="map-article">
+            <br>
+            <br>
+            <br>
+            <li>52% of American renters say they are confident they will be able to pay full rent in May, compared
+                to 69% who said they could in April, according to a new survey, but those numbers could change as
+                more federal stimulus checks hit bank accounts.</li>
+            <br>
+            <li>63% of renters said they have suffered income losses related to Covid-19</li>
+            <br>
+            <li>A significant percentage of renters plan to move within six months</li>
+
+        </div>
     </section>
 
-    <section id="bar-content">
-        <div id="bar-container">
+    <section id="barchart-content">
+        <div id="barchart-container">
+            <div id="barchart-title">Barchart title</div>
+            <br>
+            <label for="dropdown" style="font-size: 20px; align-self: center;"> State </label>
+            <select id="dropdown" name="dropdown"></select>
+            <label for="dropdown" style="font-size: 20px;">Category </label>
+            <select id="dropdown" name="dropdown"></select>
+            <label for="dropdown" style="font-size: 20px;">Level of confidence </label>
+            <select id="dropdown" name="dropdown"></select>
+        </div>
 
+        <div id="barchart-text">
+            <br>
+            <br>
+            Barchart text
         </div>
     </section>
-    </main>
+
+    <section id="linechart-content">
+        <div id="linechart-container">
+            <div id="linechart-title">Linechart title</div>
+
+        </div>
+        <div id="linechart-text">
+            <br>
+            <br>
+            Linechart text
+        </div>
+    </section>
+
+
+
+    <section id="heatmap-content">
+        <div id="heatmap-container">
+            <div id="heatmap-title">Heatmap title</div>
+        </div>
+        <div id="heatmap-text">
+            <br>
+            <br>
+            Heatmap text
+        </div>
+    </section>
+
+    <!-- links july 9-14
+"https://www.usatoday.com/in-depth/graphics/2020/07/24/24-million-americans-say-they-have-little-no-chance-being-able-pay-next-months-rent-eviction/5497764002/"-->
     <!-- this is the line that loads in d3 -->
     <!-- <script src=“https://d3js.org/d3-array.v2.min.js”></script> -->
+    <script src="../lib/d3.js"></script>
     <script src="../lib/d3.v6.min.js"></script>
     <script src="../lib/d3-array.v2.min.js"></script>
+    <script src="../lib/d3-array.js"></script>
     <!-- this is the line that loads in the main js script -->
     <script src="map.js"></script>
+    <script src="barchart.js"></script>
+    <script src="heatmap.js"></script>
+    <script src="linechart.js"></script>
 </body>
 
 </html>
