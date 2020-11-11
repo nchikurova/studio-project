@@ -1,7 +1,6 @@
-width = innerWidth * 0.3,
-    height = innerHeight * 0.3,
-    margin = { top: 60, bottom: 50, left: 20, right: 40 };
-
+let width = 360;
+let height = 300;
+let margin = { top: 60, bottom: 50, left: 20, right: 40 };
 
 let svg;
 let projection;
@@ -77,27 +76,20 @@ function init() {
     noconfByState = new Map(
         cleanData.map(d => {
             const totalObject = d[1].find(r => r.category === 'Total');
-            return [d[0], totalObject.noconf];
+            return [d[0], totalObject.noconf / totalObject.total];
         })
     )
     console.log("noconfByState", noconfByState)
 
     colorScale = d3.scaleLinear()
         //.range(["#e7eff0", "#C8E1E5", "#B7D0D0", "#82C0CC", "#458A93", "#16697A", "#1C474D", "#0e2629"])//"#1C474D"])
-        //BLUE
-        // .range(["#A9D6E5"
-        //     , "#89C2D9"
-        //     , "#61A5C2"
-        //     , "#2C7DA0"
-        //     , "#2A6F97"
-        //     , "#23679A", "#013A63"])
-        .domain([d3.min(state.week_1, d => d.noconf), 1300000])
+        .domain([0.05, 0.2]) //d3.min(state.week_1, d => [d.noconf / d.total]))
         .range(["#C8E1E5", "#0e2629"])
 
-    //console.log("color", colorScale.domain())
+    console.log("colorDomain", colorScale.domain())
 
     formatTime = d3.format(",")
-
+    formatPercentage = d3.format(".0%")
     svg
         .selectAll(".state")
         // all of the features of the geojson, meaning all the states as individuals
@@ -107,34 +99,37 @@ function init() {
         .attr("class", "state")
         .style("stroke", "black")
         .attr("fill", d => {
-            //console.log("d", d)
+            console.log("d", d)
             let value = noconfByState.get(d.properties.STUSPS);
             return (value != 0 ? colorScale(value) : "grey")
-            // console.log("value", value)
+            //console.log("value", value)
         })
-    // .on('mouseover', d => {
-    //     div
-    //         .transition()
-    //         .duration(50)
-    //         .style('opacity', 0.9);
-    //     div
-    //         .html("<h2><strong>Week 1</strong></h2>" +
-    //             "<p style ='font-size:16px;' ><strong> In "
-    //             + d.properties.NAME
-    //             + "</strong></p>" + "<b>"
-    //             + "<p style='color: #e7eff0; font-size: 20 px;'><strong> "
-    //             + formatTime(noconfByState.get(d.properties.STUSPS))
-    //             + '</strong>' + " people had no confidence in paying rent next month" + '</p>'
-    //         )
-    //         .style("left", (d3.event.pageX) + "px")
-    //         .style("top", (d3.event.pageY - 28) + "px");
-    // })
-    // .on('mouseout', () => {
-    //     div
-    //         .transition()//
-    //         .duration(100)
-    //         .style('opacity', 0);
-    // })
+        .on('mouseover', d => {
+            console.log("d for tooltips", d)
+            div
+                .transition()
+                .duration(50)
+                .style('opacity', 0.9);
+            div
+                .html("<h2><strong>Week 1</strong></h2>" +
+                    "<p style ='font-size:16px;' ><strong> In "
+                    + d.properties.NAME
+                    + "</strong></p>" + "<b>"
+                    + "<p style='color: #e7eff0; font-size: 20 px;'><strong> "
+                    + formatPercentage(noconfByState.get(d.properties.STUSPS))
+                    + '</strong>' + " people had no confidence in paying rent next month" + '</p>'
+                )
+                .style("left", (d3.event.pageX) + "px")
+                .style("top", (d3.event.pageY - 28) + "px");
+        })
+        .on('mouseout', () => {
+            div
+                .transition()//
+                .duration(100)
+                .style('opacity', 0);
+        })
+
+
     div = d3.select("body").append("div")
         .attr("class", "tooltip")
         .style("opacity", 0);
@@ -143,6 +138,51 @@ function init() {
 }
 
 function draw() {
+    // svg
+    //     .selectAll(".state")
+    //     // // all of the features of the geojson, meaning all the states as individuals
+    //     .data(state.geojson.features, console.log("datadata", state.geojson.features))
+    //     .join(
+    //         enter =>
+    //             enter.append("path")
+    //                 .attr("d", path)
+    //                 .attr("class", "state")
+    //                 .style("stroke", "black")
+    //                 .attr("fill", d => {
+    //                     //console.log("d", d)
+    //                     let value = noconfByState.get(d.properties.STUSPS);
+    //                     return (value != 0 ? colorScale(value) : "grey")
+    //                     // console.log("value", value)
+    //                 })
+    //                 .on('mouseover', d => {
+    //                     console.log("d", d)
+    //                     div
+    //                         .transition()
+    //                         .duration(50)
+    //                         .style('opacity', 0.9);
+    //                     div
+    //                         .html("<h2><strong>Week 1</strong></h2>" +
+    //                             "<p style ='font-size:16px;' ><strong> In "
+    //                             + d.properties.NAME
+    //                             + "</strong></p>" + "<b>"
+    //                             + "<p style='color: #e7eff0; font-size: 20 px;'><strong> "
+    //                             + formatPercentage(noconfByState.get(d.properties.STUSPS))
+    //                             + '</strong>' + " people had no confidence in paying rent next month" + '</p>'
+    //                         )
+    //                         .style("left", (d3.event.pageX) + "px")
+    //                         .style("top", (d3.event.pageY - 28) + "px");
+    //                 }),
+    //         update => update, // pass through the update selection
+    //         exit => exit
+    //             .call(exit => exit.transition()
+    //                 .remove())
+    //     )
+    //     .on('mouseout', () => {
+    //         div
+    //             .transition()//
+    //             .duration(100)
+    //             .style('opacity', 0);
+    //     })
 
     //return an array of [key, value] pairs
     // hoverData = Object.entries(state.hover);

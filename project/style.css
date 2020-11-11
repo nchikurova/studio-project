@@ -31,11 +31,14 @@ body.colors  {
 body {
   font-family: 'Inria Serif', serif;
   padding: 1em 3em;
+  background-color: #e7eff0;
+
 }
 /* INTRO CONTAINER */
 
-#intro-block {
-    background-color: #16697A;
+#intro-content {
+    /* background-color: #16697A; */
+    background-color: #1C474D;
     padding: 0;
     margin: 0;
     color: white;
@@ -43,15 +46,17 @@ body {
 }
 #intro-text {
     font-family: 'IBM Plex Sans';
-    background-color:#16697A;
+    /* background-color:#16697A; */
+    background-color: #1C474D;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
 }
 #intro-title {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
-    color: white;
+    /* color: white; */
+    color: #e7eff0;
     padding: 10% 0% 5% 0%;
 }
 
@@ -60,7 +65,7 @@ body {
     font-size: 20px;
     font-weight: 700;
     line-height: 28px;
-    color: white;
+    color: #e7eff0;
     padding: 5% 0% 0% 0%;
 }
 
@@ -95,9 +100,12 @@ h1 {
     display: grid;
     grid-template-columns: 5fr 3fr;
     column-gap: 3%;
+
+    width: 90vw;
+    height: 100vh;
 }
 #map-container{
-   width: 80%;
+   /* width: 80%; */
     /* position: float; */
     /* display: grid; */
     /* grid-template-columns: 2fr 4fr 4fr; */
