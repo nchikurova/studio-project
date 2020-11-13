@@ -12,9 +12,9 @@ d3.csv("../data/totals_weeks.csv",
 ).then(data => {
 
     console.log("data", data)
-    width_line = innerWidth * 0.25,
-        height_line = innerHeight * 0.25,
-        margin_line = { top: 20, left: 60, bottom: 60, top: 20 }
+    let width_line = 360;
+    let height_line = 300;
+    let margin_line = { top: 20, left: 60, bottom: 60, top: 20 }
 
     grouppedData = d3.nest()
         .key(d => d.level).entries(data)

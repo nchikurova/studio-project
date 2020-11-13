@@ -7,10 +7,10 @@ d3.csv("../data/totals_weeks.csv", d => ({
 }))
     .then(data => {
 
-        const width_b = window.innerWidth * 0.3,
-            height_b = window.innerHeight * 0.3,
-            paddingInner = 0.2,
-            margin_b = { top: 40, bottom: 40, left: 60, right: 40 };
+        let width_b = 360;
+        let height_b = 300;
+        let paddingInner = 0.2;
+        let margin_b = { top: 40, bottom: 40, left: 60, right: 40 };
 
         console.log(data);
 

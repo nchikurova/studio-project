@@ -1,19 +1,19 @@
-d3.csv("../data/totals_weeks.csv", d => ({
+d3.csv("../data/totalw.csv", d => ({
     ...d,
     count: +d.count.split(",").join(""),
-    level: d.level,
-    week: +d.week,
+    category: d.category,
+    //week: +d.week,
 })).then(data => {
 
     console.log("heat", data);
-    const margin_h = { top: 40, right: 0, bottom: 40, left: 50 }
+    let margin_h = { top: 40, right: 0, bottom: 40, left: 50 };
     // width_h = 440 - margin_h.left - margin_h.right;
     // height_h = 380 - margin_h.bottom - margin_h.top;
-    width_h = innerWidth * 0.25;
-    height_h = innerHeight * 0.25;
+    let width_h = 440;
+    let height_h = 200;
 
     const myGroups = [...new Set(data.map(d => d.week))]
-    const myVars = [...new Set(data.map(d => d.level))]
+    const myVars = [...new Set(data.map(d => d.category))]
 
     console.log("myGroups", myGroups)
     console.log("myVars", myVars)
@@ -97,11 +97,11 @@ d3.csv("../data/totals_weeks.csv", d => ({
 
     svg_h
         .selectAll()
-        .data(data, function (d) { return d.week + ':' + d.level; })
+        .data(data, function (d) { return d.week + ':' + d.category; })
         .enter()
         .append("rect")
         .attr("x", d => xScale_h(d.week))
-        .attr("y", d => yScale_h(d.level))
+        .attr("y", d => yScale_h(d.category))
         .attr("width", xScale_h.bandwidth())
         .attr("height", yScale_h.bandwidth())
         .style("fill", d => myColor(d.count))

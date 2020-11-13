@@ -1,0 +1,79 @@
+body {
+    font-family: 'Inria Serif', serif;
+    padding: 1em 3em;
+    background-color: #e7eff0;
+  
+  }
+  /* INTRO CONTAINER */
+  
+  #intro-content {
+      /* background-color: #16697A; */
+      background-color: #1C474D;
+      padding: 0;
+      margin: 0;
+      color: white;
+      text-align: center;
+  }
+  #intro-text {
+      font-family: 'IBM Plex Sans';
+      /* background-color:#16697A; */
+      background-color: #1C474D;
+      display: grid;
+      grid-template-columns: 1fr 3fr 1fr;
+  }
+  #intro-title {
+     
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 50px;
+      /* color: white; */
+      color: #e7eff0;
+      padding: 10% 0% 5% 0%;
+  }
+  
+  #intro-subtitle {
+      font-family: 'IBM Plex Serif';
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 28px;
+      color: #e7eff0;
+      padding: 5% 0% 0% 0%;
+  }
+  
+  #intro-subtext {
+      font-size: 16px;
+      color: #82C0CC;
+      padding: 3% 0% 0% 0%;
+  }
+  /* MAP  */
+  #map-title {
+    text-align: center;
+    font-family: 'IBM Plex Serif';
+    font-size: 22px;
+    font-weight: 700;
+    padding: 5% 0% 0% 0%; 
+}
+  h1 {
+    font-family: Bold;
+    font-weight: 900;
+    color: #E8E9E9;
+    font-size: 75px;
+    /* line-height: 0.2; */
+    /* padding-left: 15%; */
+  }
+  /* move to map container */
+  div.tooltip {	
+    position: absolute;			
+    text-align: left;			
+    max-width: 200px;					
+    max-height: 200px;
+    padding: 10px;			
+    font: 12px;		
+    background-color:  #1C474D;
+    color: white;	
+    pointer-events: none;			
+}
+path.state:hover {
+    stroke-width: 2px;
+    fill: #A48894;
+  }

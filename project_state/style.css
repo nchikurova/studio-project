@@ -52,6 +52,7 @@ body {
     grid-template-columns: 1fr 3fr 1fr;
 }
 #intro-title {
+   
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -79,18 +80,18 @@ h1 {
     font-weight: 900;
     color: #E8E9E9;
     font-size: 75px;
-    line-height: 0.25;
-    padding-left: 15%;
+    /* line-height: 0.2; */
+    /* padding-left: 15%; */
   }
   /* move to map container */
   div.tooltip {	
     position: absolute;			
     text-align: left;			
-    max-width: 175px;					
-    height: 160px;
-    padding: 15px;			
+    max-width: 200px;					
+    max-height: 200px;
+    padding: 10px;			
     font: 12px;		
-    /* background-color:  #16697A; */
+    background-color:  #1C474D;
     color: white;	
     pointer-events: none;			
 }
@@ -102,7 +103,7 @@ h1 {
     column-gap: 3%;
 
     width: 90vw;
-    height: 100vh;
+    height: 70vh;
 }
 #map-container{
    /* width: 80%; */
@@ -127,7 +128,7 @@ h1 {
   /* path.state {
     stroke: black;
   } */
-  path:hover {
+  path.state:hover {
     stroke-width: 2px;
     fill: #A48894;
   }

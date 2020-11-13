@@ -88,7 +88,7 @@ function init() {
 
     console.log("colorDomain", colorScale.domain())
 
-    formatTime = d3.format(",")
+    //formatTime = d3.format(",") //if value interpreted by number
     formatPercentage = d3.format(".0%")
     svg
         .selectAll(".state")
@@ -99,28 +99,25 @@ function init() {
         .attr("class", "state")
         .style("stroke", "black")
         .attr("fill", d => {
-            console.log("d", d)
+            //console.log("d", d)
             let value = noconfByState.get(d.properties.STUSPS);
             return (value != 0 ? colorScale(value) : "grey")
             //console.log("value", value)
         })
-        .on('mouseover', d => {
-            console.log("d for tooltips", d)
+        .on('mouseover', (event, d) => {
+            //console.log("d for tooltips", d)
             div
                 .transition()
                 .duration(50)
                 .style('opacity', 0.9);
             div
-                .html("<h2><strong>Week 1</strong></h2>" +
-                    "<p style ='font-size:16px;' ><strong> In "
-                    + d.properties.NAME
-                    + "</strong></p>" + "<b>"
-                    + "<p style='color: #e7eff0; font-size: 20 px;'><strong> "
-                    + formatPercentage(noconfByState.get(d.properties.STUSPS))
-                    + '</strong>' + " people had no confidence in paying rent next month" + '</p>'
+                .html("<h3><strong>By April 23rd,</strong></h3>"
+                    + "<h3><strong>" + formatPercentage(noconfByState.get(d.properties.STUSPS)) + "</strong></h3>"
+                    + " of survey participants had no confidence in paying rent next month in "
+                    + "<h3><strong>" + d.properties.NAME + "</strong></h3>"
                 )
-                .style("left", (d3.event.pageX) + "px")
-                .style("top", (d3.event.pageY - 28) + "px");
+                .style("left", (event.pageX) + "px")
+                .style("top", (event.pageY - 28) + "px");
         })
         .on('mouseout', () => {
             div
