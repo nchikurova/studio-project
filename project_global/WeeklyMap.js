@@ -19,7 +19,7 @@ class WeeklyMap {
 
         this.cleanData = d3.groups(state.week_1, d => d.state)
 
-        console.log("clean data", this.cleanData)
+        //console.log("clean data", this.cleanData)
         //Map state => total noconfidence
         this.totalsByState = new Map(
             this.cleanData
@@ -28,7 +28,7 @@ class WeeklyMap {
                     return [d[0], this.totalObject];
                 })
         )
-        console.log("totalsByState", this.totalsByState)
+        //console.log("totalsByState", this.totalsByState)
 
         // GETTING ONE NEEDED VALUE OUT OF OBJECT - noconf
         this.noconfByState = new Map(
@@ -37,14 +37,14 @@ class WeeklyMap {
                 return [d[0], this.totalObject.noconf / this.totalObject.total];
             })
         )
-        console.log("noconfByState", this.noconfByState)
+        //console.log("noconfByState", this.noconfByState)
 
         this.colorScale = d3.scaleLinear()
             //.range(["#e7eff0", "#C8E1E5", "#B7D0D0", "#82C0CC", "#458A93", "#16697A", "#1C474D", "#0e2629"])//"#1C474D"])
             .domain([0.05, 0.2]) //d3.min(state.week_1, d => [d.noconf / d.total]))
             .range(["#C8E1E5", "#0e2629"])
 
-        console.log("colorDomain", this.colorScale.domain())
+        //console.log("colorDomain", this.colorScale.domain())
 
         //formatTime = d3.format(",") //if value interpreted by number
         this.formatPercentage = d3.format(".0%")

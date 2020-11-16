@@ -28,8 +28,8 @@
                         (03/27/2020)
                     </div>
                     <div id="intro-subtext">
-                        As job losses and unemployment continue to increase as a result of the coronavirus pandemic,
-                        more
+                        Most Americans say Coronavirus Outbreak has impacted their lives. As job losses and unemployment
+                        were continuing to increase as a result of the coronavirus pandemic, more
                         than half of Americans who rent their residence say they lack confidence they will be able to
                         pay
                         May rent in full.
@@ -38,16 +38,65 @@
             </div>
         </section>
     </header>
-    <div id="dashboard">
+    <div id="main-content">
+        <section id="first-article">
+            <br>
+            <p>
+                The novel coronavirus outbreak, which began in Wuhan, China, in December, has expanded to touch every
+                corner
+                of the globe. Millions of people around the world have been sickened and hundreds of thousands of others
+                have died.
+                <a style='color:black;'
+                    href=https://abcnews.go.com/Health/timeline-coronavirus-started/story?id=69435165>(ABC News,
+                    Timeline: How
+                    coronavirus got started)</a>
 
-        <div id="map-container">
-            <div id="tooltip-container"></div>
-            <div id="map-title">
-                Americans' confidence in being able to pay April rent
+                Many countries have declared restrictive measures, such as lockdown, shelter in place, or stay at home
+                orders, to contain the pandemic at a local level, including US. Unemployment rate has been growing as
+                the virus was spreading affecting not only daily lives but the ability to buy food and pay rent.
+            </p>
+        </section>
+        <section id="map-content">
+            <div id="map-container">
+                <div id="tooltip-container"></div>
+                <div id="map-title" class="title">
+                    Americans' confidence in being able to pay April rent
+                </div>
             </div>
-        </div>
-        <div id="barchart-container"></div>
-        <!-- <div id="count"></div> -->
+            <!-- <button id="button" name="button" class="button" style="align-self: center;">Week 1</button>
+            <button id="button" name="button" class="button">Week 2</button>
+            <input type="checkbox" id="week1" name="week1" value="week1">
+            <label for="week1"> Week 1</label><br> -->
+            <div id="map-article">
+                <br>
+                <br>
+                <br>
+                <li>52% of American renters say they are confident they will be able to pay full rent in May, compared
+                    to 69% who said they could in April, according to a new survey, but those numbers could change as
+                    more federal stimulus checks hit bank accounts.</li>
+                <br>
+                <li>63% of renters said they have suffered income losses related to Covid-19</li>
+                <br>
+                <li>A significant percentage of renters plan to move within six months</li>
+            </div>
+        </section>
+        <section id="barchart-content">
+            <div id="barchart-container">
+                <div id="barchart-title">Barchart title</div>
+                <label for="dropdown">State </label>
+                <select id="dropdown1" name="dropdown1"></select>
+                <label for="dropdown">Category</label>
+                <select id="dropdown2" name="dropdown2"></select>
+                <label for="dropdown">Level </label>
+                <select id="dropdown3" name="dropdown3"></select>
+            </div>
+            <div id="barchart-text" class="article">
+                <br>
+                <br>
+                Barchart text
+            </div>
+        </section>
+        <div id="count-container"></div>
     </div>
     <script src="../lib/d3.js"></script>
     <script src="../lib/d3.v6.min.js"></script>

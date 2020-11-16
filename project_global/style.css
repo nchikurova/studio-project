@@ -46,12 +46,27 @@ body {
       padding: 3% 0% 0% 0%;
   }
   /* MAP  */
+  #map-content {
+   
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    column-gap: 3%;
+
+    width: 90vw;
+    height: 70vh;
+  }
   #map-title {
     text-align: center;
     font-family: 'IBM Plex Serif';
     font-size: 22px;
     font-weight: 700;
     padding: 5% 0% 0% 0%; 
+}
+#map-article {
+  /* background-color: #B7D0D0;; */
+    font-size: 20px;
+    text-align: left;
+    /* padding: 5% 5% 5% 5%; */
 }
   h1 {
     font-family: Bold;
@@ -77,3 +92,26 @@ path.state:hover {
     stroke-width: 2px;
     fill: #A48894;
   }
+#first-article {
+  font-size: 20px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+}
+/* BARCHART CONTENT */
+#barchart-content{
+  display: grid;
+  grid-template-columns: 5fr 3fr;
+  /* column-gap: 3%; */
+}
+#barchart-title {
+  text-align: center;
+  font-family: 'IBM Plex Serif';
+  font-size: 22px;
+  font-weight: 700;
+  padding: 5% 0% 0% 0%; }
+
+#barchart-text{
+  font-size: 20px;
+  text-align: left;
+}

@@ -156,6 +156,8 @@ h1 {
     display: grid;
     grid-template-columns: 5fr 3fr;
     column-gap: 3%;
+    width: 90vw;
+    height: 70vh;
   }
   #heatmap-title{
   text-align: center;

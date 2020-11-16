@@ -8,6 +8,11 @@ let svg;
 let projection;
 let path;
 let div;
+let xScale;
+let yScale;
+let yAxis;
+let xAxis;
+
 
 //global state
 let state = {
@@ -15,9 +20,9 @@ let state = {
     week_1: null,
     week_2: [],
     // domain:[],
-    selectedCategory: null, //selectedMetric
-    selectedLevel: null,
-    selecteState: null,
+    selectedCategory: "All categories", //selectedMetric
+    selectedLevel: "All levels",
+    selecteState: "All states",
 
 }
 Promise.all([
@@ -46,9 +51,11 @@ Promise.all([
 
 function init() {
     map = new WeeklyMap(state, setGlobalState);
-    //console.log("map", map)
+    // console.log("map", map)
     barchart = new Barchart(state, setGlobalState);
+    // console.log("barchart", barchart)
     count = new Count(state, setGlobalState);
+    //console.log("count", count)
 
     draw();
 }

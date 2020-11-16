@@ -1,30 +1,30 @@
-d3.csv("../data/totalw.csv", d => ({
+d3.csv("../data/totals_date.csv", d => ({
     ...d,
     count: +d.count.split(",").join(""),
-    category: d.category,
+    level: d.level,
     //week: +d.week,
 })).then(data => {
 
     console.log("heat", data);
-    let margin_h = { top: 40, right: 0, bottom: 40, left: 50 };
+    let margin_h = { top: 40, right: 0, bottom: 40, left: 90 };
     // width_h = 440 - margin_h.left - margin_h.right;
     // height_h = 380 - margin_h.bottom - margin_h.top;
-    let width_h = 440;
+    let width_h = 360;
     let height_h = 200;
 
     const myGroups = [...new Set(data.map(d => d.week))]
-    const myVars = [...new Set(data.map(d => d.category))]
+    const myVars = [...new Set(data.map(d => d.level))]
 
     console.log("myGroups", myGroups)
     console.log("myVars", myVars)
 
     const xScale_h = d3.scaleBand()
-        .domain(myGroups)
+        .domain(myVars)
         .range([margin_h.left, width_h - margin_h.right])
         .padding(0.02);
 
     const yScale_h = d3.scaleBand()
-        .domain(myVars)
+        .domain(myGroups)
         .range([height_h, 0])
         .padding(0.02);
     console.log("heatdomain", yScale_h.domain())
@@ -51,7 +51,7 @@ d3.csv("../data/totalw.csv", d => ({
         .attr("class", "axis-label")
         .attr("x", "50%")
         .attr("dy", "3em")
-        .text("Weeks")
+        .text("Confidence")
         .attr("font-size", "12")
         .attr("fill", "black")
 
@@ -65,7 +65,7 @@ d3.csv("../data/totalw.csv", d => ({
         .attr("y", "50%") //in the middle of line
         .attr("dx", "-3em")
         .attr("writing-mode", "vertical-rl")
-        // .text("Confidence level")
+        //.text("")
         .attr("font-size", "12")
         .attr("fill", "black")
 
@@ -97,11 +97,11 @@ d3.csv("../data/totalw.csv", d => ({
 
     svg_h
         .selectAll()
-        .data(data, function (d) { return d.week + ':' + d.category; })
+        .data(data, function (d) { return d.level + ':' + d.week; })
         .enter()
         .append("rect")
-        .attr("x", d => xScale_h(d.week))
-        .attr("y", d => yScale_h(d.category))
+        .attr("x", d => xScale_h(d.level))
+        .attr("y", d => yScale_h(d.week))
         .attr("width", xScale_h.bandwidth())
         .attr("height", yScale_h.bandwidth())
         .style("fill", d => myColor(d.count))
