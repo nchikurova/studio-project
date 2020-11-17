@@ -98,21 +98,6 @@ div.tooltip {
   
 } */
 
-/* TABLE */
-#calendar {
-  width: 300px;
-  height: 200px;
-  /* border-collapse: collapse; */
-}
-
-#calendar tbody, tr,td{
-border: 1px solid black;
-text-align: right;
-vertical-align: top;
-border-collapse: collapse;
-}
-
-
 /* MAP CONTAINER */
 
 #map-content {
@@ -121,7 +106,7 @@ border-collapse: collapse;
   column-gap: 3%;
 
   width: 90vw;
-  height: 70vh;
+  height: 60vh;
 }
 
 #map-title {
@@ -164,6 +149,14 @@ font-size: 20px;
   display: grid;
   grid-template-columns: 1fr 10fr 1fr;
   line-height: 1.4;
+}
+#note{
+  width: 90vw;
+  height: 10vh;
+  font-size: 12px;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 2fr 10fr 1fr;
 }
 /* BARCHART CONTENT */
 #barchart-content{
