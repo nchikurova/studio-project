@@ -1,9 +1,9 @@
 // import our components
 import { WeeklyMap } from "./WeeklyMap.js";
 import { Barchart } from "./Barchart.js";
-import { Count } from "./Count.js";
+import { Heatmap } from "./Heatmap.js";
 
-let map, barchart, count;
+let map, barchart, heatmap;
 let svg;
 let projection;
 let path;
@@ -19,6 +19,7 @@ let state = {
     geojson: null,
     week_1: null,
     week_2: [],
+    heatmap: [],
     // domain:[],
     selectedCategory: "All categories", //selectedMetric
     selectedLevel: "All levels",
@@ -27,6 +28,11 @@ let state = {
 }
 Promise.all([
     d3.json("../data/usState.json"),
+    d3.csv("../data/totals_date.csv", d => ({
+        ...d,
+        count: +d.count.split(",").join(""),
+        level: d.level,
+    })),
     d3.csv("../data/week_1.csv", d => ({
         total: +d.total.split(",").join(""),
         wrent: +d.wrent.split(",").join(""),
@@ -41,8 +47,9 @@ Promise.all([
         characteristics: d.characteristics,
 
     })),
-]).then(([geojson, week_1, week_2]) => {
+]).then(([geojson, heatmap, week_1, week_2]) => {
     state.geojson = geojson;
+    state.heatmap = heatmap;
     state.week_1 = week_1;
     state.week_2 = week_2;
     console.log("state: ", state);
@@ -54,8 +61,8 @@ function init() {
     // console.log("map", map)
     barchart = new Barchart(state, setGlobalState);
     // console.log("barchart", barchart)
-    count = new Count(state, setGlobalState);
-    //console.log("count", count)
+    heatmap = new Heatmap(state, setGlobalState);
+    //console.log("heatmap", heatmap)
 
     draw();
 }
@@ -63,7 +70,7 @@ function init() {
 function draw() {
     map.draw(state, setGlobalState);
     barchart.draw(state, setGlobalState);
-    count.draw(state, setGlobalState);
+    heatmap.draw(state, setGlobalState);
 }
 // UTILITY FUNCTION: state updating function that we pass toour components so that they are able to update our global state object
 function setGlobalState() {

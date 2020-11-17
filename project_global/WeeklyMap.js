@@ -13,7 +13,7 @@ class WeeklyMap {
         this.svg = d3
             .select("#map-container")
             .append("svg")
-            .attr("viewBox", "0 0 400 300")
+            .attr("viewBox", "0 0 400 320")
             .append("g")
             .attr("transform", "translate(0,0)")
 
@@ -68,14 +68,19 @@ class WeeklyMap {
                 this.div
                     .transition()
                     .duration(50)
-                    .style('opacity', 0.9);
+                    .style('opacity', 1);
                 this.div
-                    .html("<h3><strong>By April 23rd,</strong></h3>"
-                        + "<h3><strong>" + this.formatPercentage(this.noconfByState.get(d.properties.STUSPS)) + "</strong></h3>"
-                        + " of survey participants had no confidence in paying rent next month in "
-                        + "<h3><strong>" + d.properties.NAME + "</strong></h3>"
+                    .html("<strong>By April 23rd,</strong>" + '<br>'
+                        + "<strong>" + this.formatPercentage(this.noconfByState.get(d.properties.STUSPS)) + "</strong>"
+                        + " of survey participants had no confidence in paying rent next month in " + '<br>'
+                        + "<strong>" + d.properties.NAME + "</strong>"
                     )
-                    .style("left", (event.pageX) + "px")
+                    // .html("<h3><strong>By April 23rd,</strong></h3>"
+                    //     + "<h3><strong>" + this.formatPercentage(this.noconfByState.get(d.properties.STUSPS)) + "</strong></h3>"
+                    //     + " of survey participants had no confidence in paying rent next month in "
+                    //     + "<h3><strong>" + d.properties.NAME + "</strong></h3>"
+                    // )
+                    .style("left", (event.pageX + 10) + "px")
                     .style("top", (event.pageY - 28) + "px");
             })
             .on('mouseout', () => {
@@ -90,10 +95,37 @@ class WeeklyMap {
             .attr("class", "tooltip")
             .style("opacity", 0);
 
+        this.keys = ["3%", "5%", "8%", "12%", "14%", "16%", "19%"]
+        this.legendColor = d3.scaleOrdinal().domain(["3%", "5%", "8%", "12%", "14%", "16%", "19%"]).range(["#c4dde1",
+            "#a4bdc1",
+            "#8ca5a8",
+            "#5b7377",
+            "#455d61",
+            "#3d5558",
+            "#122a2d"])
+        this.svg.selectAll("myrect")
+            .data(this.keys)
+            .enter()
+            .append("rect")
+            .attr("width", 30)
+            .attr("height", 10)
+            .attr("y", 280)
+            .attr("x", function (d, i) { return 140 + i * 30 })
+            .style("fill", d => this.legendColor(d))
+
+        this.svg.selectAll("mylabels")
+            .data(this.keys)
+            .enter()
+            .append("text")
+            .style("font-size", 12)
+            .attr("y", 300)
+            .attr("x", function (d, i) { return 150 + i * 30 })
+            .style("fill", "black")
+            .text(d => d)
+            .style("text-anchor", "center")
+            .style("alignment-baseline", "middle")
+
     }
-
-
-
     // called every times state is updated
     draw(state, setGlobalState) {
 

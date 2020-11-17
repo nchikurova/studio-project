@@ -1,117 +1,184 @@
-body {
-    font-family: 'Inria Serif', serif;
-    padding: 1em 3em;
-    background-color: #e7eff0;
-  
-  }
-  /* INTRO CONTAINER */
-  
-  #intro-content {
-      /* background-color: #16697A; */
-      background-color: #1C474D;
-      padding: 0;
-      margin: 0;
-      color: white;
-      text-align: center;
-  }
-  #intro-text {
-      font-family: 'IBM Plex Sans';
-      /* background-color:#16697A; */
-      background-color: #1C474D;
-      display: grid;
-      grid-template-columns: 1fr 3fr 1fr;
-  }
-  #intro-title {
-     
-      font-size: 50px;
-      font-weight: 700;
-      line-height: 50px;
-      /* color: white; */
-      color: #e7eff0;
-      padding: 10% 0% 5% 0%;
-  }
-  
-  #intro-subtitle {
-      font-family: 'IBM Plex Serif';
-      font-size: 20px;
-      font-weight: 700;
-      line-height: 28px;
-      color: #e7eff0;
-      padding: 5% 0% 0% 0%;
-  }
-  
-  #intro-subtext {
-      font-size: 16px;
-      color: #82C0CC;
-      padding: 3% 0% 0% 0%;
-  }
-  /* MAP  */
-  #map-content {
-   
-    display: grid;
-    grid-template-columns: 5fr 3fr;
-    column-gap: 3%;
+/* BODY */
 
-    width: 90vw;
-    height: 70vh;
-  }
-  #map-title {
-    text-align: center;
-    font-family: 'IBM Plex Serif';
-    font-size: 22px;
-    font-weight: 700;
-    padding: 5% 0% 0% 0%; 
+body {
+  font-family: 'Inria Serif', serif;
+  padding: 1em 3em;
+  background-color: #e7eff0;
+
 }
-#map-article {
-  /* background-color: #B7D0D0;; */
-    font-size: 20px;
-    text-align: left;
-    /* padding: 5% 5% 5% 5%; */
+div.tooltip {	
+  position: absolute;			
+  text-align: left;			
+  max-width: 200px;					
+  max-height: 200px;
+  padding: 10px;			
+  font: 12px;		
+  /* background-color:  #1C474D; 
+   color: white;	 */
+  pointer-events: none;	
+  background-color:   white; 
+  color:#1C474D;	
+  /* color: black; */
+  border-color: black;
+  /* border-width: 1px; */
+  border-style: solid;
+  border-width: thin;	
+  line-height: 1.2;	
 }
-  h1 {
-    font-family: Bold;
-    font-weight: 900;
-    color: #E8E9E9;
-    font-size: 75px;
-    /* line-height: 0.2; */
-    /* padding-left: 15%; */
-  }
-  /* move to map container */
-  div.tooltip {	
-    position: absolute;			
-    text-align: left;			
-    max-width: 200px;					
-    max-height: 200px;
-    padding: 10px;			
-    font: 12px;		
-    background-color:  #1C474D;
-    color: white;	
-    pointer-events: none;			
+
+/* INTRO CONTAINER */
+
+#intro-content {
+  /* background-color: #16697A; */
+  background-color: #1C474D;
+  padding: 0;
+  margin: 0;
+  color: white;
+  text-align: center;
 }
-path.state:hover {
-    stroke-width: 2px;
-    fill: #A48894;
-  }
-#first-article {
-  font-size: 20px;
-    text-align: left;
-    display: grid;
-    grid-template-columns: 1fr 10fr 1fr;
-}
-/* BARCHART CONTENT */
-#barchart-content{
+
+#intro-text {
+  font-family: 'IBM Plex Sans';
+  /* background-color:#16697A; */
+  background-color: #1C474D;
   display: grid;
-  grid-template-columns: 5fr 3fr;
-  /* column-gap: 3%; */
+  grid-template-columns: 1fr 3fr 1fr;
 }
-#barchart-title {
+
+#intro-title {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  /* color: white; */
+  color: #e7eff0;
+  padding: 10% 0% 5% 0%;
+}
+
+#intro-subtitle {
+  font-family: 'IBM Plex Serif';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #e7eff0;
+  padding: 5% 0% 0% 0%;
+}
+
+#intro-subtext {
+  font-size: 18px;
+  color: #82C0CC;
+  padding: 3% 0% 0% 0%;
+}
+
+/* HEATMAP CONTENT */
+
+#heatmap-content{
+  /* display: grid;
+  grid-template-columns: 5fr 4fr;
+  column-gap: 3%; */
+  width: 90vw;
+  height: 70vh;
+}
+.axis.x-axis {
+  font-size: 12; 
+  color: black;
+  position: 2em;
+}
+#heatmap-title{
   text-align: center;
   font-family: 'IBM Plex Serif';
   font-size: 22px;
   font-weight: 700;
-  padding: 5% 0% 0% 0%; }
+  padding: 5% 0% 0% 0%; 
+  line-height: 1.6;
+}
 
-#barchart-text{
+/* #heatmap-text{
   font-size: 20px;
   text-align: left;
+  
+} */
+
+/* TABLE */
+#calendar {
+  width: 300px;
+  height: 200px;
+  /* border-collapse: collapse; */
+}
+
+#calendar tbody, tr,td{
+border: 1px solid black;
+text-align: right;
+vertical-align: top;
+border-collapse: collapse;
+}
+
+
+/* MAP CONTAINER */
+
+#map-content {
+  display: grid;
+  grid-template-columns: 5fr 3fr;
+  column-gap: 3%;
+
+  width: 90vw;
+  height: 70vh;
+}
+
+#map-title {
+  text-align: center;
+  font-family: 'IBM Plex Serif';
+  font-size: 22px;
+  font-weight: 700;
+  padding: 5% 0% 0% 0%; 
+}
+
+#map-article {
+/* background-color: #B7D0D0;; */
+  font-size: 20px;
+  text-align: left;
+  /* padding: 5% 5% 5% 5%; */
+  line-height: 1.4;
+}
+h1 {
+  font-family: Bold;
+  font-weight: 900;
+  color: #E8E9E9;
+  font-size: 75px;
+  /* line-height: 0.2; */
+  /* padding-left: 15%; */
+}
+
+
+path.state:hover {
+  stroke-width: 2px;
+  fill: #A48894;
+}
+div.rect:hover {
+  stroke: black;
+  stroke-width: 2px;
+  fill: #A48894;
+}
+#first-article {
+font-size: 20px;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+  line-height: 1.4;
+}
+/* BARCHART CONTENT */
+#barchart-content{
+display: grid;
+grid-template-columns: 5fr 3fr;
+/* column-gap: 3%; */
+}
+#barchart-title {
+text-align: center;
+font-family: 'IBM Plex Serif';
+font-size: 22px;
+font-weight: 700;
+padding: 5% 0% 0% 0%; }
+
+#barchart-text{
+font-size: 20px;
+text-align: left;
 }
