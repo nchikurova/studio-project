@@ -76,7 +76,7 @@ div.tooltip {
   grid-template-columns: 5fr 4fr;
   column-gap: 3%; */
   width: 90vw;
-  height: 70vh;
+  /* height: 70vh; */
 }
 .axis.x-axis {
   font-size: 12; 
@@ -106,7 +106,7 @@ div.tooltip {
   column-gap: 3%;
 
   width: 90vw;
-  height: 60vh;
+  /* height: 60vh; */
 }
 
 #map-title {
