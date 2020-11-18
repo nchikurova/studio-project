@@ -7,13 +7,13 @@ class Heatmap {
     constructor(state, setGlobalState) {
         this.width_h = 780,
             this.height_h = 130,
-            this.margin_h = { top: 60, bottom: 90, left: 110, right: 40 }
+            this.margin_h = { top: 60, bottom: 90, left: 100, right: 0 }
 
         this.myGroups = [...new Set(state.heatmap.map(d => d.week))]
         this.myVars = [...new Set(state.heatmap.map(d => d.level))]
 
-        console.log("myGroups", this.myGroups)
-        console.log("myVars", this.myVars)
+        // console.log("myGroups", this.myGroups)
+        // console.log("myVars", this.myVars)
 
         this.formatTime = d3.format(",")
         this.formatPercentage = d3.format(".0%")
@@ -27,7 +27,7 @@ class Heatmap {
             .domain(this.myVars)
             .range([this.height_h, 0])
             .padding(0.02);
-        console.log("heatdomain", this.yScale_h.domain())
+        //console.log("heatdomain", this.yScale_h.domain())
 
         this.xAxis_h = d3.axisBottom(this.xScale_h).tickFormat("");
 
@@ -139,15 +139,10 @@ class Heatmap {
                 "#122a2d"]
 
         this.myColor = d3.scaleQuantile()
-            // .interpolator(d3.interpolateBrBG(8))
-
             .range(this.colors)
-            //GREEN//.range(["#E8F8F5", "#0E6251"])
-            //.range(["#C8E1E5", "#0e2629"])
-            //.domain(d3.extent(data, d => +d.count.split(",").join("")))
             .domain(d3.extent(state.heatmap, d => d.count));
 
-        console.log("color", this.myColor.domain())
+        //console.log("color", this.myColor.domain())
 
 
         this.svg_h
@@ -166,7 +161,9 @@ class Heatmap {
                 this.div
                     .transition()
                     .duration(50)
-                    .style('opacity', 1);
+                    .style('opacity', 1)
+                //.style("fill", "red")
+
                 this.div
                     .html(//formatTime = d3.format(",") //if value interpreted by number
                         "<strong>" + this.formatTime(d.count) + "</strong>" + '<br>' + " Americans " + '<br>'
@@ -204,7 +201,7 @@ class Heatmap {
             .attr("width", 40)
             .attr("height", 10)
             .attr("y", 180)
-            .attr("x", function (d, i) { return 460 + i * 40 })
+            .attr("x", function (d, i) { return 500 + i * 40 })
             .style("fill", d => this.legendColor(d))
 
         this.svg_h.selectAll("mylabels")
@@ -213,7 +210,7 @@ class Heatmap {
             .append("text")
             .style("font-size", 12)
             .attr("y", 200)
-            .attr("x", function (d, i) { return 470 + i * 40 })
+            .attr("x", function (d, i) { return 510 + i * 40 })
             .style("fill", "black")
             .text(d => d)
             .style("text-anchor", "center")

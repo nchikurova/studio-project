@@ -1,4 +1,4 @@
-d3.csv("../data/totals_date.csv", d => ({
+d3.csv("../data/totals_by_week.csv", d => ({
     ...d,
     count: +d.count.split(",").join(""),
     level: d.level,

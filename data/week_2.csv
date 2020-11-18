@@ -1,0 +1,2029 @@
+state,category,characteristics,total,wrent,noconf,slightconf,modconf,highconf,deferred,didnottenure
+US,Total,Total,"77,201,968","3,515,259","10,308,483","14,158,604","19,499,208","29,029,915","513,309","177,190"
+US,Age,    18 - 24,"4,638,250","134,606","422,050","879,345","1,636,655","1,457,480","28,132","79,983"
+US,Age,    25 - 39,"35,943,791","1,506,221","5,691,491","6,937,418","8,662,392","12,883,159","216,365","46,745"
+US,Age,    40 - 54,"20,343,186","840,275","3,035,405","4,345,391","5,046,481","6,902,568","140,075","32,992"
+US,Age,    55 - 64,"9,257,832","483,853","1,036,176","1,526,410","2,618,235","3,516,619","72,378","4,161"
+US,Age,    65 and above,"7,018,910","550,305","123,361","470,040","1,535,446","4,270,089","56,360","13,308"
+US,Sex,    Male,"34,639,510","2,100,035","4,570,899","5,950,479","8,256,845","13,434,810","233,053","93,390"
+US,Sex,    Female,"42,562,458","1,415,224","5,737,584","8,208,125","11,242,363","15,595,105","280,256","83,801"
+US,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"17,205,466","753,352","2,907,255","3,817,808","5,314,283","4,301,679","58,283","52,806"
+US,Hispanic origin and Race,"    White alone, not Hispanic","38,803,049","1,886,984","4,205,749","4,998,136","9,102,735","18,249,853","247,509","112,082"
+US,Hispanic origin and Race,"    Black alone, not Hispanic","13,933,627","614,548","2,470,345","3,795,947","3,246,895","3,677,936","117,589","10,368"
+US,Hispanic origin and Race,"    Asian alone, not Hispanic","3,878,528","147,103","332,108","787,824","850,372","1,696,358","63,774",989
+US,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","3,381,298","113,272","393,026","758,889","984,923","1,104,089","26,154",945
+US,Education,    Less than high school,"6,787,373","416,793","1,372,076","1,749,031","2,041,022","1,174,828","32,677",945
+US,Education,    High school or GED,"29,695,898","1,523,028","5,209,000","6,086,947","7,657,734","9,048,826","107,990","62,373"
+US,Education,    Some college/associate’s degree,"25,032,784","1,099,238","2,897,170","4,991,834","6,803,890","8,944,289","204,693","91,669"
+US,Education,    Bachelor’s degree or higher,"15,685,913","476,199","830,237","1,330,793","2,996,562","9,861,972","167,948","22,203"
+US,Marital status,    Married,"28,178,156","1,474,460","3,393,572","4,816,979","6,494,915","11,757,166","233,395","7,667"
+US,Marital status,    Widowed,"2,586,932","160,099","145,012","222,702","466,604","1,564,885","19,127","8,504"
+US,Marital status,    Divorced/separated,"14,603,999","784,862","2,152,048","2,781,551","3,943,828","4,883,784","52,591","5,336"
+US,Marital status,    Never married,"31,532,669","983,858","4,617,851","6,337,371","8,563,112","10,670,156","204,636","155,684"
+US,Marital status,    Did not report,"300,212","111,980",-,-,"30,749","153,924","3,559",-
+US,Presence of children under 18 years old,    Children in household,"33,520,152","1,377,716","5,768,694","7,005,200","9,250,514","9,876,209","202,242","39,577"
+US,Presence of children under 18 years old,    No children,"43,681,816","2,137,542","4,539,789","7,153,404","10,248,695","19,153,706","311,067","137,613"
+US,Respondent or household member experienced loss of employment income,    Yes,"45,099,227","2,103,343","8,872,652","10,691,385","12,679,006","10,289,270","344,984","118,586"
+US,Respondent or household member experienced loss of employment income,    No,"32,017,484","1,411,916","1,435,129","3,388,131","6,819,064","18,739,611","165,029","58,604"
+US,Respondent or household member experienced loss of employment income,    Did not report,"85,257",-,702,"79,088","1,138","1,034","3,296",-
+US,Respondent currently employed,    Yes,"38,310,702","1,120,006","3,128,566","5,744,332","9,608,365","18,356,289","201,388","151,756"
+US,Respondent currently employed,    No,"38,789,074","2,395,253","7,178,591","8,335,184","9,886,131","10,656,560","311,920","25,435"
+US,Respondent currently employed,    Did not report,"102,192",-,"1,326","79,088","4,712","17,065",-,-
+US,Household income,"    Less than $25,000","22,032,507","1,842,983","4,499,417","5,365,577","5,089,135","5,020,515","157,773","57,109"
+US,Household income,"    $25,000 - $34,999","13,884,427","413,408","2,048,770","2,865,558","4,631,795","3,874,499","50,399",-
+US,Household income,"    $35,000 - $49,999","12,896,978","538,313","1,904,462","2,393,378","3,562,312","4,426,399","72,113",-
+US,Household income,"    $50,000 - $74,999","12,289,295","292,987","1,225,510","1,797,375","3,228,448","5,664,433","80,543",-
+US,Household income,"    $75,000 - $99,999","6,788,216","176,590","317,930","1,190,443","1,584,491","3,469,827","48,934",-
+US,Household income,"    $100,000 - $149,999","5,110,911","77,534","106,248","276,278","940,917","3,649,232","48,914","11,788"
+US,Household income,"    $150,000 - $199,999","1,830,033","120,651","132,866","58,115","187,508","1,293,434","36,571",889
+US,Household income,"    $200,000 and above","1,453,880","12,913","14,590","17,807","124,710","1,272,312","11,548",-
+US,Household income,    Did not report,"915,719","39,881","58,691","194,073","149,893","359,263","6,513","107,405"
+AL,Total,Total,"993,870","83,043","139,399","329,443","115,067","317,826","9,092",-
+AL,Age,    18 - 24,"34,185",-,"21,265",-,"10,203","2,717",-,-
+AL,Age,    25 - 39,"507,360","46,378","48,937","251,758","30,440","120,754","9,092",-
+AL,Age,    40 - 54,"313,420","4,643","60,239","66,951","52,642","128,945",-,-
+AL,Age,    55 - 64,"70,263","5,230","8,959","9,095","21,781","25,199",-,-
+AL,Age,    65 and above,"68,643","26,793",-,"1,639",-,"40,211",-,-
+AL,Sex,    Male,"331,191","36,125","6,177","181,490","11,048","96,351",-,-
+AL,Sex,    Female,"662,679","46,919","133,222","147,953","104,019","221,475","9,092",-
+AL,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"110,023","22,568","23,594","44,100","2,717","17,044",-,-
+AL,Hispanic origin and Race,"    White alone, not Hispanic","464,319","60,475","30,297","86,610","55,091","231,846",-,-
+AL,Hispanic origin and Race,"    Black alone, not Hispanic","349,447",-,"82,955","186,880","49,848","20,671","9,092",-
+AL,Hispanic origin and Race,"    Asian alone, not Hispanic","18,527",-,"2,552","10,215",-,"5,759",-,-
+AL,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","51,555",-,-,"1,639","7,410","42,506",-,-
+AL,Education,    Less than high school,"98,488","1,825",-,"63,023","2,717","23,821","7,102",-
+AL,Education,    High school or GED,"461,089","22,568","99,519","200,113","26,168","112,721",-,-
+AL,Education,    Some college/associate’s degree,"292,886","56,227","37,926","38,800","71,442","86,501","1,990",-
+AL,Education,    Bachelor’s degree or higher,"141,406","2,422","1,954","27,508","14,739","94,783",-,-
+AL,Marital status,    Married,"392,711","28,998","30,673","125,003","44,473","163,564",-,-
+AL,Marital status,    Widowed,"33,628",-,-,"12,402",-,"21,226",-,-
+AL,Marital status,    Divorced/separated,"191,494","35,983","10,413","15,385","32,916","96,798",-,-
+AL,Marital status,    Never married,"376,038","18,062","98,313","176,653","37,678","36,239","9,092",-
+AL,Marital status,    Did not report,-,-,-,-,-,-,-,-
+AL,Presence of children under 18 years old,    Children in household,"411,575","14,896","116,062","132,719","29,954","108,851","9,092",-
+AL,Presence of children under 18 years old,    No children,"582,295","68,147","23,337","196,724","85,112","208,975",-,-
+AL,Respondent or household member experienced loss of employment income,    Yes,"603,811","68,566","111,681","289,747","67,588","64,239","1,990",-
+AL,Respondent or household member experienced loss of employment income,    No,"390,059","14,477","27,718","39,696","47,478","253,587","7,102",-
+AL,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+AL,Respondent currently employed,    Yes,"256,698","13,335","7,079","25,734","32,103","178,448",-,-
+AL,Respondent currently employed,    No,"737,172","69,708","132,320","303,709","82,964","139,378","9,092",-
+AL,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+AL,Household income,"    Less than $25,000","449,376","54,728","124,422","90,845","58,496","111,793","9,092",-
+AL,Household income,"    $25,000 - $34,999","112,376","1,142","2,552","65,644","25,806","17,231",-,-
+AL,Household income,"    $35,000 - $49,999","142,554",-,"2,955","54,899","20,828","63,873",-,-
+AL,Household income,"    $50,000 - $74,999","213,035","18,062","9,469","116,578","7,263","61,663",-,-
+AL,Household income,"    $75,000 - $99,999","32,791",-,-,"1,477","2,675","28,639",-,-
+AL,Household income,"    $100,000 - $149,999","17,854",-,-,-,-,"17,854",-,-
+AL,Household income,"    $150,000 - $199,999","13,279","2,422",-,-,-,"10,857",-,-
+AL,Household income,"    $200,000 and above","2,422",-,-,-,-,"2,422",-,-
+AL,Household income,    Did not report,"10,183","6,688",-,-,-,"3,495",-,-
+AK,Total,Total,"155,982","5,992","9,344","19,348","52,683","63,673","3,997",945
+AK,Age,    18 - 24,"17,071",136,-,"1,160","7,727","5,412","2,635",-
+AK,Age,    25 - 39,"76,501","4,179","6,940","12,554","15,653","35,195","1,035",945
+AK,Age,    40 - 54,"37,091","1,065","1,218","3,001","14,701","17,106",-,-
+AK,Age,    55 - 64,"9,723",300,"1,186","2,633",327,"4,950",327,-
+AK,Age,    65 and above,"15,596",312,-,-,"14,274","1,009",-,-
+AK,Sex,    Male,"86,325","4,842","5,693","9,350","31,364","35,077",-,-
+AK,Sex,    Female,"69,657","1,150","3,651","9,998","21,319","28,596","3,997",945
+AK,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"13,339",248,"2,786","1,047","3,754","5,504",-,-
+AK,Hispanic origin and Race,"    White alone, not Hispanic","67,847","5,745","3,725","8,918","13,987","32,651","2,821",-
+AK,Hispanic origin and Race,"    Black alone, not Hispanic","2,558",-,781,-,510,"1,267",-,-
+AK,Hispanic origin and Race,"    Asian alone, not Hispanic","16,663",-,410,-,"14,512","1,740",-,-
+AK,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","55,575",-,"1,641","9,383","19,918","22,511","1,176",945
+AK,Education,    Less than high school,"12,465",-,-,-,"4,988","4,392","2,140",945
+AK,Education,    High school or GED,"71,102","3,227","4,483","9,839","35,749","17,804",-,-
+AK,Education,    Some college/associate’s degree,"46,627","1,735","3,608","8,363","9,398","22,104","1,420",-
+AK,Education,    Bachelor’s degree or higher,"25,788","1,030","1,253","1,146","2,548","19,373",438,-
+AK,Marital status,    Married,"55,981","1,952","2,555","6,555","22,437","21,987",495,-
+AK,Marital status,    Widowed,"2,218",-,167,-,"1,247",804,-,-
+AK,Marital status,    Divorced/separated,"16,659",362,"1,776","2,634","2,871","8,914",102,-
+AK,Marital status,    Never married,"81,125","3,678","4,847","10,160","26,127","31,968","3,400",945
+AK,Marital status,    Did not report,-,-,-,-,-,-,-,-
+AK,Presence of children under 18 years old,    Children in household,"48,233","1,420","6,577","9,624","14,723","14,612","1,278",-
+AK,Presence of children under 18 years old,    No children,"107,749","4,572","2,767","9,725","37,960","49,061","2,719",945
+AK,Respondent or household member experienced loss of employment income,    Yes,"73,978","2,348","8,344","11,319","25,096","23,839","3,033",-
+AK,Respondent or household member experienced loss of employment income,    No,"82,004","3,645","1,000","8,030","27,587","39,833",964,945
+AK,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+AK,Respondent currently employed,    Yes,"83,278","3,952","1,368","10,196","27,386","39,836",539,-
+AK,Respondent currently employed,    No,"72,704","2,040","7,976","9,152","25,297","23,837","3,457",945
+AK,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+AK,Household income,"    Less than $25,000","52,358","1,004","5,133","7,998","24,391","11,254","2,577",-
+AK,Household income,"    $25,000 - $34,999","25,114",620,"1,656","3,837","11,069","7,503",429,-
+AK,Household income,"    $35,000 - $49,999","19,076","1,235",-,"4,488","3,618","9,240",495,-
+AK,Household income,"    $50,000 - $74,999","26,648","2,439","2,555","2,012","11,107","8,535",-,-
+AK,Household income,"    $75,000 - $99,999","9,712",560,-,507,"1,346","6,804",495,-
+AK,Household income,"    $100,000 - $149,999","14,795",-,-,506,905,"13,384",-,-
+AK,Household income,"    $150,000 - $199,999","5,681",-,-,-,248,"5,433",-,-
+AK,Household income,"    $200,000 and above",135,135,-,-,-,-,-,-
+AK,Household income,    Did not report,"2,464",-,-,-,-,"1,519",-,945
+AZ,Total,Total,"2,003,059","84,579","187,905","361,668","323,403","1,043,333","1,556",614
+AZ,Age,    18 - 24,"146,914",-,"86,495",-,"53,277","7,142",-,-
+AZ,Age,    25 - 39,"813,847","52,053","44,927","131,631","145,291","438,389","1,556",-
+AZ,Age,    40 - 54,"652,356","3,843","35,635","130,083","67,550","414,631",-,614
+AZ,Age,    55 - 64,"131,176",-,"17,163","52,207","31,348","30,458",-,-
+AZ,Age,    65 and above,"258,765","28,683","3,686","47,747","25,938","152,712",-,-
+AZ,Sex,    Male,"881,880","28,106","54,672","74,784","109,378","614,940",-,-
+AZ,Sex,    Female,"1,121,178","56,474","133,233","286,884","214,025","428,393","1,556",614
+AZ,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"821,433","50,875","125,263","144,609","103,578","397,108",-,-
+AZ,Hispanic origin and Race,"    White alone, not Hispanic","867,221","31,667","62,642","143,129","170,425","457,187","1,556",614
+AZ,Hispanic origin and Race,"    Black alone, not Hispanic","118,244","2,038",-,"14,255","16,354","85,597",-,-
+AZ,Hispanic origin and Race,"    Asian alone, not Hispanic","30,958",-,-,"11,806","9,204","9,948",-,-
+AZ,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","165,204",-,-,"47,869","23,843","93,492",-,-
+AZ,Education,    Less than high school,"145,220",-,"26,527","101,136","14,870","2,688",-,-
+AZ,Education,    High school or GED,"885,951","25,445","117,076","135,902","116,227","491,301",-,-
+AZ,Education,    Some college/associate’s degree,"636,007","55,897","40,304","98,055","100,679","338,902","1,556",614
+AZ,Education,    Bachelor’s degree or higher,"335,881","3,238","3,997","26,576","91,628","210,442",-,-
+AZ,Marital status,    Married,"889,286","26,120","54,614","61,689","108,900","637,962",-,-
+AZ,Marital status,    Widowed,"83,943","50,875",-,-,"9,382","23,687",-,-
+AZ,Marital status,    Divorced/separated,"427,287","4,368","36,408","213,438","88,561","84,511",-,-
+AZ,Marital status,    Never married,"602,542","3,217","96,882","86,541","116,560","297,172","1,556",614
+AZ,Marital status,    Did not report,-,-,-,-,-,-,-,-
+AZ,Presence of children under 18 years old,    Children in household,"648,306","3,217","151,763","101,655","95,129","296,543",-,-
+AZ,Presence of children under 18 years old,    No children,"1,354,753","81,363","36,142","260,013","228,274","746,790","1,556",614
+AZ,Respondent or household member experienced loss of employment income,    Yes,"1,117,487","54,718","162,439","215,805","173,680","508,675","1,556",614
+AZ,Respondent or household member experienced loss of employment income,    No,"885,572","29,861","25,466","145,863","149,723","534,658",-,-
+AZ,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+AZ,Respondent currently employed,    Yes,"1,198,067","2,984","30,821","129,821","198,417","835,410",-,614
+AZ,Respondent currently employed,    No,"804,991","81,595","157,084","231,847","124,986","207,923","1,556",-
+AZ,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+AZ,Household income,"    Less than $25,000","370,073","2,615","74,947","164,249","44,569","82,138","1,556",-
+AZ,Household income,"    $25,000 - $34,999","424,470","1,179","92,504","74,945","121,591","134,251",-,-
+AZ,Household income,"    $35,000 - $49,999","263,633","76,320","2,538","74,711","26,396","83,668",-,-
+AZ,Household income,"    $50,000 - $74,999","278,693","4,466","17,058","25,714","74,745","156,709",-,-
+AZ,Household income,"    $75,000 - $99,999","180,932",-,-,"18,811","17,038","145,083",-,-
+AZ,Household income,"    $100,000 - $149,999","437,968",-,859,"2,727","26,053","408,329",-,-
+AZ,Household income,"    $150,000 - $199,999","26,038",-,-,-,"13,010","13,027",-,-
+AZ,Household income,"    $200,000 and above","19,278",-,-,-,-,"19,278",-,-
+AZ,Household income,    Did not report,"1,975",-,-,511,-,850,-,614
+AR,Total,Total,"620,171","86,234","57,469","51,849","210,092","205,540",482,"8,504"
+AR,Age,    18 - 24,"28,071",-,"5,849","3,491","12,882","5,849",-,-
+AR,Age,    25 - 39,"297,115","67,005","36,743","28,447","102,457","61,981",482,-
+AR,Age,    40 - 54,"187,534","10,785","14,877","9,953","63,303","88,616",-,-
+AR,Age,    55 - 64,"50,504","6,377",-,"2,060","15,571","26,496",-,-
+AR,Age,    65 and above,"56,947","2,068",-,"7,897","15,879","22,598",-,"8,504"
+AR,Sex,    Male,"274,899","68,026","13,959","2,354","75,883","114,679",-,-
+AR,Sex,    Female,"345,271","18,209","43,511","49,496","134,209","90,861",482,"8,504"
+AR,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"34,010",-,"5,849","2,780","23,095","2,286",-,-
+AR,Hispanic origin and Race,"    White alone, not Hispanic","448,507","79,008","35,754","28,521","129,907","166,331",482,"8,504"
+AR,Hispanic origin and Race,"    Black alone, not Hispanic","113,184",-,"15,866","15,098","49,274","32,945",-,-
+AR,Hispanic origin and Race,"    Asian alone, not Hispanic","9,187","7,227",-,"1,960",-,-,-,-
+AR,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","15,284",-,-,"3,491","7,815","3,977",-,-
+AR,Education,    Less than high school,"136,167","57,328",-,"7,604","15,117","56,117",-,-
+AR,Education,    High school or GED,"182,105","12,045","32,117","9,636","85,029","34,775",-,"8,504"
+AR,Education,    Some college/associate’s degree,"214,883","6,671","24,080","34,316","85,541","63,794",482,-
+AR,Education,    Bachelor’s degree or higher,"87,016","10,191","1,273",293,"24,405","50,854",-,-
+AR,Marital status,    Married,"182,399","18,779","22,247","6,153","85,416","49,804",-,-
+AR,Marital status,    Widowed,"18,042","1,934",-,"2,780","4,825",-,-,"8,504"
+AR,Marital status,    Divorced/separated,"136,310","14,570","5,211","18,875","38,059","59,113",482,-
+AR,Marital status,    Never married,"282,614","50,951","30,011","24,041","80,986","96,624",-,-
+AR,Marital status,    Did not report,806,-,-,-,806,-,-,-
+AR,Presence of children under 18 years old,    Children in household,"303,407","72,972","47,589","25,475","107,698","49,191",482,-
+AR,Presence of children under 18 years old,    No children,"316,764","13,263","9,880","26,374","102,394","156,349",-,"8,504"
+AR,Respondent or household member experienced loss of employment income,    Yes,"324,065","69,667","43,765","22,690","152,196","35,747",-,-
+AR,Respondent or household member experienced loss of employment income,    No,"296,106","16,567","13,704","29,160","57,896","169,793",482,"8,504"
+AR,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+AR,Respondent currently employed,    Yes,"238,593","14,499","13,837","18,233","114,390","77,152",482,-
+AR,Respondent currently employed,    No,"381,578","71,735","43,632","33,616","95,702","128,388",-,"8,504"
+AR,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+AR,Household income,"    Less than $25,000","335,734","67,455","38,423","27,674","91,562","110,139",482,-
+AR,Household income,"    $25,000 - $34,999","79,066",-,-,"10,846","49,033","19,187",-,-
+AR,Household income,"    $35,000 - $49,999","84,893","7,381","2,337","1,633","31,755","41,787",-,-
+AR,Household income,"    $50,000 - $74,999","73,997","7,389","16,710","11,696","19,960","18,241",-,-
+AR,Household income,"    $75,000 - $99,999","17,992","4,009",-,-,"1,056","12,928",-,-
+AR,Household income,"    $100,000 - $149,999","18,099",-,-,-,"14,840","3,259",-,-
+AR,Household income,"    $150,000 - $199,999",-,-,-,-,-,-,-,-
+AR,Household income,"    $200,000 and above","1,885",-,-,-,"1,885",-,-,-
+AR,Household income,    Did not report,"8,504",-,-,-,-,-,-,"8,504"
+CA,Total,Total,"12,416,950","333,795","1,887,594","2,155,102","3,070,958","4,880,314","86,227","2,961"
+CA,Age,    18 - 24,"837,202",-,"57,798","101,249","491,167","172,350","14,638",-
+CA,Age,    25 - 39,"6,001,734","151,993","1,443,611","1,061,000","1,171,090","2,150,256","22,794",989
+CA,Age,    40 - 54,"2,676,875","34,122","331,017","638,584","564,646","1,067,999","40,507",-
+CA,Age,    55 - 64,"1,954,125","125,638","49,366","344,245","636,114","796,790",-,"1,972"
+CA,Age,    65 and above,"947,015","22,042","5,803","10,024","207,940","692,919","8,288",-
+CA,Sex,    Male,"5,739,018","241,002","557,555","1,165,919","1,376,363","2,346,593","49,614","1,972"
+CA,Sex,    Female,"6,677,932","92,793","1,330,039","989,182","1,694,595","2,533,720","36,614",989
+CA,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"5,255,158","146,157","1,053,125","1,065,094","1,418,871","1,544,412","25,528","1,972"
+CA,Hispanic origin and Race,"    White alone, not Hispanic","4,133,037","54,304","590,307","488,713","865,695","2,097,327","36,692",-
+CA,Hispanic origin and Race,"    Black alone, not Hispanic","1,161,666","116,641","70,159","337,313","361,394","274,352","1,808",-
+CA,Hispanic origin and Race,"    Asian alone, not Hispanic","1,477,633","7,418","162,338","156,535","275,376","854,648","20,329",989
+CA,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","389,456","9,275","11,666","107,446","149,622","109,576","1,871",-
+CA,Education,    Less than high school,"1,305,410","18,411","360,123","146,794","441,000","339,082",-,-
+CA,Education,    High school or GED,"3,749,358","196,918","711,230","801,040","1,043,579","993,056","3,534",-
+CA,Education,    Some college/associate’s degree,"4,404,166","93,847","610,790","880,977","1,015,528","1,775,415","25,638","1,972"
+CA,Education,    Bachelor’s degree or higher,"2,958,016","24,620","205,451","326,291","570,850","1,772,761","57,056",989
+CA,Marital status,    Married,"4,142,969","68,194","538,579","765,705","1,038,499","1,659,194","71,809",989
+CA,Marital status,    Widowed,"505,501","1,549","62,051","9,853","17,223","414,825",-,-
+CA,Marital status,    Divorced/separated,"1,561,137","55,321","154,635","173,570","431,830","741,097","4,684",-
+CA,Marital status,    Never married,"6,089,469","105,226","1,132,329","1,205,973","1,583,406","2,050,829","9,734","1,972"
+CA,Marital status,    Did not report,"117,874","103,505",-,-,-,"14,369",-,-
+CA,Presence of children under 18 years old,    Children in household,"5,245,859","130,542","1,087,443","697,411","1,775,115","1,535,015","19,344",989
+CA,Presence of children under 18 years old,    No children,"7,171,091","203,252","800,152","1,457,690","1,295,843","3,345,298","66,883","1,972"
+CA,Respondent or household member experienced loss of employment income,    Yes,"8,257,665","280,608","1,857,244","1,895,039","2,404,844","1,757,795","62,134",-
+CA,Respondent or household member experienced loss of employment income,    No,"4,158,583","53,187","29,648","260,062","666,114","3,122,518","24,093","2,961"
+CA,Respondent or household member experienced loss of employment income,    Did not report,702,-,702,-,-,-,-,-
+CA,Respondent currently employed,    Yes,"6,439,188","44,669","717,298","947,458","1,526,717","3,140,159","60,915","1,972"
+CA,Respondent currently employed,    No,"5,977,060","289,126","1,169,594","1,207,643","1,544,241","1,740,155","25,312",989
+CA,Respondent currently employed,    Did not report,702,-,702,-,-,-,-,-
+CA,Household income,"    Less than $25,000","2,551,149","263,644","474,551","709,162","631,611","463,700","6,509","1,972"
+CA,Household income,"    $25,000 - $34,999","1,941,198","19,444","509,306","260,582","497,657","644,050","10,159",-
+CA,Household income,"    $35,000 - $49,999","2,653,623","6,608","617,475","340,792","775,480","909,734","3,534",-
+CA,Household income,"    $50,000 - $74,999","1,908,792","11,844","177,486","337,655","515,977","859,467","6,365",-
+CA,Household income,"    $75,000 - $99,999","1,273,126","16,340","70,914","411,875","228,997","537,645","7,356",-
+CA,Household income,"    $100,000 - $149,999","1,019,147","14,482","18,126","32,966","260,047","663,874","29,652",-
+CA,Household income,"    $150,000 - $199,999","440,985",-,-,"15,935","58,933","347,971","18,147",-
+CA,Household income,"    $200,000 and above","442,370","1,433","14,590",-,"38,657","383,183","4,506",-
+CA,Household income,    Did not report,"186,560",-,"5,147","46,137","63,599","70,690",-,989
+CO,Total,Total,"1,301,647","69,975","66,893","286,099","340,182","538,497",-,-
+CO,Age,    18 - 24,"32,972",-,-,"13,283",-,"19,690",-,-
+CO,Age,    25 - 39,"616,538","36,050","51,416","157,544","122,094","249,433",-,-
+CO,Age,    40 - 54,"357,116","22,463","7,274","91,929","140,658","94,792",-,-
+CO,Age,    55 - 64,"217,014","11,462","8,203","12,315","57,169","127,865",-,-
+CO,Age,    65 and above,"78,006",-,-,"11,028","20,261","46,716",-,-
+CO,Sex,    Male,"652,119","11,504","14,245","214,010","146,427","265,932",-,-
+CO,Sex,    Female,"649,528","58,471","52,649","72,089","193,755","272,564",-,-
+CO,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"298,571",-,"31,411","60,852","145,388","60,921",-,-
+CO,Hispanic origin and Race,"    White alone, not Hispanic","830,499","50,513","35,482","171,083","165,238","408,183",-,-
+CO,Hispanic origin and Race,"    Black alone, not Hispanic","91,864",-,-,"27,596","9,407","54,861",-,-
+CO,Hispanic origin and Race,"    Asian alone, not Hispanic","24,010",-,-,"18,823",-,"5,187",-,-
+CO,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","56,701","19,462",-,"7,745","20,149","9,345",-,-
+CO,Education,    Less than high school,"130,322","8,563","4,948","100,225",-,"16,587",-,-
+CO,Education,    High school or GED,"426,775","12,189","29,531","12,631","214,433","157,991",-,-
+CO,Education,    Some college/associate’s degree,"474,557","37,464","16,800","139,455","102,241","178,597",-,-
+CO,Education,    Bachelor’s degree or higher,"269,993","11,760","15,615","33,788","23,509","185,322",-,-
+CO,Marital status,    Married,"477,432","35,530","45,554","31,146","98,482","266,718",-,-
+CO,Marital status,    Widowed,"28,448","1,711",-,"5,244","14,480","7,013",-,-
+CO,Marital status,    Divorced/separated,"279,720","11,240","4,581","49,325","144,904","69,668",-,-
+CO,Marital status,    Never married,"516,048","21,494","16,757","200,384","82,315","195,098",-,-
+CO,Marital status,    Did not report,-,-,-,-,-,-,-,-
+CO,Presence of children under 18 years old,    Children in household,"315,941","26,170","15,774","106,386","81,493","86,118",-,-
+CO,Presence of children under 18 years old,    No children,"985,706","43,805","51,119","179,713","258,689","452,379",-,-
+CO,Respondent or household member experienced loss of employment income,    Yes,"708,177","28,999","53,053","263,666","121,936","240,524",-,-
+CO,Respondent or household member experienced loss of employment income,    No,"593,470","40,977","13,840","22,433","218,247","297,972",-,-
+CO,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+CO,Respondent currently employed,    Yes,"847,567","14,378","15,700","234,703","185,638","397,149",-,-
+CO,Respondent currently employed,    No,"454,079","55,597","51,194","51,396","154,545","141,348",-,-
+CO,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+CO,Household income,"    Less than $25,000","331,455","42,892","18,015","95,690","125,906","48,953",-,-
+CO,Household income,"    $25,000 - $34,999","132,861","2,031","3,930","33,281","40,432","53,187",-,-
+CO,Household income,"    $35,000 - $49,999","223,903","8,563","7,093","29,197","56,843","122,208",-,-
+CO,Household income,"    $50,000 - $74,999","237,003","4,730","32,907","28,544","31,163","139,660",-,-
+CO,Household income,"    $75,000 - $99,999","100,871","10,849",-,-,"39,083","50,938",-,-
+CO,Household income,"    $100,000 - $149,999","191,465",910,-,"96,942","33,148","60,465",-,-
+CO,Household income,"    $150,000 - $199,999","31,628",-,-,"2,446","9,987","19,196",-,-
+CO,Household income,"    $200,000 and above","38,942",-,-,-,-,"38,942",-,-
+CO,Household income,    Did not report,"13,517",-,"4,948",-,"3,621","4,948",-,-
+CT,Total,Total,"945,768","73,062","50,010","215,258","273,252","333,399",787,-
+CT,Age,    18 - 24,"1,014",-,-,-,"1,014",-,-,-
+CT,Age,    25 - 39,"352,451","19,916","36,437","89,364","83,101","123,634",-,-
+CT,Age,    40 - 54,"348,862","8,010","11,366","120,906","110,213","98,367",-,-
+CT,Age,    55 - 64,"101,558","41,031",-,"3,390","20,402","35,947",787,-
+CT,Age,    65 and above,"141,883","4,105","2,207","1,598","58,523","75,451",-,-
+CT,Sex,    Male,"327,152","42,247","4,753","41,452","115,043","123,657",-,-
+CT,Sex,    Female,"618,616","30,815","45,257","173,806","158,208","209,742",787,-
+CT,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"267,625","9,920","5,530","122,505","107,127","22,543",-,-
+CT,Hispanic origin and Race,"    White alone, not Hispanic","520,100","60,141","31,061","46,055","123,781","258,275",787,-
+CT,Hispanic origin and Race,"    Black alone, not Hispanic","90,997","3,001","4,471","25,312","42,344","15,868",-,-
+CT,Hispanic origin and Race,"    Asian alone, not Hispanic","17,087",-,436,-,-,"16,651",-,-
+CT,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","49,959",-,"8,511","21,386",-,"20,061",-,-
+CT,Education,    Less than high school,"129,829",-,"2,207","23,045","83,019","21,557",-,-
+CT,Education,    High school or GED,"366,855","46,040","7,074","79,292","130,557","103,892",-,-
+CT,Education,    Some college/associate’s degree,"251,263","3,001","24,971","108,391","37,518","77,382",-,-
+CT,Education,    Bachelor’s degree or higher,"197,821","24,021","15,758","4,530","22,158","130,567",787,-
+CT,Marital status,    Married,"195,502","2,652","22,919","66,408","37,573","65,951",-,-
+CT,Marital status,    Widowed,"48,349",508,"8,511","11,635","17,670","10,025",-,-
+CT,Marital status,    Divorced/separated,"363,156","48,621","4,568","24,268","133,540","152,159",-,-
+CT,Marital status,    Never married,"338,761","21,281","14,011","112,948","84,468","105,265",787,-
+CT,Marital status,    Did not report,-,-,-,-,-,-,-,-
+CT,Presence of children under 18 years old,    Children in household,"448,146","9,646","26,678","132,179","145,021","134,622",-,-
+CT,Presence of children under 18 years old,    No children,"497,622","63,416","23,332","83,079","128,231","198,777",787,-
+CT,Respondent or household member experienced loss of employment income,    Yes,"518,342","48,715","45,257","166,630","162,555","95,184",-,-
+CT,Respondent or household member experienced loss of employment income,    No,"427,427","24,346","4,753","48,628","110,696","238,216",787,-
+CT,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+CT,Respondent currently employed,    Yes,"550,402","20,586","14,505","81,542","153,577","279,404",787,-
+CT,Respondent currently employed,    No,"395,366","52,475","35,505","133,716","119,674","53,995",-,-
+CT,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+CT,Household income,"    Less than $25,000","257,536","53,998","11,992","65,365","88,731","37,450",-,-
+CT,Household income,"    $25,000 - $34,999","138,285",-,"10,338","54,367","43,010","30,569",-,-
+CT,Household income,"    $35,000 - $49,999","150,961","1,016","15,816","43,175","47,430","43,524",-,-
+CT,Household income,"    $50,000 - $74,999","117,188","1,636","5,994","34,811","15,098","59,648",-,-
+CT,Household income,"    $75,000 - $99,999","119,107","3,001","2,546","2,978","75,889","34,694",-,-
+CT,Household income,"    $100,000 - $149,999","89,601","12,740",-,-,"3,094","72,980",787,-
+CT,Household income,"    $150,000 - $199,999","12,776",-,-,-,-,"12,776",-,-
+CT,Household income,"    $200,000 and above","9,111",-,-,-,-,"9,111",-,-
+CT,Household income,    Did not report,"51,204",671,"3,323","14,563",-,"32,647",-,-
+DE,Total,Total,"130,476","4,149","8,387","25,827","21,266","60,428","10,420",-
+DE,Age,    18 - 24,-,-,-,-,-,-,-,-
+DE,Age,    25 - 39,"56,334",594,"4,019","8,820","14,578","28,322",-,-
+DE,Age,    40 - 54,"40,832","3,093",409,"8,045","4,982","13,882","10,420",-
+DE,Age,    55 - 64,"27,100",461,"3,960","8,962","1,091","12,626",-,-
+DE,Age,    65 and above,"6,211",-,-,-,614,"5,597",-,-
+DE,Sex,    Male,"46,111","3,688",-,"1,144","6,170","25,563","9,546",-
+DE,Sex,    Female,"84,365",461,"8,387","24,683","15,096","34,865",873,-
+DE,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"8,596","3,093",-,-,"2,996","2,506",-,-
+DE,Hispanic origin and Race,"    White alone, not Hispanic","66,507",872,"8,387","4,828","4,765","37,358","10,297",-
+DE,Hispanic origin and Race,"    Black alone, not Hispanic","47,864",183,-,"20,999","8,006","18,553",122,-
+DE,Hispanic origin and Race,"    Asian alone, not Hispanic","3,815",-,-,-,"3,261",554,-,-
+DE,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","3,695",-,-,-,"2,238","1,457",-,-
+DE,Education,    Less than high school,"11,989","2,765",-,"2,428","5,534","1,261",-,-
+DE,Education,    High school or GED,"37,482",-,579,"9,368","5,757","21,778",-,-
+DE,Education,    Some college/associate’s degree,"56,438",461,"7,808","13,169","5,728","19,725","9,546",-
+DE,Education,    Bachelor’s degree or higher,"24,568",922,-,862,"4,247","17,664",873,-
+DE,Marital status,    Married,"50,973","3,688","2,891","8,695","8,861","26,088",751,-
+DE,Marital status,    Widowed,"2,405",-,-,183,-,"2,221",-,-
+DE,Marital status,    Divorced/separated,"23,474",278,"3,849","7,418","2,172","9,758",-,-
+DE,Marital status,    Never married,"53,625",183,"1,648","9,530","10,234","22,361","9,669",-
+DE,Marital status,    Did not report,-,-,-,-,-,-,-,-
+DE,Presence of children under 18 years old,    Children in household,"65,020","3,688","3,849","10,533","11,014","26,268","9,669",-
+DE,Presence of children under 18 years old,    No children,"65,456",461,"4,538","15,294","10,252","34,160",751,-
+DE,Respondent or household member experienced loss of employment income,    Yes,"79,924","4,149","8,387","21,225","11,403","33,887",873,-
+DE,Respondent or household member experienced loss of employment income,    No,"50,443",-,-,"4,602","9,863","26,431","9,546",-
+DE,Respondent or household member experienced loss of employment income,    Did not report,109,-,-,-,-,109,-,-
+DE,Respondent currently employed,    Yes,"65,115",183,"7,122","9,130","9,033","30,100","9,546",-
+DE,Respondent currently employed,    No,"65,361","3,965","1,265","16,697","12,233","30,328",873,-
+DE,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+DE,Household income,"    Less than $25,000","32,487","3,554","1,265","7,582","6,054","13,159",873,-
+DE,Household income,"    $25,000 - $34,999","14,687",594,-,"2,533","5,036","6,524",-,-
+DE,Household income,"    $35,000 - $49,999","32,147",-,"4,810","11,096","5,155","11,087",-,-
+DE,Household income,"    $50,000 - $74,999","33,670",-,"2,312",946,"3,206","17,659","9,546",-
+DE,Household income,"    $75,000 - $99,999","7,605",-,-,"3,383",519,"3,703",-,-
+DE,Household income,"    $100,000 - $149,999","4,156",-,-,-,"1,296","2,860",-,-
+DE,Household income,"    $150,000 - $199,999","3,444",-,-,-,-,"3,444",-,-
+DE,Household income,"    $200,000 and above",-,-,-,-,-,-,-,-
+DE,Household income,    Did not report,"2,281",-,-,288,-,"1,993",-,-
+DC,Total,Total,"253,167","9,728","34,333","22,546","40,050","140,221","6,290",-
+DC,Age,    18 - 24,"4,909",-,343,153,"1,373","3,040",-,-
+DC,Age,    25 - 39,"163,142",-,"28,388","12,930","22,422","93,113","6,290",-
+DC,Age,    40 - 54,"47,962","2,173","4,323","6,180","11,767","23,521",-,-
+DC,Age,    55 - 64,"19,366","6,499","1,279","2,879",818,"7,891",-,-
+DC,Age,    65 and above,"17,787","1,056",-,403,"3,671","12,657",-,-
+DC,Sex,    Male,"110,458","5,225","17,973","1,147","16,275","69,839",-,-
+DC,Sex,    Female,"142,709","4,504","16,360","21,399","23,775","70,382","6,290",-
+DC,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"7,690",227,"2,737","1,414",-,"2,886",427,-
+DC,Hispanic origin and Race,"    White alone, not Hispanic","100,076","1,135","3,981","1,042","8,183","85,736",-,-
+DC,Hispanic origin and Race,"    Black alone, not Hispanic","137,288","8,366","25,013","20,090","31,067","46,889","5,863",-
+DC,Hispanic origin and Race,"    Asian alone, not Hispanic","1,901",-,-,-,-,"1,901",-,-
+DC,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","6,211",-,"2,602",-,800,"2,809",-,-
+DC,Education,    Less than high school,"25,661",-,-,"3,402","13,573","3,583","5,103",-
+DC,Education,    High school or GED,"51,262","5,312","19,707","11,344","5,103","9,035",760,-
+DC,Education,    Some college/associate’s degree,"31,189","2,881","6,046","6,044","2,903","13,316",-,-
+DC,Education,    Bachelor’s degree or higher,"145,055","1,536","8,580","1,755","18,471","114,286",427,-
+DC,Marital status,    Married,"85,468","1,214","8,821","14,663","1,203","59,142",427,-
+DC,Marital status,    Widowed,"10,874","6,376",-,-,-,"4,498",-,-
+DC,Marital status,    Divorced/separated,"28,014",401,-,302,"14,537","12,774",-,-
+DC,Marital status,    Never married,"128,811","1,738","25,512","7,581","24,310","63,807","5,863",-
+DC,Marital status,    Did not report,-,-,-,-,-,-,-,-
+DC,Presence of children under 18 years old,    Children in household,"69,161","7,904","11,308","11,181","12,848","20,391","5,530",-
+DC,Presence of children under 18 years old,    No children,"184,006","1,825","23,025","11,365","27,202","119,830",760,-
+DC,Respondent or household member experienced loss of employment income,    Yes,"82,642",401,"29,547","15,172","16,758","15,661","5,103",-
+DC,Respondent or household member experienced loss of employment income,    No,"170,525","9,328","4,786","7,374","23,291","124,560","1,186",-
+DC,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+DC,Respondent currently employed,    Yes,"152,277","3,674","4,643","8,815","21,292","113,425",427,-
+DC,Respondent currently employed,    No,"100,890","6,054","29,689","13,731","18,757","26,795","5,863",-
+DC,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+DC,Household income,"    Less than $25,000","53,921","1,475","15,565","9,852","8,422","17,847",760,-
+DC,Household income,"    $25,000 - $34,999","25,853","2,365","13,830",343,800,"3,412","5,103",-
+DC,Household income,"    $35,000 - $49,999","22,679","4,551","4,317","3,527","5,461","4,822",-,-
+DC,Household income,"    $50,000 - $74,999","38,641",-,307,"8,218","17,646","12,471",-,-
+DC,Household income,"    $75,000 - $99,999","13,196",-,314,137,211,"12,534",-,-
+DC,Household income,"    $100,000 - $149,999","62,117",640,-,469,"1,141","59,867",-,-
+DC,Household income,"    $150,000 - $199,999","23,610",698,-,-,"6,116","16,797",-,-
+DC,Household income,"    $200,000 and above","12,010",-,-,-,252,"11,331",427,-
+DC,Household income,    Did not report,"1,140",-,-,-,-,"1,140",-,-
+FL,Total,Total,"5,844,069","186,058","927,966","1,299,339","1,385,336","1,993,958","51,411",-
+FL,Age,    18 - 24,"560,021","64,058",-,"189,603","138,036","168,324",-,-
+FL,Age,    25 - 39,"2,555,469","58,973","576,154","572,073","494,776","802,931","50,561",-
+FL,Age,    40 - 54,"1,808,233","12,729","236,317","387,361","563,420","607,854",552,-
+FL,Age,    55 - 64,"472,432","20,488","76,189","138,402","82,258","155,095",-,-
+FL,Age,    65 and above,"447,914","29,809","39,306","11,900","106,847","259,754",298,-
+FL,Sex,    Male,"2,670,916","110,339","480,406","664,322","310,715","1,060,677","44,457",-
+FL,Sex,    Female,"3,173,153","75,719","447,560","635,017","1,074,622","933,281","6,954",-
+FL,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"2,071,392","52,872","277,279","517,367","743,767","474,002","6,104",-
+FL,Hispanic origin and Race,"    White alone, not Hispanic","2,273,163","126,807","413,743","393,114","366,271","927,921","45,307",-
+FL,Hispanic origin and Race,"    Black alone, not Hispanic","1,233,723","6,379","177,667","240,820","250,842","558,016",-,-
+FL,Hispanic origin and Race,"    Asian alone, not Hispanic","132,989",-,"16,970","95,877",-,"20,142",-,-
+FL,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","132,802",-,"42,307","52,161","24,456","13,877",-,-
+FL,Education,    Less than high school,"316,866","7,686","79,857","116,156","24,431","88,736",-,-
+FL,Education,    High school or GED,"2,443,643","75,485","433,130","644,230","641,816","648,983",-,-
+FL,Education,    Some college/associate’s degree,"1,853,606","75,704","279,284","458,656","551,630","443,875","44,457",-
+FL,Education,    Bachelor’s degree or higher,"1,229,953","27,182","135,695","80,298","167,460","812,364","6,954",-
+FL,Marital status,    Married,"2,098,103","70,037","438,169","413,143","334,439","842,017",298,-
+FL,Marital status,    Widowed,"170,838","10,743",-,"43,694","15,052","101,349",-,-
+FL,Marital status,    Divorced/separated,"1,418,925","41,219","216,357","312,319","559,226","289,252",552,-
+FL,Marital status,    Never married,"2,156,203","64,058","273,439","530,184","476,619","761,340","50,561",-
+FL,Marital status,    Did not report,-,-,-,-,-,-,-,-
+FL,Presence of children under 18 years old,    Children in household,"2,681,086","19,878","600,531","709,973","409,770","940,382",552,-
+FL,Presence of children under 18 years old,    No children,"3,162,982","166,179","327,435","589,367","975,566","1,053,576","50,860",-
+FL,Respondent or household member experienced loss of employment income,    Yes,"3,115,973","74,991","783,296","879,185","837,146","490,793","50,561",-
+FL,Respondent or household member experienced loss of employment income,    No,"2,728,096","111,067","144,670","420,154","548,191","1,503,165",850,-
+FL,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+FL,Respondent currently employed,    Yes,"3,110,281","99,672","406,335","593,268","724,114","1,286,341",552,-
+FL,Respondent currently employed,    No,"2,733,788","86,385","521,631","706,072","661,223","707,617","50,860",-
+FL,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+FL,Household income,"    Less than $25,000","1,392,147","135,660","347,361","338,755","384,640","185,730",-,-
+FL,Household income,"    $25,000 - $34,999","1,257,120","25,044","148,502","501,771","307,846","273,404",552,-
+FL,Household income,"    $35,000 - $49,999","1,233,247","11,288","340,502","244,942","238,322","397,894",298,-
+FL,Household income,"    $50,000 - $74,999","1,021,603","6,379","43,365","113,958","271,258","542,186","44,457",-
+FL,Household income,"    $75,000 - $99,999","495,299",-,"20,111","91,568","135,583","241,932","6,104",-
+FL,Household income,"    $100,000 - $149,999","313,155",-,"1,153","4,830","40,963","266,209",-,-
+FL,Household income,"    $150,000 - $199,999","63,041",-,"26,971",-,"3,996","32,074",-,-
+FL,Household income,"    $200,000 and above","49,677",-,-,"3,515",-,"46,162",-,-
+FL,Household income,    Did not report,"18,781","7,686",-,-,"2,728","8,366",-,-
+GA,Total,Total,"2,258,934","136,787","369,240","365,060","604,428","770,446","12,973",-
+GA,Age,    18 - 24,"374,406",-,"128,585","51,158","147,353","47,311",-,-
+GA,Age,    25 - 39,"940,439","44,760","82,643","184,751","194,733","430,281","3,271",-
+GA,Age,    40 - 54,"712,732","74,836","149,760","106,258","235,259","143,031","3,588",-
+GA,Age,    55 - 64,"82,401","6,143","8,251","2,946","16,300","42,648","6,114",-
+GA,Age,    65 and above,"148,956","11,048",-,"19,947","10,784","107,177",-,-
+GA,Sex,    Male,"936,528","54,127","289,866","77,631","243,038","271,866",-,-
+GA,Sex,    Female,"1,322,406","82,660","79,373","287,429","361,390","498,580","12,973",-
+GA,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"42,968","12,378",-,"3,096","8,436","19,059",-,-
+GA,Hispanic origin and Race,"    White alone, not Hispanic","1,032,188","14,309","221,470","71,068","207,945","509,919","7,477",-
+GA,Hispanic origin and Race,"    Black alone, not Hispanic","1,035,592","102,480","139,625","269,768","353,413","164,810","5,496",-
+GA,Hispanic origin and Race,"    Asian alone, not Hispanic","69,736",-,581,"17,899",904,"50,352",-,-
+GA,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","78,450","7,620","7,564","3,228","33,731","26,307",-,-
+GA,Education,    Less than high school,"115,785",-,"21,865","5,385","68,544","19,992",-,-
+GA,Education,    High school or GED,"877,298","54,670","253,758","191,329","217,229","154,198","6,114",-
+GA,Education,    Some college/associate’s degree,"790,971","68,011","63,865","146,749","239,880","266,390","6,075",-
+GA,Education,    Bachelor’s degree or higher,"474,880","14,106","29,752","21,598","78,776","329,866",784,-
+GA,Marital status,    Married,"604,851","4,812","46,088","75,491","159,579","318,880",-,-
+GA,Marital status,    Widowed,"67,915","6,236",-,"1,843","3,363","56,472",-,-
+GA,Marital status,    Divorced/separated,"344,550","73,191","28,725","55,508","95,194","85,818","6,114",-
+GA,Marital status,    Never married,"1,241,618","52,548","294,426","232,217","346,292","309,276","6,859",-
+GA,Marital status,    Did not report,-,-,-,-,-,-,-,-
+GA,Presence of children under 18 years old,    Children in household,"852,864","54,670","48,303","247,402","265,917","235,131","1,441",-
+GA,Presence of children under 18 years old,    No children,"1,406,070","82,117","320,937","117,658","338,512","535,315","11,532",-
+GA,Respondent or household member experienced loss of employment income,    Yes,"1,428,449","122,935","330,691","303,105","456,243","203,865","11,611",-
+GA,Respondent or household member experienced loss of employment income,    No,"830,485","13,852","38,548","61,955","148,185","566,582","1,363",-
+GA,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+GA,Respondent currently employed,    Yes,"1,134,198","90,218","54,312","144,586","299,747","538,476","6,859",-
+GA,Respondent currently employed,    No,"1,124,736","46,569","314,928","220,474","304,681","231,970","6,114",-
+GA,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+GA,Household income,"    Less than $25,000","949,836","90,191","280,556","250,917","226,248","91,175","10,748",-
+GA,Household income,"    $25,000 - $34,999","357,894","4,812","42,287","59,442","148,454","102,899",-,-
+GA,Household income,"    $35,000 - $49,999","265,222","41,783",-,"13,570","130,524","79,345",-,-
+GA,Household income,"    $50,000 - $74,999","262,002",-,"13,743","18,300","18,189","209,545","2,225",-
+GA,Household income,"    $75,000 - $99,999","271,153",-,"32,072","17,635","55,090","166,356",-,-
+GA,Household income,"    $100,000 - $149,999","96,647",-,-,"5,195","25,924","65,528",-,-
+GA,Household income,"    $150,000 - $199,999","34,308",-,-,-,-,"34,308",-,-
+GA,Household income,"    $200,000 and above","19,959",-,-,-,-,"19,959",-,-
+GA,Household income,    Did not report,"1,912",-,581,-,-,"1,331",-,-
+HI,Total,Total,"421,238","4,217","53,368","137,832","98,931","126,772",117,-
+HI,Age,    18 - 24,"2,309",-,"2,309",-,-,-,-,-
+HI,Age,    25 - 39,"209,138","1,720","17,726","85,231","32,856","71,605",-,-
+HI,Age,    40 - 54,"127,667",999,"17,655","35,996","43,458","29,442",117,-
+HI,Age,    55 - 64,"51,091",-,"14,705","16,493","8,997","10,897",-,-
+HI,Age,    65 and above,"31,033","1,498",974,112,"13,620","14,829",-,-
+HI,Sex,    Male,"250,116",727,"32,466","89,276","52,333","75,314",-,-
+HI,Sex,    Female,"171,121","3,490","20,901","48,556","46,598","51,459",117,-
+HI,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"18,963",240,-,"9,292","4,850","4,582",-,-
+HI,Hispanic origin and Race,"    White alone, not Hispanic","110,766",-,"15,887","9,173","36,889","48,817",-,-
+HI,Hispanic origin and Race,"    Black alone, not Hispanic","12,326",-,-,-,108,"12,218",-,-
+HI,Hispanic origin and Race,"    Asian alone, not Hispanic","114,803","3,354","14,892","31,665","32,910","31,866",117,-
+HI,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","164,380",623,"22,589","87,703","24,175","29,290",-,-
+HI,Education,    Less than high school,"38,131","1,097","1,097","13,055","11,795","11,087",-,-
+HI,Education,    High school or GED,"140,146",-,"25,797","102,908","9,342","2,099",-,-
+HI,Education,    Some college/associate’s degree,"129,758",727,"18,404","15,061","57,205","38,361",-,-
+HI,Education,    Bachelor’s degree or higher,"113,203","2,393","8,070","6,809","20,588","75,225",117,-
+HI,Marital status,    Married,"269,354","1,623","31,463","102,869","45,359","88,040",-,-
+HI,Marital status,    Widowed,"5,904",771,-,"2,716",558,"1,859",-,-
+HI,Marital status,    Divorced/separated,"32,230","1,097","3,278","7,892","7,549","12,297",117,-
+HI,Marital status,    Never married,"112,777",727,"18,627","24,355","44,491","24,577",-,-
+HI,Marital status,    Did not report,974,-,-,-,974,-,-,-
+HI,Presence of children under 18 years old,    Children in household,"189,903","1,623","28,476","61,482","35,276","63,046",-,-
+HI,Presence of children under 18 years old,    No children,"231,335","2,595","24,892","76,350","63,654","63,727",117,-
+HI,Respondent or household member experienced loss of employment income,    Yes,"288,251","3,206","49,941","125,872","71,595","37,519",117,-
+HI,Respondent or household member experienced loss of employment income,    No,"132,987","1,011","3,427","11,960","27,336","89,253",-,-
+HI,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+HI,Respondent currently employed,    Yes,"186,002",999,"21,360","30,238","57,032","76,374",-,-
+HI,Respondent currently employed,    No,"234,612","3,218","31,384","107,594","41,899","50,399",117,-
+HI,Respondent currently employed,    Did not report,624,-,624,-,-,-,-,-
+HI,Household income,"    Less than $25,000","78,600","1,011","32,344","19,846","21,315","3,967",117,-
+HI,Household income,"    $25,000 - $34,999","45,600",-,"2,108","10,684","20,229","12,579",-,-
+HI,Household income,"    $35,000 - $49,999","99,618",-,"6,933","70,147","8,544","13,994",-,-
+HI,Household income,"    $50,000 - $74,999","51,691","2,207","1,271","9,062","19,969","19,182",-,-
+HI,Household income,"    $75,000 - $99,999","44,574",999,"7,975",-,"4,394","31,205",-,-
+HI,Household income,"    $100,000 - $149,999","71,228",-,"2,114","25,146","23,953","20,015",-,-
+HI,Household income,"    $150,000 - $199,999","3,331",-,-,"2,038",-,"1,292",-,-
+HI,Household income,"    $200,000 and above","23,342",-,-,-,-,"23,342",-,-
+HI,Household income,    Did not report,"3,254",-,624,908,527,"1,195",-,-
+ID,Total,Total,"304,809","17,859","18,537","29,807","74,442","164,164",-,-
+ID,Age,    18 - 24,"14,567",-,727,-,"3,434","10,406",-,-
+ID,Age,    25 - 39,"156,292","2,420","11,476","15,510","49,088","77,797",-,-
+ID,Age,    40 - 54,"78,464",-,"5,425","8,138","11,665","53,237",-,-
+ID,Age,    55 - 64,"39,383","14,687",908,"2,849","4,965","15,974",-,-
+ID,Age,    65 and above,"16,102",751,-,"3,311","5,290","6,751",-,-
+ID,Sex,    Male,"146,541","14,602","4,589",842,"35,235","91,273",-,-
+ID,Sex,    Female,"158,268","3,256","13,948","28,965","39,207","72,891",-,-
+ID,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"34,768",-,-,"13,400","9,758","11,611",-,-
+ID,Hispanic origin and Race,"    White alone, not Hispanic","252,277","17,859","16,136","13,140","60,614","144,528",-,-
+ID,Hispanic origin and Race,"    Black alone, not Hispanic",848,-,-,-,-,848,-,-
+ID,Hispanic origin and Race,"    Asian alone, not Hispanic",376,-,-,-,-,376,-,-
+ID,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","16,540",-,"2,401","3,267","4,071","6,801",-,-
+ID,Education,    Less than high school,"17,330",-,"4,695","7,919","3,875",842,-,-
+ID,Education,    High school or GED,"96,054","13,115","1,527","3,612","22,849","54,952",-,-
+ID,Education,    Some college/associate’s degree,"137,224","1,573","12,316","14,993","42,071","66,271",-,-
+ID,Education,    Bachelor’s degree or higher,"54,201","3,171",-,"3,283","5,647","42,099",-,-
+ID,Marital status,    Married,"150,585","16,175","8,986","12,242","29,706","83,477",-,-
+ID,Marital status,    Widowed,"10,029",-,"1,980","3,311","3,050","1,688",-,-
+ID,Marital status,    Divorced/separated,"61,307","1,684","6,512","9,823","12,736","30,553",-,-
+ID,Marital status,    Never married,"82,887",-,"1,060","4,431","28,950","48,446",-,-
+ID,Marital status,    Did not report,-,-,-,-,-,-,-,-
+ID,Presence of children under 18 years old,    Children in household,"120,874",-,"15,208","20,349","32,268","53,050",-,-
+ID,Presence of children under 18 years old,    No children,"183,934","17,859","3,329","9,458","42,174","111,114",-,-
+ID,Respondent or household member experienced loss of employment income,    Yes,"144,945","15,535","8,986","16,036","47,596","56,791",-,-
+ID,Respondent or household member experienced loss of employment income,    No,"159,864","2,324","9,550","13,771","26,846","107,373",-,-
+ID,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+ID,Respondent currently employed,    Yes,"189,580","13,851","8,214","9,871","38,068","119,576",-,-
+ID,Respondent currently employed,    No,"115,229","4,007","10,323","19,936","36,374","44,588",-,-
+ID,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+ID,Household income,"    Less than $25,000","82,188","1,573","4,578","8,982","28,080","38,976",-,-
+ID,Household income,"    $25,000 - $34,999","53,823","2,420","8,936","12,900","11,655","17,912",-,-
+ID,Household income,"    $35,000 - $49,999","55,783","11,431","1,980","4,297","14,278","23,797",-,-
+ID,Household income,"    $50,000 - $74,999","86,363","2,435","3,043","2,786","14,403","63,697",-,-
+ID,Household income,"    $75,000 - $99,999","22,982",-,-,-,"6,027","16,955",-,-
+ID,Household income,"    $100,000 - $149,999","2,619",-,-,842,-,"1,777",-,-
+ID,Household income,"    $150,000 - $199,999","1,050",-,-,-,-,"1,050",-,-
+ID,Household income,"    $200,000 and above",-,-,-,-,-,-,-,-
+ID,Household income,    Did not report,-,-,-,-,-,-,-,-
+IL,Total,Total,"3,060,688","206,975","595,899","650,357","541,147","1,044,562","4,994","16,754"
+IL,Age,    18 - 24,"53,328",-,-,"7,114","33,689","12,524",-,-
+IL,Age,    25 - 39,"1,337,035","192,122","159,472","309,892","171,058","504,491",-,-
+IL,Age,    40 - 54,"679,314","10,374","169,581","149,438","123,179","209,094",893,"16,754"
+IL,Age,    55 - 64,"636,017","1,637","265,551","108,473","96,843","163,514",-,-
+IL,Age,    65 and above,"354,994","2,842","1,295","75,439","116,378","154,938","4,101",-
+IL,Sex,    Male,"1,224,481","169,015","348,561","218,343","159,270","325,190","4,101",-
+IL,Sex,    Female,"1,836,207","37,960","247,338","432,013","381,877","719,372",893,"16,754"
+IL,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"608,519","10,300","256,437","237,002","30,033","74,747",-,-
+IL,Hispanic origin and Race,"    White alone, not Hispanic","1,607,776","196,675","147,009","258,152","295,512","692,781",893,"16,754"
+IL,Hispanic origin and Race,"    Black alone, not Hispanic","665,723",-,"168,894","142,096","132,491","218,142","4,101",-
+IL,Hispanic origin and Race,"    Asian alone, not Hispanic","62,600",-,"23,558","2,011",84,"36,946",-,-
+IL,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","116,070",-,-,"11,096","83,028","21,946",-,-
+IL,Education,    Less than high school,"491,950","63,756","89,522","135,588","87,738","115,346",-,-
+IL,Education,    High school or GED,"1,081,778","80,688","289,769","265,633","150,825","294,863",-,-
+IL,Education,    Some college/associate’s degree,"910,582","45,517","175,609","189,690","193,148","289,864",-,"16,754"
+IL,Education,    Bachelor’s degree or higher,"576,378","17,014","40,999","59,446","109,436","344,489","4,994",-
+IL,Marital status,    Married,"919,015","156,047","143,360","263,308","103,748","252,551",-,-
+IL,Marital status,    Widowed,"156,606",-,"1,295",-,"56,729","98,582",-,-
+IL,Marital status,    Divorced/separated,"658,467","14,580","148,208","165,220","200,136","125,329","4,994",-
+IL,Marital status,    Never married,"1,326,601","36,349","303,035","221,828","180,535","568,100",-,"16,754"
+IL,Marital status,    Did not report,-,-,-,-,-,-,-,-
+IL,Presence of children under 18 years old,    Children in household,"1,201,094","102,630","365,945","207,350","210,501","314,668",-,-
+IL,Presence of children under 18 years old,    No children,"1,859,594","104,346","229,954","443,007","330,645","729,894","4,994","16,754"
+IL,Respondent or household member experienced loss of employment income,    Yes,"1,764,847","180,754","530,838","388,764","241,154","402,482","4,101","16,754"
+IL,Respondent or household member experienced loss of employment income,    No,"1,216,753","26,221","65,061","182,504","299,993","642,080",893,-
+IL,Respondent or household member experienced loss of employment income,    Did not report,"79,088",-,-,"79,088",-,-,-,-
+IL,Respondent currently employed,    Yes,"1,466,967","22,487","226,535","190,446","269,208","741,538",-,"16,754"
+IL,Respondent currently employed,    No,"1,514,633","184,489","369,364","380,823","271,939","303,024","4,994",-
+IL,Respondent currently employed,    Did not report,"79,088",-,-,"79,088",-,-,-,-
+IL,Household income,"    Less than $25,000","947,023","46,449","179,636","296,732","184,811","235,293","4,101",-
+IL,Household income,"    $25,000 - $34,999","520,688",-,"286,219","39,052","71,162","124,255",-,-
+IL,Household income,"    $35,000 - $49,999","402,619","58,583","63,735","69,843","122,144","87,421",893,-
+IL,Household income,"    $50,000 - $74,999","558,303","87,771","47,035","199,039","101,043","123,415",-,-
+IL,Household income,"    $75,000 - $99,999","345,087",-,"19,273","35,451","44,326","246,036",-,-
+IL,Household income,"    $100,000 - $149,999","166,599","11,642",-,-,"16,130","138,828",-,-
+IL,Household income,"    $150,000 - $199,999","38,037","2,530",-,"10,239","1,447","23,821",-,-
+IL,Household income,"    $200,000 and above","57,807",-,-,-,84,"57,723",-,-
+IL,Household income,    Did not report,"24,524",-,-,-,-,"7,770",-,"16,754"
+IN,Total,Total,"1,112,866","58,343","167,929","158,985","255,282","472,327",-,-
+IN,Age,    18 - 24,"106,517",-,-,"6,470","67,434","32,613",-,-
+IN,Age,    25 - 39,"384,635","6,114","123,449","76,155","38,843","140,075",-,-
+IN,Age,    40 - 54,"286,866","37,253","38,403","35,631","84,330","91,249",-,-
+IN,Age,    55 - 64,"218,047","14,363","4,283","38,836","59,241","101,323",-,-
+IN,Age,    65 and above,"116,802",613,"1,795","1,893","5,434","107,067",-,-
+IN,Sex,    Male,"356,111","37,418","18,261","39,555","67,420","193,457",-,-
+IN,Sex,    Female,"756,755","20,925","149,669","119,430","187,862","278,869",-,-
+IN,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"61,635",877,"15,117","22,560","7,478","15,602",-,-
+IN,Hispanic origin and Race,"    White alone, not Hispanic","802,040","49,490","61,641","75,338","208,306","407,264",-,-
+IN,Hispanic origin and Race,"    Black alone, not Hispanic","178,551","7,976","56,723","42,162","28,956","42,735",-,-
+IN,Hispanic origin and Race,"    Asian alone, not Hispanic","9,937",-,-,"3,212",-,"6,726",-,-
+IN,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","60,703",-,"34,448","15,713","10,542",-,-,-
+IN,Education,    Less than high school,"88,566",-,"32,891","12,649","43,026",-,-,-
+IN,Education,    High school or GED,"500,153","32,080","104,109","19,449","145,776","198,740",-,-
+IN,Education,    Some college/associate’s degree,"327,806","10,441","28,405","102,646","45,538","140,775",-,-
+IN,Education,    Bachelor’s degree or higher,"196,341","15,822","2,524","24,241","20,942","132,812",-,-
+IN,Marital status,    Married,"411,537","42,686","50,299","35,584","83,396","199,572",-,-
+IN,Marital status,    Widowed,"96,955",613,"1,348",-,"54,432","40,562",-,-
+IN,Marital status,    Divorced/separated,"245,374","13,094","42,822","60,654","30,771","98,033",-,-
+IN,Marital status,    Never married,"350,059","1,949","73,460","62,746","86,684","125,220",-,-
+IN,Marital status,    Did not report,"8,940",-,-,-,-,"8,940",-,-
+IN,Presence of children under 18 years old,    Children in household,"538,302","8,941","149,462","69,472","140,176","170,252",-,-
+IN,Presence of children under 18 years old,    No children,"574,564","49,403","18,467","89,513","115,106","302,075",-,-
+IN,Respondent or household member experienced loss of employment income,    Yes,"575,728","6,666","120,043","134,784","118,316","195,919",-,-
+IN,Respondent or household member experienced loss of employment income,    No,"537,138","51,677","47,887","24,201","136,965","276,408",-,-
+IN,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+IN,Respondent currently employed,    Yes,"550,911","43,381","16,368","99,998","142,194","248,970",-,-
+IN,Respondent currently employed,    No,"561,955","14,962","151,561","58,987","113,088","223,356",-,-
+IN,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+IN,Household income,"    Less than $25,000","406,589","6,373","89,980","56,801","123,411","130,024",-,-
+IN,Household income,"    $25,000 - $34,999","210,943","30,034","9,392","21,046","59,463","91,008",-,-
+IN,Household income,"    $35,000 - $49,999","217,116","7,976","61,146","38,103","24,492","85,399",-,-
+IN,Household income,"    $50,000 - $74,999","109,494","13,361","7,412","20,064","32,989","35,669",-,-
+IN,Household income,"    $75,000 - $99,999","67,285",599,-,"10,867",-,"55,819",-,-
+IN,Household income,"    $100,000 - $149,999","71,620",-,-,-,"5,672","65,948",-,-
+IN,Household income,"    $150,000 - $199,999","2,331",-,-,-,-,"2,331",-,-
+IN,Household income,"    $200,000 and above",-,-,-,-,-,-,-,-
+IN,Household income,    Did not report,"27,487",-,-,"12,105","9,254","6,128",-,-
+IA,Total,Total,"496,600","14,235","54,327","84,111","105,325","224,187","14,415",-
+IA,Age,    18 - 24,"30,378",-,-,"13,632","9,022","7,725",-,-
+IA,Age,    25 - 39,"202,379","5,805","15,876","45,401","51,242","77,536","6,518",-
+IA,Age,    40 - 54,"161,971","6,266","36,387","24,320","18,488","76,510",-,-
+IA,Age,    55 - 64,"56,929",-,"2,064",757,"20,632","25,580","7,897",-
+IA,Age,    65 and above,"44,943","2,165",-,-,"5,942","36,837",-,-
+IA,Sex,    Male,"162,650","3,237","17,789","33,555","14,969","90,815","2,285",-
+IA,Sex,    Female,"333,950","10,999","36,538","50,556","90,356","133,373","12,130",-
+IA,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"28,655","2,165","2,214","15,904","6,853","1,519",-,-
+IA,Hispanic origin and Race,"    White alone, not Hispanic","409,552","12,071","42,277","56,879","89,072","199,071","10,182",-
+IA,Hispanic origin and Race,"    Black alone, not Hispanic","38,476",-,"7,773","9,747","6,900","9,823","4,233",-
+IA,Hispanic origin and Race,"    Asian alone, not Hispanic","14,130",-,"2,064",-,-,"12,067",-,-
+IA,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","5,788",-,-,"1,581","2,500","1,707",-,-
+IA,Education,    Less than high school,"21,068","5,194",-,"11,851",-,"4,023",-,-
+IA,Education,    High school or GED,"156,178",-,"24,020","7,291","25,537","91,433","7,897",-
+IA,Education,    Some college/associate’s degree,"245,900","6,877","26,460","63,486","71,588","73,255","4,233",-
+IA,Education,    Bachelor’s degree or higher,"73,454","2,165","3,847","1,483","8,200","55,475","2,285",-
+IA,Marital status,    Married,"196,950","7,969","38,893","16,460","18,020","107,711","7,897",-
+IA,Marital status,    Widowed,"11,976",-,-,-,-,"11,976",-,-
+IA,Marital status,    Divorced/separated,"106,289","6,266","5,447","7,633","32,833","54,109",-,-
+IA,Marital status,    Never married,"178,655",-,"9,987","60,018","54,472","47,662","6,518",-
+IA,Marital status,    Did not report,"2,729",-,-,-,-,"2,729",-,-
+IA,Presence of children under 18 years old,    Children in household,"249,450","10,999","51,782","43,757","52,553","90,359",-,-
+IA,Presence of children under 18 years old,    No children,"247,150","3,237","2,545","40,353","52,772","133,829","14,415",-
+IA,Respondent or household member experienced loss of employment income,    Yes,"230,687","5,805","52,263","53,455","42,331","72,600","4,233",-
+IA,Respondent or household member experienced loss of employment income,    No,"265,913","8,431","2,064","30,656","62,994","151,587","10,182",-
+IA,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+IA,Respondent currently employed,    Yes,"230,940","1,072","6,236","45,325","53,870","117,918","6,518",-
+IA,Respondent currently employed,    No,"265,661","13,163","48,091","38,785","51,455","106,270","7,897",-
+IA,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+IA,Household income,"    Less than $25,000","215,514","12,071","50,231","30,739","30,439","84,138","7,897",-
+IA,Household income,"    $25,000 - $34,999","64,320",-,"2,214","12,157","24,359","25,591",-,-
+IA,Household income,"    $35,000 - $49,999","76,096",-,"1,120","22,398","28,401","24,178",-,-
+IA,Household income,"    $50,000 - $74,999","75,596",-,762,"9,172","11,602","51,775","2,285",-
+IA,Household income,"    $75,000 - $99,999","35,815",-,-,"9,645","5,916","16,021","4,233",-
+IA,Household income,"    $100,000 - $149,999","15,535",-,-,-,"4,608","10,927",-,-
+IA,Household income,"    $150,000 - $199,999","7,090","2,165",-,-,-,"4,926",-,-
+IA,Household income,"    $200,000 and above","4,423",-,-,-,-,"4,423",-,-
+IA,Household income,    Did not report,"2,209",-,-,-,-,"2,209",-,-
+KS,Total,Total,"598,025","17,916","30,828","87,617","149,445","310,475","1,744",-
+KS,Age,    18 - 24,"28,195",-,-,"2,676","16,763","8,756",-,-
+KS,Age,    25 - 39,"252,158","11,250","12,563","42,006","55,634","130,705",-,-
+KS,Age,    40 - 54,"193,695",-,"18,265","34,134","58,854","82,442",-,-
+KS,Age,    55 - 64,"63,319","2,931",-,"6,217","10,983","41,445","1,744",-
+KS,Age,    65 and above,"60,658","3,736",-,"2,584","7,211","47,127",-,-
+KS,Sex,    Male,"242,732","1,254","4,401","23,842","67,613","145,623",-,-
+KS,Sex,    Female,"355,293","16,663","26,427","63,775","81,832","164,853","1,744",-
+KS,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"65,491","5,884","5,351","6,597","32,944","14,716",-,-
+KS,Hispanic origin and Race,"    White alone, not Hispanic","468,425","12,032","9,324","61,949","105,354","278,022","1,744",-
+KS,Hispanic origin and Race,"    Black alone, not Hispanic","24,919",-,"1,927","5,828","3,034","14,131",-,-
+KS,Hispanic origin and Race,"    Asian alone, not Hispanic","13,785",-,"3,995",963,"6,184","2,643",-,-
+KS,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","25,403",-,"10,231","12,280","1,930",963,-,-
+KS,Education,    Less than high school,"22,641","5,884","10,503",-,-,"6,254",-,-
+KS,Education,    High school or GED,"147,371","2,931","3,166","52,147","21,466","67,661",-,-
+KS,Education,    Some college/associate’s degree,"289,459","6,519","12,758","32,806","86,628","150,748",-,-
+KS,Education,    Bachelor’s degree or higher,"138,554","2,583","4,401","2,664","41,351","85,812","1,744",-
+KS,Marital status,    Married,"317,864","12,851","9,346","35,293","87,124","171,506","1,744",-
+KS,Marital status,    Widowed,"11,666","3,736",-,"2,655","1,534","3,742",-,-
+KS,Marital status,    Divorced/separated,"79,924",-,601,"21,105","26,474","31,744",-,-
+KS,Marital status,    Never married,"188,570","1,329","20,880","28,564","34,313","103,484",-,-
+KS,Marital status,    Did not report,-,-,-,-,-,-,-,-
+KS,Presence of children under 18 years old,    Children in household,"267,395","9,920","30,422","47,908","73,838","105,307",-,-
+KS,Presence of children under 18 years old,    No children,"330,629","7,996",406,"39,709","75,607","205,168","1,744",-
+KS,Respondent or household member experienced loss of employment income,    Yes,"261,133",-,"16,330","62,706","76,999","105,098",-,-
+KS,Respondent or household member experienced loss of employment income,    No,"336,891","17,916","14,498","24,911","72,446","205,377","1,744",-
+KS,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+KS,Respondent currently employed,    Yes,"317,716","5,366","17,244","67,802","104,170","123,134",-,-
+KS,Respondent currently employed,    No,"280,309","12,551","13,584","19,815","45,274","187,342","1,744",-
+KS,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+KS,Household income,"    Less than $25,000","136,194","14,669","9,689","45,528","26,554","39,755",-,-
+KS,Household income,"    $25,000 - $34,999","128,666",-,"4,496","23,325","31,075","69,769",-,-
+KS,Household income,"    $35,000 - $49,999","122,307","1,329","6,140","3,842","35,582","75,414",-,-
+KS,Household income,"    $50,000 - $74,999","120,943","1,918",-,"12,733","45,296","60,996",-,-
+KS,Household income,"    $75,000 - $99,999","34,879",-,-,-,963,"33,916",-,-
+KS,Household income,"    $100,000 - $149,999","38,429",-,-,-,"9,974","28,455",-,-
+KS,Household income,"    $150,000 - $199,999","2,155",-,-,-,-,411,"1,744",-
+KS,Household income,"    $200,000 and above","1,760",-,-,-,-,"1,760",-,-
+KS,Household income,    Did not report,"12,692",-,"10,503","2,189",-,-,-,-
+KY,Total,Total,"959,571","87,113","196,596","81,025","241,683","349,528","3,626",-
+KY,Age,    18 - 24,"32,576",-,-,-,"6,082","26,494",-,-
+KY,Age,    25 - 39,"445,394","38,044","120,376","49,728","100,726","136,520",-,-
+KY,Age,    40 - 54,"234,389","18,531","19,836","23,399","93,179","75,819","3,626",-
+KY,Age,    55 - 64,"164,737","14,818","56,384","7,445","13,533","72,557",-,-
+KY,Age,    65 and above,"82,475","15,720",-,454,"28,163","38,138",-,-
+KY,Sex,    Male,"452,117","55,502","136,272","17,839","154,980","87,524",-,-
+KY,Sex,    Female,"507,454","31,611","60,324","63,186","86,703","262,004","3,626",-
+KY,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"40,779",-,"14,083","10,093","16,603",-,-,-
+KY,Hispanic origin and Race,"    White alone, not Hispanic","748,579","87,113","124,791","56,546","140,960","335,544","3,626",-
+KY,Hispanic origin and Race,"    Black alone, not Hispanic","132,707",-,"57,723","9,982","54,862","10,141",-,-
+KY,Hispanic origin and Race,"    Asian alone, not Hispanic","1,867",-,-,-,-,"1,867",-,-
+KY,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","35,638",-,-,"4,405","29,257","1,976",-,-
+KY,Education,    Less than high school,"83,978","35,028","14,083","10,200","22,358","2,310",-,-
+KY,Education,    High school or GED,"403,207","5,244","79,420","20,949","112,871","184,723",-,-
+KY,Education,    Some college/associate’s degree,"340,538","14,782","97,114","41,852","93,126","90,039","3,626",-
+KY,Education,    Bachelor’s degree or higher,"131,847","32,059","5,980","8,024","13,328","72,456",-,-
+KY,Marital status,    Married,"472,690","71,773","128,378","36,573","74,994","157,347","3,626",-
+KY,Marital status,    Widowed,"22,324",935,-,-,"5,155","16,234",-,-
+KY,Marital status,    Divorced/separated,"265,006","1,706","23,822","19,181","89,945","130,353",-,-
+KY,Marital status,    Never married,"199,551","12,700","44,397","25,271","71,590","45,593",-,-
+KY,Marital status,    Did not report,-,-,-,-,-,-,-,-
+KY,Presence of children under 18 years old,    Children in household,"488,148","40,298","115,024","44,475","100,833","183,892","3,626",-
+KY,Presence of children under 18 years old,    No children,"471,423","46,815","81,572","36,550","140,850","165,635",-,-
+KY,Respondent or household member experienced loss of employment income,    Yes,"468,812","58,926","116,852","65,939","123,356","100,114","3,626",-
+KY,Respondent or household member experienced loss of employment income,    No,"490,758","28,187","79,744","15,087","118,327","249,414",-,-
+KY,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+KY,Respondent currently employed,    Yes,"409,339","17,979","110,041","44,447","55,271","181,601",-,-
+KY,Respondent currently employed,    No,"539,868","69,135","86,555","36,578","186,412","157,563","3,626",-
+KY,Respondent currently employed,    Did not report,"10,364",-,-,-,-,"10,364",-,-
+KY,Household income,"    Less than $25,000","434,024","58,263","105,345","48,208","118,771","103,437",-,-
+KY,Household income,"    $25,000 - $34,999","133,738","12,630","38,781","14,347","23,535","44,445",-,-
+KY,Household income,"    $35,000 - $49,999","103,063","1,419","10,230","4,876","32,008","54,530",-,-
+KY,Household income,"    $50,000 - $74,999","144,290","7,199",-,"8,747","38,111","90,233",-,-
+KY,Household income,"    $75,000 - $99,999","118,188","2,791","42,240","4,847","29,257","35,427","3,626",-
+KY,Household income,"    $100,000 - $149,999","12,474","2,250",-,-,-,"10,224",-,-
+KY,Household income,"    $150,000 - $199,999","9,255",-,-,-,-,"9,255",-,-
+KY,Household income,"    $200,000 and above",-,-,-,-,-,-,-,-
+KY,Household income,    Did not report,"4,537","2,562",-,-,-,"1,976",-,-
+LA,Total,Total,"1,000,701","79,959","94,001","223,800","290,397","305,303","6,716",525
+LA,Age,    18 - 24,"27,976","10,323",-,"1,450",727,"15,476",-,-
+LA,Age,    25 - 39,"534,942","33,113","70,516","165,651","178,995","86,667",-,-
+LA,Age,    40 - 54,"199,752","20,830","19,460","34,027","57,509","61,211","6,716",-
+LA,Age,    55 - 64,"52,552","11,214","4,025","20,151","9,848","6,788",-,525
+LA,Age,    65 and above,"185,479","4,479",-,"2,520","43,319","135,161",-,-
+LA,Sex,    Male,"415,222","38,621","12,605","117,314","165,336","80,820",-,525
+LA,Sex,    Female,"585,479","41,338","81,396","106,485","125,061","224,484","6,716",-
+LA,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"26,739","11,214","1,602","1,450","12,473",-,-,-
+LA,Hispanic origin and Race,"    White alone, not Hispanic","488,156","56,140",899,"36,118","132,026","262,447",-,525
+LA,Hispanic origin and Race,"    Black alone, not Hispanic","479,281","12,605","91,500","186,231","140,721","41,508","6,716",-
+LA,Hispanic origin and Race,"    Asian alone, not Hispanic","4,293",-,-,-,"2,944","1,348",-,-
+LA,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","2,233",-,-,-,"2,233",-,-,-
+LA,Education,    Less than high school,"129,432","10,323",-,"115,078","4,031",-,-,-
+LA,Education,    High school or GED,"441,708","23,819","71,807","54,087","106,014","185,982",-,-
+LA,Education,    Some college/associate’s degree,"312,825","26,481","22,194","53,898","151,376","58,875",-,-
+LA,Education,    Bachelor’s degree or higher,"116,735","19,336",-,736,"28,976","60,446","6,716",525
+LA,Marital status,    Married,"455,096","37,593","32,771","157,869","16,553","203,069","6,716",525
+LA,Marital status,    Widowed,"2,413",-,-,-,-,"2,413",-,-
+LA,Marital status,    Divorced/separated,"163,994","19,438","7,224","18,346","71,697","47,290",-,-
+LA,Marital status,    Never married,"379,198","22,928","54,007","47,585","202,146","52,531",-,-
+LA,Marital status,    Did not report,-,-,-,-,-,-,-,-
+LA,Presence of children under 18 years old,    Children in household,"359,055","40,703","92,173","61,916","102,203","62,060",-,-
+LA,Presence of children under 18 years old,    No children,"641,646","39,256","1,828","161,884","188,194","243,243","6,716",525
+LA,Respondent or household member experienced loss of employment income,    Yes,"667,217","57,633","70,810","98,253","230,753","202,527","6,716",525
+LA,Respondent or household member experienced loss of employment income,    No,"333,484","22,326","23,191","125,547","59,644","102,777",-,-
+LA,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+LA,Respondent currently employed,    Yes,"301,218","50,198","12,574","40,469","89,148","102,113","6,716",-
+LA,Respondent currently employed,    No,"699,483","29,760","81,427","183,331","201,249","203,190",-,525
+LA,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+LA,Household income,"    Less than $25,000","267,224","21,536","89,039","63,363","59,146","33,614",-,525
+LA,Household income,"    $25,000 - $34,999","273,068","17,720",-,"126,803","108,466","20,078",-,-
+LA,Household income,"    $35,000 - $49,999","176,944","28,097","1,764","9,355","103,564","34,165",-,-
+LA,Household income,"    $50,000 - $74,999","193,665",-,"3,199","11,600","5,370","173,496",-,-
+LA,Household income,"    $75,000 - $99,999","24,542",-,-,"12,278","5,741","6,523",-,-
+LA,Household income,"    $100,000 - $149,999","40,495","12,605",-,400,"1,348","19,426","6,716",-
+LA,Household income,"    $150,000 - $199,999","18,001",-,-,-,-,"18,001",-,-
+LA,Household income,"    $200,000 and above",-,-,-,-,-,-,-,-
+LA,Household income,    Did not report,"6,762",-,-,-,"6,762",-,-,-
+ME,Total,Total,"255,860","51,063","15,396","37,420","96,158","55,823",-,-
+ME,Age,    18 - 24,"3,674",564,-,-,-,"3,110",-,-
+ME,Age,    25 - 39,"121,247","29,540","2,667","19,292","47,422","22,326",-,-
+ME,Age,    40 - 54,"54,859","4,353","12,729","10,159","16,316","11,301",-,-
+ME,Age,    55 - 64,"31,894",-,-,741,"20,096","11,057",-,-
+ME,Age,    65 and above,"44,185","16,606",-,"7,228","12,323","8,029",-,-
+ME,Sex,    Male,"129,932","30,065","14,357","3,821","60,895","20,794",-,-
+ME,Sex,    Female,"125,927","20,998","1,039","33,598","35,263","35,029",-,-
+ME,Hispanic origin and Race,    Hispanic or Latino (may be of any race),685,-,-,-,-,685,-,-
+ME,Hispanic origin and Race,"    White alone, not Hispanic","242,578","51,063","15,396","37,228","90,327","48,565",-,-
+ME,Hispanic origin and Race,"    Black alone, not Hispanic","6,421",-,-,192,"4,162","2,066",-,-
+ME,Hispanic origin and Race,"    Asian alone, not Hispanic",-,-,-,-,-,-,-,-
+ME,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","6,175",-,-,-,"1,669","4,507",-,-
+ME,Education,    Less than high school,"3,099",-,-,"3,099",-,-,-,-
+ME,Education,    High school or GED,"149,692","46,237","12,144","20,888","58,476","11,946",-,-
+ME,Education,    Some college/associate’s degree,"66,159","2,031","2,667","7,777","27,680","26,004",-,-
+ME,Education,    Bachelor’s degree or higher,"36,910","2,795",586,"5,655","10,001","17,873",-,-
+ME,Marital status,    Married,"109,691","44,983","12,144","4,659","26,277","21,629",-,-
+ME,Marital status,    Widowed,763,-,-,186,576,-,-,-
+ME,Marital status,    Divorced/separated,"53,420","3,724","3,253","24,478","7,744","14,221",-,-
+ME,Marital status,    Never married,"91,986","2,356",-,"8,097","61,561","19,973",-,-
+ME,Marital status,    Did not report,-,-,-,-,-,-,-,-
+ME,Presence of children under 18 years old,    Children in household,"48,906","2,886","2,667","8,829","25,129","9,395",-,-
+ME,Presence of children under 18 years old,    No children,"206,953","48,176","12,729","28,590","71,029","46,428",-,-
+ME,Respondent or household member experienced loss of employment income,    Yes,"134,352","32,909","14,811","19,993","55,057","11,582",-,-
+ME,Respondent or household member experienced loss of employment income,    No,"121,507","18,153",586,"17,427","41,101","44,241",-,-
+ME,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+ME,Respondent currently employed,    Yes,"119,452","4,366","12,729","25,466","43,922","32,968",-,-
+ME,Respondent currently employed,    No,"136,408","46,697","2,667","11,954","52,236","22,855",-,-
+ME,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+ME,Household income,"    Less than $25,000","106,207","31,093","2,213","25,451","34,606","12,843",-,-
+ME,Household income,"    $25,000 - $34,999","40,174","1,559","1,039","4,933","16,812","15,830",-,-
+ME,Household income,"    $35,000 - $49,999","34,503","2,257",-,"2,256","25,388","4,603",-,-
+ME,Household income,"    $50,000 - $74,999","19,075",-,-,175,"12,453","6,446",-,-
+ME,Household income,"    $75,000 - $99,999","44,763","15,547","12,144","3,221","4,864","8,988",-,-
+ME,Household income,"    $100,000 - $149,999","6,324",606,-,-,"2,034","3,685",-,-
+ME,Household income,"    $150,000 - $199,999","2,258",-,-,-,-,"2,258",-,-
+ME,Household income,"    $200,000 and above",-,-,-,-,-,-,-,-
+ME,Household income,    Did not report,"2,555",-,-,"1,384",-,"1,171",-,-
+MD,Total,Total,"1,303,904","14,542","164,266","450,778","290,572","380,428",-,"3,318"
+MD,Age,    18 - 24,"30,242","5,359",305,"11,407",-,"13,171",-,-
+MD,Age,    25 - 39,"517,575",-,"85,313","116,215","122,253","190,477",-,"3,318"
+MD,Age,    40 - 54,"448,483","1,744","19,332","244,124","135,715","47,569",-,-
+MD,Age,    55 - 64,"206,841",-,"58,523","79,031","7,330","61,956",-,-
+MD,Age,    65 and above,"100,762","7,440",793,-,"25,274","67,255",-,-
+MD,Sex,    Male,"660,867","14,319","97,608","343,580","55,071","146,972",-,"3,318"
+MD,Sex,    Female,"643,037",223,"66,658","107,198","235,501","233,457",-,-
+MD,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"89,404",-,"18,375","35,710","19,999","15,319",-,-
+MD,Hispanic origin and Race,"    White alone, not Hispanic","446,484","8,961","58,383","71,144","119,082","185,597",-,"3,318"
+MD,Hispanic origin and Race,"    Black alone, not Hispanic","680,924","5,581","70,822","338,989","128,525","137,007",-,-
+MD,Hispanic origin and Race,"    Asian alone, not Hispanic","48,343",-,-,-,"22,965","25,378",-,-
+MD,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","38,748",-,"16,686","4,935",-,"17,127",-,-
+MD,Education,    Less than high school,"150,132",-,"61,741","5,497","49,783","33,111",-,-
+MD,Education,    High school or GED,"577,463","5,359","61,133","327,093","119,241","64,637",-,-
+MD,Education,    Some college/associate’s degree,"271,733","6,234","22,239","90,479","64,505","88,276",-,-
+MD,Education,    Bachelor’s degree or higher,"304,575","2,949","19,152","27,709","57,043","194,405",-,"3,318"
+MD,Marital status,    Married,"399,000","8,961","61,151","106,607","100,111","118,852",-,"3,318"
+MD,Marital status,    Widowed,"82,447",-,-,"33,933","34,184","14,330",-,-
+MD,Marital status,    Divorced/separated,"188,371",-,"14,283","33,394","62,856","77,838",-,-
+MD,Marital status,    Never married,"634,086","5,581","88,832","276,844","93,420","169,408",-,-
+MD,Marital status,    Did not report,-,-,-,-,-,-,-,-
+MD,Presence of children under 18 years old,    Children in household,"750,140",-,"99,872","340,337","149,744","160,188",-,-
+MD,Presence of children under 18 years old,    No children,"553,763","14,542","64,395","110,441","140,828","220,240",-,"3,318"
+MD,Respondent or household member experienced loss of employment income,    Yes,"679,523","1,521","160,191","281,945","149,174","86,692",-,-
+MD,Respondent or household member experienced loss of employment income,    No,"624,381","13,021","4,075","168,833","141,398","293,736",-,"3,318"
+MD,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+MD,Respondent currently employed,    Yes,"592,547","6,879","64,958","113,263","168,799","235,329",-,"3,318"
+MD,Respondent currently employed,    No,"711,357","7,663","99,308","337,515","121,772","145,099",-,-
+MD,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+MD,Household income,"    Less than $25,000","476,706","5,359","27,690","281,785","115,680","46,192",-,-
+MD,Household income,"    $25,000 - $34,999","192,254",-,"10,501","37,754","71,251","72,748",-,-
+MD,Household income,"    $35,000 - $49,999","238,467",223,"122,344","66,316","7,970","41,615",-,-
+MD,Household income,"    $50,000 - $74,999","126,939","6,234",-,"18,992","76,583","25,130",-,-
+MD,Household income,"    $75,000 - $99,999","117,394","1,205","3,731","31,153","15,568","65,736",-,-
+MD,Household income,"    $100,000 - $149,999","66,875","1,521",-,"7,427","3,519","54,409",-,-
+MD,Household income,"    $150,000 - $199,999","48,134",-,-,"7,351",-,"40,783",-,-
+MD,Household income,"    $200,000 and above","17,874",-,-,-,-,"17,874",-,-
+MD,Household income,    Did not report,"19,260",-,-,-,-,"15,943",-,"3,318"
+MA,Total,Total,"1,735,248","58,825","170,851","138,938","457,431","903,936","5,267",-
+MA,Age,    18 - 24,"24,602","15,894",-,-,-,"8,708",-,-
+MA,Age,    25 - 39,"898,921","18,300","140,260","83,214","181,223","470,657","5,267",-
+MA,Age,    40 - 54,"464,764","17,078","15,215","45,557","170,382","216,532",-,-
+MA,Age,    55 - 64,"169,181","3,091","15,376","4,973","46,889","98,853",-,-
+MA,Age,    65 and above,"177,779","4,461",-,"5,194","58,937","109,186",-,-
+MA,Sex,    Male,"776,945","21,656","132,776","26,556","197,433","393,257","5,267",-
+MA,Sex,    Female,"958,303","37,169","38,075","112,381","259,998","510,680",-,-
+MA,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"203,154",-,"13,592","20,275","50,656","118,630",-,-
+MA,Hispanic origin and Race,"    White alone, not Hispanic","1,075,044","44,835","139,849","67,900","258,345","558,847","5,267",-
+MA,Hispanic origin and Race,"    Black alone, not Hispanic","216,959","12,190","17,410","19,108","50,430","117,822",-,-
+MA,Hispanic origin and Race,"    Asian alone, not Hispanic","104,528",-,-,"27,284","25,441","51,802",-,-
+MA,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","135,563","1,799",-,"4,370","72,558","56,835",-,-
+MA,Education,    Less than high school,"163,151",-,"111,540","11,341","40,270",-,-,-
+MA,Education,    High school or GED,"552,167",-,"27,650","35,435","254,422","234,661",-,-
+MA,Education,    Some college/associate’s degree,"391,792","32,929","16,678","57,062","96,681","188,442",-,-
+MA,Education,    Bachelor’s degree or higher,"628,138","25,896","14,983","35,100","66,059","480,834","5,267",-
+MA,Marital status,    Married,"519,904","19,619","27,919","22,110","120,804","329,452",-,-
+MA,Marital status,    Widowed,"24,974","2,572",-,-,-,"22,402",-,-
+MA,Marital status,    Divorced/separated,"282,661","4,744","12,274","23,003","109,370","133,271",-,-
+MA,Marital status,    Never married,"907,708","31,889","130,658","93,825","227,257","418,812","5,267",-
+MA,Marital status,    Did not report,-,-,-,-,-,-,-,-
+MA,Presence of children under 18 years old,    Children in household,"557,645","6,075","39,943","65,565","213,706","232,356",-,-
+MA,Presence of children under 18 years old,    No children,"1,177,603","52,750","130,908","73,373","243,725","671,580","5,267",-
+MA,Respondent or household member experienced loss of employment income,    Yes,"859,276","53,510","169,708","90,868","227,328","317,861",-,-
+MA,Respondent or household member experienced loss of employment income,    No,"875,972","5,315","1,143","48,070","230,102","586,075","5,267",-
+MA,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+MA,Respondent currently employed,    Yes,"858,157","33,992","12,293","61,545","198,260","546,800","5,267",-
+MA,Respondent currently employed,    No,"877,091","24,833","158,558","77,392","259,171","357,137",-,-
+MA,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+MA,Household income,"    Less than $25,000","448,420",202,"131,801","25,204","131,958","159,255",-,-
+MA,Household income,"    $25,000 - $34,999","168,991","12,190","17,543","25,817","62,409","51,032",-,-
+MA,Household income,"    $35,000 - $49,999","266,500","37,896","2,305","18,436","76,752","131,111",-,-
+MA,Household income,"    $50,000 - $74,999","245,524","1,799",-,"21,134","110,797","111,794",-,-
+MA,Household income,"    $75,000 - $99,999","177,121",-,"5,610","20,886","16,864","133,760",-,-
+MA,Household income,"    $100,000 - $149,999","231,996","4,847","13,592","5,547","51,157","156,853",-,-
+MA,Household income,"    $150,000 - $199,999","129,321","1,119",-,"17,520",682,"104,733","5,267",-
+MA,Household income,"    $200,000 and above","49,187",-,-,-,-,"49,187",-,-
+MA,Household income,    Did not report,"18,188",773,-,"4,393","6,812","6,210",-,-
+MI,Total,Total,"1,650,129","192,131","220,240","159,992","516,976","545,783","15,007",-
+MI,Age,    18 - 24,"193,108",-,"9,023","7,297","124,550","52,238",-,-
+MI,Age,    25 - 39,"697,698","135,911","152,387","74,395","226,325","93,672","15,007",-
+MI,Age,    40 - 54,"421,836","34,665","37,919","77,001","102,816","169,434",-,-
+MI,Age,    55 - 64,"192,888","2,092","20,423",-,"37,006","133,366",-,-
+MI,Age,    65 and above,"144,601","19,464",487,"1,299","26,279","97,072",-,-
+MI,Sex,    Male,"862,878","168,489","101,249","9,882","293,691","284,945","4,623",-
+MI,Sex,    Female,"787,251","23,642","118,991","150,111","223,285","260,838","10,383",-
+MI,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"129,543",-,-,"22,904",-,"106,638",-,-
+MI,Hispanic origin and Race,"    White alone, not Hispanic","905,005","53,016","103,667","66,827","300,431","376,440","4,623",-
+MI,Hispanic origin and Race,"    Black alone, not Hispanic","353,319","15,712","107,063","55,206","125,439","39,515","10,383",-
+MI,Hispanic origin and Race,"    Asian alone, not Hispanic","196,906","106,159","9,023","12,379","61,102","8,242",-,-
+MI,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","65,358","17,245",487,"2,676","30,004","14,947",-,-
+MI,Education,    Less than high school,"178,622","108,251","3,393","27,041","13,193","26,744",-,-
+MI,Education,    High school or GED,"642,124","50,377","95,941","43,099","179,632","265,573","7,502",-
+MI,Education,    Some college/associate’s degree,"565,318","29,377","94,588","82,349","208,233","147,889","2,881",-
+MI,Education,    Bachelor’s degree or higher,"264,065","4,127","26,317","7,503","115,918","105,576","4,623",-
+MI,Marital status,    Married,"550,965","138,950","24,748","50,942","150,621","173,578","12,126",-
+MI,Marital status,    Widowed,"52,355",713,-,"1,299","5,809","44,534",-,-
+MI,Marital status,    Divorced/separated,"281,100","52,469","15,521","21,217","50,898","140,995",-,-
+MI,Marital status,    Never married,"765,709",-,"179,970","86,533","309,648","186,676","2,881",-
+MI,Marital status,    Did not report,-,-,-,-,-,-,-,-
+MI,Presence of children under 18 years old,    Children in household,"781,757","135,911","113,927","82,352","186,449","248,111","15,007",-
+MI,Presence of children under 18 years old,    No children,"868,372","56,221","106,312","77,641","330,527","297,672",-,-
+MI,Respondent or household member experienced loss of employment income,    Yes,"1,142,126","19,512","186,053","136,021","451,697","336,717","12,126",-
+MI,Respondent or household member experienced loss of employment income,    No,"508,004","172,620","34,187","23,972","65,279","209,066","2,881",-
+MI,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+MI,Respondent currently employed,    Yes,"473,092","30,465","39,486","34,416","155,585","213,139",-,-
+MI,Respondent currently employed,    No,"1,177,038","161,666","180,753","125,577","361,391","332,643","15,007",-
+MI,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+MI,Household income,"    Less than $25,000","558,935","35,049","109,859","82,082","114,333","214,731","2,881",-
+MI,Household income,"    $25,000 - $34,999","479,464","135,535","41,142","47,365","131,373","116,546","7,502",-
+MI,Household income,"    $35,000 - $49,999","284,820","18,133","13,278","22,093","136,916","94,400",-,-
+MI,Household income,"    $50,000 - $74,999","163,220","3,107","41,007","3,950","48,566","61,966","4,623",-
+MI,Household income,"    $75,000 - $99,999","66,061",-,"11,156","3,330","32,183","19,392",-,-
+MI,Household income,"    $100,000 - $149,999","65,057",-,-,"1,172","51,796","12,090",-,-
+MI,Household income,"    $150,000 - $199,999","22,455",-,-,-,"1,808","20,647",-,-
+MI,Household income,"    $200,000 and above","6,319",307,-,-,-,"6,011",-,-
+MI,Household income,    Did not report,"3,799",-,"3,799",-,-,-,-,-
+MN,Total,Total,"974,883","35,092","68,121","101,387","284,894","485,390",-,-
+MN,Age,    18 - 24,"98,677",-,-,-,"23,197","75,479",-,-
+MN,Age,    25 - 39,"380,680",-,"17,470","20,645","177,814","164,752",-,-
+MN,Age,    40 - 54,"251,335","3,239","40,750","78,230","52,663","76,453",-,-
+MN,Age,    55 - 64,"119,976",892,"1,473","2,512","26,167","88,932",-,-
+MN,Age,    65 and above,"124,216","30,961","8,428",-,"5,053","79,774",-,-
+MN,Sex,    Male,"575,302","32,019","27,501","53,466","198,759","263,557",-,-
+MN,Sex,    Female,"399,581","3,073","40,619","47,921","86,136","221,833",-,-
+MN,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"99,135",-,-,"14,382","8,040","76,713",-,-
+MN,Hispanic origin and Race,"    White alone, not Hispanic","687,246","34,876","49,027","23,507","256,600","323,236",-,-
+MN,Hispanic origin and Race,"    Black alone, not Hispanic","122,757",215,-,"59,656","5,449","57,436",-,-
+MN,Hispanic origin and Race,"    Asian alone, not Hispanic","16,918",-,-,"3,841","9,115","3,961",-,-
+MN,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","48,827",-,"19,093",-,"5,690","24,044",-,-
+MN,Education,    Less than high school,"100,788",-,-,-,"100,788",-,-,-
+MN,Education,    High school or GED,"336,537","28,635","8,428","67,858","32,885","198,730",-,-
+MN,Education,    Some college/associate’s degree,"374,454","3,218","56,928","25,709","109,201","179,399",-,-
+MN,Education,    Bachelor’s degree or higher,"163,104","3,239","2,765","7,819","42,020","107,261",-,-
+MN,Marital status,    Married,"432,790","31,658",-,"54,375","163,490","183,266",-,-
+MN,Marital status,    Widowed,"26,613","2,326",-,-,"11,172","13,116",-,-
+MN,Marital status,    Divorced/separated,"132,402",892,"23,130","2,512","14,578","91,290",-,-
+MN,Marital status,    Never married,"383,078",215,"44,991","44,500","95,654","197,718",-,-
+MN,Marital status,    Did not report,-,-,-,-,-,-,-,-
+MN,Presence of children under 18 years old,    Children in household,"505,448",843,"21,874","78,476","177,837","226,419",-,-
+MN,Presence of children under 18 years old,    No children,"469,436","34,249","46,247","22,911","107,057","258,971",-,-
+MN,Respondent or household member experienced loss of employment income,    Yes,"500,315","28,850","42,109","57,069","208,504","163,784",-,-
+MN,Respondent or household member experienced loss of employment income,    No,"474,569","6,241","26,012","44,318","76,391","321,606",-,-
+MN,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+MN,Respondent currently employed,    Yes,"540,897",843,"9,046","18,086","234,177","278,745",-,-
+MN,Respondent currently employed,    No,"433,986","34,249","59,075","83,301","50,717","206,644",-,-
+MN,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+MN,Household income,"    Less than $25,000","213,871","28,635","18,745","71,641","14,731","80,119",-,-
+MN,Household income,"    $25,000 - $34,999","102,899","1,108","18,471","15,711","36,405","31,203",-,-
+MN,Household income,"    $35,000 - $49,999","180,229",-,"20,872","11,523","5,469","142,365",-,-
+MN,Household income,"    $50,000 - $74,999","236,089","5,349","8,739","2,512","105,464","114,025",-,-
+MN,Household income,"    $75,000 - $99,999","185,561",-,"1,292",-,"104,137","80,132",-,-
+MN,Household income,"    $100,000 - $149,999","44,296",-,-,-,"17,395","26,901",-,-
+MN,Household income,"    $150,000 - $199,999","8,914",-,-,-,-,"8,914",-,-
+MN,Household income,"    $200,000 and above","1,730",-,-,-,-,"1,730",-,-
+MN,Household income,    Did not report,"1,293",-,-,-,"1,293",-,-,-
+MS,Total,Total,"619,672","71,347","82,513","250,738","105,768","95,644","12,613","1,048"
+MS,Age,    18 - 24,"9,829","1,048","1,048","2,885","2,885","1,963",-,-
+MS,Age,    25 - 39,"304,152","8,282","49,280","145,899","29,687","57,343","12,613","1,048"
+MS,Age,    40 - 54,"173,542","9,261","27,322","58,365","56,616","21,977",-,-
+MS,Age,    55 - 64,"98,784","46,991","4,863","36,750","8,368","1,812",-,-
+MS,Age,    65 and above,"33,364","5,765",-,"6,839","8,212","12,549",-,-
+MS,Sex,    Male,"302,865","38,973","49,161","159,853","15,238","39,640",-,-
+MS,Sex,    Female,"316,806","32,374","33,351","90,885","90,530","56,004","12,613","1,048"
+MS,Hispanic origin and Race,    Hispanic or Latino (may be of any race),284,-,-,-,284,-,-,-
+MS,Hispanic origin and Race,"    White alone, not Hispanic","327,749","63,786","25,339","127,478","45,745","65,400",-,-
+MS,Hispanic origin and Race,"    Black alone, not Hispanic","282,450","7,561","56,073","120,139","56,680","28,336","12,613","1,048"
+MS,Hispanic origin and Race,"    Asian alone, not Hispanic","2,898",-,"1,101",-,"1,797",-,-,-
+MS,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","6,290",-,-,"3,120","1,263","1,908",-,-
+MS,Education,    Less than high school,"99,622","7,960","6,172","50,740","27,778","6,973",-,-
+MS,Education,    High school or GED,"254,216","45,896","10,560","163,241","12,673","21,846",-,-
+MS,Education,    Some college/associate’s degree,"196,594","14,743","60,841","32,111","50,167","25,070","12,613","1,048"
+MS,Education,    Bachelor’s degree or higher,"69,240","2,749","4,939","4,646","15,151","41,754",-,-
+MS,Marital status,    Married,"253,065","24,908","32,068","129,498","28,899","27,546","10,147",-
+MS,Marital status,    Widowed,"40,235","15,115","4,115","3,119","6,073","11,813",-,-
+MS,Marital status,    Divorced/separated,"125,200","29,954","14,494","28,353","33,073","19,327",-,-
+MS,Marital status,    Never married,"201,171","1,371","31,837","89,768","37,723","36,958","2,467","1,048"
+MS,Marital status,    Did not report,-,-,-,-,-,-,-,-
+MS,Presence of children under 18 years old,    Children in household,"311,376","26,145","31,817","185,963","35,733","18,057","12,613","1,048"
+MS,Presence of children under 18 years old,    No children,"308,295","45,202","50,696","64,775","70,036","77,587",-,-
+MS,Respondent or household member experienced loss of employment income,    Yes,"390,857","24,489","79,208","220,687","40,877","22,083","2,467","1,048"
+MS,Respondent or household member experienced loss of employment income,    No,"228,814","46,859","3,305","30,051","64,892","73,561","10,147",-
+MS,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+MS,Respondent currently employed,    Yes,"163,262","14,076","6,503","26,838","57,508","47,142","10,147","1,048"
+MS,Respondent currently employed,    No,"456,409","57,272","76,010","223,900","48,260","48,502","2,467",-
+MS,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+MS,Household income,"    Less than $25,000","295,867","61,267","26,252","104,151","65,906","25,678","12,613",-
+MS,Household income,"    $25,000 - $34,999","159,542","2,120","2,988","113,205","17,767","23,461",-,-
+MS,Household income,"    $35,000 - $49,999","70,146",-,"37,352","21,382","1,948","9,463",-,-
+MS,Household income,"    $50,000 - $74,999","45,206",-,"12,344",-,"2,687","30,175",-,-
+MS,Household income,"    $75,000 - $99,999","28,559",-,-,"11,194","12,000","5,364",-,-
+MS,Household income,"    $100,000 - $149,999","6,452",-,-,-,"5,460",992,-,-
+MS,Household income,"    $150,000 - $199,999",-,-,-,-,-,-,-,-
+MS,Household income,"    $200,000 and above",-,-,-,-,-,-,-,-
+MS,Household income,    Did not report,"13,901","7,960","3,577",806,-,510,-,"1,048"
+MO,Total,Total,"1,289,111","62,922","124,109","181,351","323,385","590,305","7,039",-
+MO,Age,    18 - 24,"99,234",-,-,"67,979",-,"31,255",-,-
+MO,Age,    25 - 39,"656,502","10,138","27,698","31,858","232,197","354,611",-,-
+MO,Age,    40 - 54,"314,238","19,240","96,410","61,424","42,730","94,434",-,-
+MO,Age,    55 - 64,"143,342","30,561",-,"1,653","33,501","70,588","7,039",-
+MO,Age,    65 and above,"75,795","2,983",-,"18,437","14,958","39,417",-,-
+MO,Sex,    Male,"582,669","7,458","52,230","98,593","116,060","308,328",-,-
+MO,Sex,    Female,"706,441","55,464","71,878","82,758","207,326","281,977","7,039",-
+MO,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"128,437","2,956",-,-,"123,434","2,047",-,-
+MO,Hispanic origin and Race,"    White alone, not Hispanic","891,088","55,644","74,107","140,291","136,039","477,969","7,039",-
+MO,Hispanic origin and Race,"    Black alone, not Hispanic","167,552","4,322","22,420","14,237","56,347","70,226",-,-
+MO,Hispanic origin and Race,"    Asian alone, not Hispanic","17,154",-,-,"6,726",-,"10,428",-,-
+MO,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","84,879",-,"27,581","20,097","7,566","29,635",-,-
+MO,Education,    Less than high school,"131,608",-,"46,891",-,"49,259","35,459",-,-
+MO,Education,    High school or GED,"590,222","46,904","47,464","32,013","166,583","290,219","7,039",-
+MO,Education,    Some college/associate’s degree,"380,822","10,090","28,542","119,310","98,095","124,786",-,-
+MO,Education,    Bachelor’s degree or higher,"186,458","5,928","1,212","30,028","9,449","139,841",-,-
+MO,Marital status,    Married,"443,331","12,358","50,727","24,513","110,457","238,236","7,039",-
+MO,Marital status,    Widowed,"11,813","1,157","1,637","1,653","1,948","5,417",-,-
+MO,Marital status,    Divorced/separated,"265,046","45,084","32,981","72,150","49,080","65,751",-,-
+MO,Marital status,    Never married,"568,921","4,322","38,763","83,035","161,900","280,901",-,-
+MO,Marital status,    Did not report,-,-,-,-,-,-,-,-
+MO,Presence of children under 18 years old,    Children in household,"518,022","8,713","94,358","55,887","259,514","99,549",-,-
+MO,Presence of children under 18 years old,    No children,"771,089","54,208","29,751","125,464","63,871","490,756","7,039",-
+MO,Respondent or household member experienced loss of employment income,    Yes,"757,198","49,527","76,803","136,379","206,148","288,340",-,-
+MO,Respondent or household member experienced loss of employment income,    No,"531,913","13,395","47,306","44,972","117,237","301,964","7,039",-
+MO,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+MO,Respondent currently employed,    Yes,"713,580","29,059","81,190","65,957","157,956","372,379","7,039",-
+MO,Respondent currently employed,    No,"568,829","33,863","42,919","115,394","165,429","211,224",-,-
+MO,Respondent currently employed,    Did not report,"6,702",-,-,-,-,"6,702",-,-
+MO,Household income,"    Less than $25,000","513,766","30,015","24,159","102,956","205,721","143,875","7,039",-
+MO,Household income,"    $25,000 - $34,999","318,976","25,324","20,395","8,170","67,768","197,318",-,-
+MO,Household income,"    $35,000 - $49,999","164,246",-,"53,838",-,"44,287","66,121",-,-
+MO,Household income,"    $50,000 - $74,999","159,161","7,583","15,629","67,979","5,609","62,361",-,-
+MO,Household income,"    $75,000 - $99,999","22,976",-,"1,637",-,-,"21,339",-,-
+MO,Household income,"    $100,000 - $149,999","35,584",-,-,-,-,"35,584",-,-
+MO,Household income,"    $150,000 - $199,999","3,660",-,-,-,-,"3,660",-,-
+MO,Household income,"    $200,000 and above","52,019",-,-,-,-,"52,019",-,-
+MO,Household income,    Did not report,"18,723",-,"8,449","2,246",-,"8,027",-,-
+MT,Total,Total,"224,138","7,695","17,496","21,808","38,462","135,922","2,507",249
+MT,Age,    18 - 24,"31,059","1,055",-,-,"2,602","27,402",-,-
+MT,Age,    25 - 39,"81,682","2,511","6,601","11,297","22,706","38,567",-,-
+MT,Age,    40 - 54,"54,395",275,"2,143","9,505","3,210","38,978",283,-
+MT,Age,    55 - 64,"28,873",353,"6,033","1,005","4,136","15,879","1,217",249
+MT,Age,    65 and above,"28,129","3,501","2,719",-,"5,808","15,095","1,006",-
+MT,Sex,    Male,"114,920","1,359","6,548",941,"9,072","94,884","2,115",-
+MT,Sex,    Female,"109,218","6,336","10,947","20,867","29,390","41,037",392,249
+MT,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"10,246",-,-,"2,428","1,816","6,001",-,-
+MT,Hispanic origin and Race,"    White alone, not Hispanic","194,752","5,184","16,613","9,318","33,209","127,672","2,507",249
+MT,Hispanic origin and Race,"    Black alone, not Hispanic",-,-,-,-,-,-,-,-
+MT,Hispanic origin and Race,"    Asian alone, not Hispanic",391,-,-,-,-,391,-,-
+MT,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","18,749","2,511",883,"10,062","3,437","1,857",-,-
+MT,Education,    Less than high school,"4,262",-,-,-,"1,678","2,584",-,-
+MT,Education,    High school or GED,"70,140",353,"5,718","14,549","12,626","35,676","1,217",-
+MT,Education,    Some college/associate’s degree,"85,929","7,038","11,071","3,885","15,629","47,409",898,-
+MT,Education,    Bachelor’s degree or higher,"63,807",304,707,"3,373","8,528","50,254",392,249
+MT,Marital status,    Married,"75,704","5,028","8,612","6,747","14,854","40,463",-,-
+MT,Marital status,    Widowed,"12,959",984,-,-,"2,739","9,128",108,-
+MT,Marital status,    Divorced/separated,"49,664",353,"7,503","8,739","5,219","25,734","2,115",-
+MT,Marital status,    Never married,"85,811","1,330","1,381","6,322","15,650","60,597",283,249
+MT,Marital status,    Did not report,-,-,-,-,-,-,-,-
+MT,Presence of children under 18 years old,    Children in household,"52,878","2,511","8,987","10,103","11,152","20,124",-,-
+MT,Presence of children under 18 years old,    No children,"171,260","5,184","8,508","11,704","27,311","115,797","2,507",249
+MT,Respondent or household member experienced loss of employment income,    Yes,"84,349","2,972","5,636","16,887","24,200","34,372",283,-
+MT,Respondent or household member experienced loss of employment income,    No,"139,789","4,723","11,860","4,921","14,262","101,550","2,223",249
+MT,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+MT,Respondent currently employed,    Yes,"107,090","2,667",175,"11,419","23,756","67,606","1,217",249
+MT,Respondent currently employed,    No,"117,048","5,028","17,321","10,388","14,706","68,316","1,289",-
+MT,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+MT,Household income,"    Less than $25,000","68,690",628,"10,947","6,464","12,177","37,576",898,-
+MT,Household income,"    $25,000 - $34,999","45,577","5,909","5,718","6,747","9,396","17,700",108,-
+MT,Household income,"    $35,000 - $49,999","28,123",680,830,"6,687","10,307","9,335",283,-
+MT,Household income,"    $50,000 - $74,999","45,674",-,-,973,"5,299","38,184","1,217",-
+MT,Household income,"    $75,000 - $99,999","17,619",-,-,937,-,"16,682",-,-
+MT,Household income,"    $100,000 - $149,999","15,638",-,-,-,-,"15,638",-,-
+MT,Household income,"    $150,000 - $199,999",-,-,-,-,-,-,-,-
+MT,Household income,"    $200,000 and above","1,304",-,-,-,497,806,-,-
+MT,Household income,    Did not report,"1,513",478,-,-,786,-,-,249
+NE,Total,Total,"458,423","24,121","21,861","62,987","160,699","177,314","10,351","1,090"
+NE,Age,    18 - 24,"27,204",-,-,"2,045","22,234","2,926",-,-
+NE,Age,    25 - 39,"220,967","1,025","1,475","28,671","89,438","88,917","10,351","1,090"
+NE,Age,    40 - 54,"122,407","15,233","20,125","19,560","38,628","28,860",-,-
+NE,Age,    55 - 64,"47,014","1,932",261,"11,815","7,745","25,260",-,-
+NE,Age,    65 and above,"40,832","5,931",-,895,"2,654","31,351",-,-
+NE,Sex,    Male,"245,050","13,718",-,"28,240","84,404","107,733","9,866","1,090"
+NE,Sex,    Female,"213,373","10,403","21,861","34,747","76,295","69,581",485,-
+NE,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"52,934",-,537,"10,802","41,207",389,-,-
+NE,Hispanic origin and Race,"    White alone, not Hispanic","289,346","21,652","9,212","18,851","91,989","136,201","10,351","1,090"
+NE,Hispanic origin and Race,"    Black alone, not Hispanic","69,863",537,"12,112","11,815","27,503","17,896",-,-
+NE,Hispanic origin and Race,"    Asian alone, not Hispanic",-,-,-,-,-,-,-,-
+NE,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","46,279","1,932",-,"21,518",-,"22,828",-,-
+NE,Education,    Less than high school,"27,234",-,-,"12,338","14,896",-,-,-
+NE,Education,    High school or GED,"194,425","20,472","8,013","15,863","65,184","84,893",-,-
+NE,Education,    Some college/associate’s degree,"171,337",537,"13,093","30,978","67,763","48,010","9,866","1,090"
+NE,Education,    Bachelor’s degree or higher,"65,426","3,112",756,"3,808","12,855","44,410",485,-
+NE,Marital status,    Married,"104,215","13,230","8,013","3,499","24,465","55,008",-,-
+NE,Marital status,    Widowed,"7,777",-,-,-,"2,454","5,324",-,-
+NE,Marital status,    Divorced/separated,"118,667","8,471","13,354","14,073","41,333","41,436",-,-
+NE,Marital status,    Never married,"227,764","2,420",495,"45,415","92,447","75,546","10,351","1,090"
+NE,Marital status,    Did not report,-,-,-,-,-,-,-,-
+NE,Presence of children under 18 years old,    Children in household,"216,230","13,766","21,366","44,072","63,560","62,509","9,866","1,090"
+NE,Presence of children under 18 years old,    No children,"242,193","10,354",495,"18,915","97,138","114,805",485,-
+NE,Respondent or household member experienced loss of employment income,    Yes,"258,650","4,423","1,736","45,130","106,444","89,960","9,866","1,090"
+NE,Respondent or household member experienced loss of employment income,    No,"199,773","19,697","20,125","17,857","54,255","87,354",485,-
+NE,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+NE,Respondent currently employed,    Yes,"297,543","2,624","20,125","19,664","104,897","139,883","10,351",-
+NE,Respondent currently employed,    No,"160,880","21,497","1,736","43,323","55,802","37,431",-,"1,090"
+NE,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+NE,Household income,"    Less than $25,000","115,473","10,403","12,607","31,694","31,515","29,253",-,-
+NE,Household income,"    $25,000 - $34,999","116,348",488,261,"23,260","77,637","14,702",-,-
+NE,Household income,"    $35,000 - $49,999","100,727","12,538",980,"3,495","23,115","60,599",-,-
+NE,Household income,"    $50,000 - $74,999","72,523",-,"8,013","3,076","8,925","52,025",485,-
+NE,Household income,"    $75,000 - $99,999","26,715",692,-,-,"10,743","5,414","9,866",-
+NE,Household income,"    $100,000 - $149,999","19,694",-,-,-,"8,762","10,932",-,-
+NE,Household income,"    $150,000 - $199,999","2,087",-,-,-,-,"2,087",-,-
+NE,Household income,"    $200,000 and above","2,303",-,-,-,-,"2,303",-,-
+NE,Household income,    Did not report,"2,553",-,-,"1,463",-,-,-,"1,090"
+NV,Total,Total,"866,990","69,652","128,176","148,616","193,383","314,204","6,527","6,432"
+NV,Age,    18 - 24,"18,257",-,-,"8,239",-,"3,491","6,527",-
+NV,Age,    25 - 39,"318,885","13,726","67,943","31,590","60,262","143,736",-,"1,628"
+NV,Age,    40 - 54,"310,319","38,632","43,442","87,262","79,347","61,636",-,-
+NV,Age,    55 - 64,"124,072","12,178","15,964","14,372","34,798","46,759",-,-
+NV,Age,    65 and above,"95,457","5,116",827,"7,153","18,976","58,582",-,"4,804"
+NV,Sex,    Male,"350,258","23,390","68,604","71,276","106,203","79,157",-,"1,628"
+NV,Sex,    Female,"516,732","46,263","59,572","77,339","87,180","235,047","6,527","4,804"
+NV,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"180,785","32,240","30,065","16,803","21,627","80,050",-,-
+NV,Hispanic origin and Race,"    White alone, not Hispanic","480,007","36,167","84,489","75,221","111,224","166,381","6,527",-
+NV,Hispanic origin and Race,"    Black alone, not Hispanic","93,249","1,246","3,824","42,664","26,943","12,139",-,"6,432"
+NV,Hispanic origin and Race,"    Asian alone, not Hispanic","37,941",-,"7,378","6,915","11,874","11,773",-,-
+NV,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","75,007",-,"2,420","7,013","21,715","43,860",-,-
+NV,Education,    Less than high school,"127,474",-,"20,218","22,788","60,039","24,430",-,-
+NV,Education,    High school or GED,"286,815","45,789","51,701","56,608","35,608","90,581","6,527",-
+NV,Education,    Some college/associate’s degree,"341,096","15,468","42,842","54,424","89,450","132,481",-,"6,432"
+NV,Education,    Bachelor’s degree or higher,"111,605","8,395","13,414","14,796","8,286","66,713",-,-
+NV,Marital status,    Married,"300,110","26,202","22,107","66,463","76,716","106,994",-,"1,628"
+NV,Marital status,    Widowed,"34,354","13,329","3,304",356,"5,475","11,890",-,-
+NV,Marital status,    Divorced/separated,"204,351","14,461","36,572","32,301","38,950","77,263",-,"4,804"
+NV,Marital status,    Never married,"328,175","15,660","66,193","49,496","72,242","118,057","6,527",-
+NV,Marital status,    Did not report,-,-,-,-,-,-,-,-
+NV,Presence of children under 18 years old,    Children in household,"395,951","45,186","73,092","88,850","64,865","115,804","6,527","1,628"
+NV,Presence of children under 18 years old,    No children,"471,039","24,466","55,084","59,766","128,518","198,400",-,"4,804"
+NV,Respondent or household member experienced loss of employment income,    Yes,"565,082","51,135","124,280","92,433","148,773","135,502","6,527","6,432"
+NV,Respondent or household member experienced loss of employment income,    No,"301,908","18,517","3,896","56,183","44,610","178,702",-,-
+NV,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+NV,Respondent currently employed,    Yes,"346,484","24,924","28,649","92,878","80,104","119,930",-,-
+NV,Respondent currently employed,    No,"519,132","44,729","99,527","55,738","111,906","194,274","6,527","6,432"
+NV,Respondent currently employed,    Did not report,"1,373",-,-,-,"1,373",-,-,-
+NV,Household income,"    Less than $25,000","248,768","23,030","80,268","8,467","49,185","83,014",-,"4,804"
+NV,Household income,"    $25,000 - $34,999","189,173","8,395","22,895","33,831","48,690","75,361",-,-
+NV,Household income,"    $35,000 - $49,999","79,804","9,250","8,457","20,240","19,791","22,065",-,-
+NV,Household income,"    $50,000 - $74,999","125,704","5,773","15,827","26,126","36,104","41,875",-,-
+NV,Household income,"    $75,000 - $99,999","132,416","22,548",-,"49,086","39,613","21,169",-,-
+NV,Household income,"    $100,000 - $149,999","64,473",-,-,"10,866",-,"53,608",-,-
+NV,Household income,"    $150,000 - $199,999","19,174",-,-,-,-,"12,648","6,527",-
+NV,Household income,"    $200,000 and above","3,302",656,-,-,-,"2,646",-,-
+NV,Household income,    Did not report,"4,176",-,729,-,-,"1,819",-,"1,628"
+NH,Total,Total,"245,535","11,853","41,478","24,700","61,131","106,374",-,-
+NH,Age,    18 - 24,"16,641",-,-,"7,325","7,173","2,143",-,-
+NH,Age,    25 - 39,"144,392","9,749","26,712","17,374","33,380","57,178",-,-
+NH,Age,    40 - 54,"30,297",627,"3,360",-,"13,008","13,302",-,-
+NH,Age,    55 - 64,"38,637",-,"10,965",-,"6,395","21,277",-,-
+NH,Age,    65 and above,"15,568","1,477",441,-,"1,176","12,474",-,-
+NH,Sex,    Male,"103,762","1,849","11,637","4,330","42,945","43,001",-,-
+NH,Sex,    Female,"141,773","10,004","29,841","20,369","18,186","63,373",-,-
+NH,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"8,466",-,"4,487",-,819,"3,160",-,-
+NH,Hispanic origin and Race,"    White alone, not Hispanic","219,664","11,853","36,990","18,772","57,023","95,026",-,-
+NH,Hispanic origin and Race,"    Black alone, not Hispanic","6,594",-,-,-,"3,289","3,304",-,-
+NH,Hispanic origin and Race,"    Asian alone, not Hispanic","1,256",-,-,-,-,"1,256",-,-
+NH,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","9,555",-,-,"5,928",-,"3,627",-,-
+NH,Education,    Less than high school,"10,771",-,"9,041",-,-,"1,730",-,-
+NH,Education,    High school or GED,"96,184","7,325","6,504","12,517","30,948","38,889",-,-
+NH,Education,    Some college/associate’s degree,"91,679","1,733","25,389","10,796","21,943","31,819",-,-
+NH,Education,    Bachelor’s degree or higher,"46,902","2,795",544,"1,387","8,241","33,936",-,-
+NH,Marital status,    Married,"89,103",627,"5,908","12,448","26,599","43,521",-,-
+NH,Marital status,    Widowed,"6,519",-,441,-,-,"6,077",-,-
+NH,Marital status,    Divorced/separated,"47,095","1,477","21,180","1,844","12,946","9,648",-,-
+NH,Marital status,    Never married,"102,662","9,749","13,948","10,408","21,430","47,128",-,-
+NH,Marital status,    Did not report,156,-,-,-,156,-,-,-
+NH,Presence of children under 18 years old,    Children in household,"101,272","7,325","25,620","16,780","30,652","20,895",-,-
+NH,Presence of children under 18 years old,    No children,"144,263","4,527","15,858","7,920","30,479","85,479",-,-
+NH,Respondent or household member experienced loss of employment income,    Yes,"113,257","7,325","40,592","13,127","32,272","19,941",-,-
+NH,Respondent or household member experienced loss of employment income,    No,"132,122","4,527",885,"11,573","28,704","86,433",-,-
+NH,Respondent or household member experienced loss of employment income,    Did not report,156,-,-,-,156,-,-,-
+NH,Respondent currently employed,    Yes,"115,213","9,058","5,838","9,699","29,900","60,719",-,-
+NH,Respondent currently employed,    No,"130,166","2,795","35,640","15,000","31,075","45,655",-,-
+NH,Respondent currently employed,    Did not report,156,-,-,-,156,-,-,-
+NH,Household income,"    Less than $25,000","45,916","4,156","2,711","16,686","8,087","14,277",-,-
+NH,Household income,"    $25,000 - $34,999","40,570",372,"4,581","2,227","25,026","8,364",-,-
+NH,Household income,"    $35,000 - $49,999","76,453",-,"31,618","5,192","11,152","28,491",-,-
+NH,Household income,"    $50,000 - $74,999","26,503","7,325","2,568",595,"2,181","13,834",-,-
+NH,Household income,"    $75,000 - $99,999","35,733",-,-,-,"9,086","26,647",-,-
+NH,Household income,"    $100,000 - $149,999","17,696",-,-,-,"5,600","12,097",-,-
+NH,Household income,"    $150,000 - $199,999",-,-,-,-,-,-,-,-
+NH,Household income,"    $200,000 and above",866,-,-,-,-,866,-,-
+NH,Household income,    Did not report,"1,798",-,-,-,-,"1,798",-,-
+NJ,Total,Total,"1,895,602","52,152","297,857","332,560","648,262","545,229","19,541",-
+NJ,Age,    18 - 24,"78,177",-,-,"21,669","44,049","12,460",-,-
+NJ,Age,    25 - 39,"844,882",-,"156,786","153,203","351,156","170,225","13,513",-
+NJ,Age,    40 - 54,"677,861","27,911","141,071","138,228","178,633","185,988","6,029",-
+NJ,Age,    55 - 64,"114,029",526,-,"11,665","34,486","67,352",-,-
+NJ,Age,    65 and above,"180,653","23,715",-,"7,795","39,938","109,204",-,-
+NJ,Sex,    Male,"738,348","19,089","157,131","137,067","233,662","171,857","19,541",-
+NJ,Sex,    Female,"1,157,254","33,063","140,726","195,492","414,600","373,372",-,-
+NJ,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"709,715","2,317","181,720","88,701","331,880","105,097",-,-
+NJ,Hispanic origin and Race,"    White alone, not Hispanic","713,231","25,411","24,369","131,560","185,081","327,267","19,541",-
+NJ,Hispanic origin and Race,"    Black alone, not Hispanic","246,015","11,139","18,443","83,352","65,449","67,632",-,-
+NJ,Hispanic origin and Race,"    Asian alone, not Hispanic","140,209","13,285","10,194","28,338","52,250","36,141",-,-
+NJ,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","86,432",-,"63,131",609,"13,600","9,092",-,-
+NJ,Education,    Less than high school,"335,925","16,772","129,820","85,086","95,516","8,731",-,-
+NJ,Education,    High school or GED,"412,091","11,139","84,086","58,784","143,882","114,201",-,-
+NJ,Education,    Some college/associate’s degree,"597,137",-,"58,993","107,584","224,149","206,411",-,-
+NJ,Education,    Bachelor’s degree or higher,"550,449","24,241","24,959","81,106","184,715","215,887","19,541",-
+NJ,Marital status,    Married,"804,467","16,772","161,606","119,409","238,430","248,707","19,541",-
+NJ,Marital status,    Widowed,"118,189","8,113",-,"1,958","10,247","97,872",-,-
+NJ,Marital status,    Divorced/separated,"284,554","15,602","23,797","71,742","92,409","81,003",-,-
+NJ,Marital status,    Never married,"686,922","11,665","112,454","139,451","307,175","116,176",-,-
+NJ,Marital status,    Did not report,"1,470",-,-,-,-,"1,470",-,-
+NJ,Presence of children under 18 years old,    Children in household,"1,011,030","16,772","119,914","201,093","328,544","338,678","6,029",-
+NJ,Presence of children under 18 years old,    No children,"884,572","35,380","177,943","131,467","319,718","206,551","13,513",-
+NJ,Respondent or household member experienced loss of employment income,    Yes,"1,263,737","41,723","286,493","304,594","426,474","184,911","19,541",-
+NJ,Respondent or household member experienced loss of employment income,    No,"631,865","10,430","11,364","27,966","221,788","360,318",-,-
+NJ,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+NJ,Respondent currently employed,    Yes,"833,193","13,811","54,370","87,225","293,149","384,637",-,-
+NJ,Respondent currently employed,    No,"1,062,409","38,341","243,487","245,334","355,113","160,592","19,541",-
+NJ,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+NJ,Household income,"    Less than $25,000","341,294","15,602","74,444","152,005","69,794","29,448",-,-
+NJ,Household income,"    $25,000 - $34,999","307,428",526,"37,374","38,849","190,814","39,865",-,-
+NJ,Household income,"    $35,000 - $49,999","395,532","27,911","15,931","57,879","178,634","115,176",-,-
+NJ,Household income,"    $50,000 - $74,999","421,095","8,113","170,107","34,935","110,208","97,732",-,-
+NJ,Household income,"    $75,000 - $99,999","94,237",-,-,"17,133","28,665","34,926","13,513",-
+NJ,Household income,"    $100,000 - $149,999","90,780",-,-,"5,732","31,607","47,411","6,029",-
+NJ,Household income,"    $150,000 - $199,999","104,417",-,-,"2,585","18,152","83,680",-,-
+NJ,Household income,"    $200,000 and above","122,578",-,-,"6,669","20,388","95,520",-,-
+NJ,Household income,    Did not report,"18,243",-,-,"16,772",-,"1,470",-,-
+NM,Total,Total,"396,607","15,443","23,712","34,196","119,100","199,898","4,257",-
+NM,Age,    18 - 24,"18,329",-,-,466,"11,398","6,465",-,-
+NM,Age,    25 - 39,"179,737","7,776","8,909","17,241","78,343","66,941",526,-
+NM,Age,    40 - 54,"80,325",931,"9,705","16,489","14,300","35,168","3,731",-
+NM,Age,    55 - 64,"70,003","2,594","5,098",-,"7,181","55,130",-,-
+NM,Age,    65 and above,"48,214","4,142",-,-,"7,877","36,195",-,-
+NM,Sex,    Male,"176,082","3,098","7,941","9,681","40,667","114,695",-,-
+NM,Sex,    Female,"220,526","12,345","15,771","24,516","78,433","85,203","4,257",-
+NM,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"146,579","7,618","21,977","12,745","28,744","74,969",526,-
+NM,Hispanic origin and Race,"    White alone, not Hispanic","192,560","7,825","1,735","15,629","60,262","106,911",197,-
+NM,Hispanic origin and Race,"    Black alone, not Hispanic","14,374",-,-,"2,356",-,"12,018",-,-
+NM,Hispanic origin and Race,"    Asian alone, not Hispanic","6,208",-,-,-,"5,790",418,-,-
+NM,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","36,887",-,-,"3,466","24,303","5,583","3,534",-
+NM,Education,    Less than high school,"13,548",-,"7,857","3,189","2,503",-,-,-
+NM,Education,    High school or GED,"97,971","2,813",-,"9,499","6,285","79,374",-,-
+NM,Education,    Some college/associate’s degree,"202,552","11,269","8,056","17,955","85,188","75,827","4,257",-
+NM,Education,    Bachelor’s degree or higher,"82,537","1,361","7,800","3,554","25,124","44,697",-,-
+NM,Marital status,    Married,"129,791","4,682","7,702","18,149","28,285","70,972",-,-
+NM,Marital status,    Widowed,"13,565",443,-,-,"3,156","9,966",-,-
+NM,Marital status,    Divorced/separated,"116,618","3,525","14,719","8,204","40,760","49,213",197,-
+NM,Marital status,    Never married,"136,633","6,792","1,291","7,843","46,899","69,747","4,060",-
+NM,Marital status,    Did not report,-,-,-,-,-,-,-,-
+NM,Presence of children under 18 years old,    Children in household,"159,112","4,509","7,873","25,544","60,985","56,140","4,060",-
+NM,Presence of children under 18 years old,    No children,"237,495","10,934","15,840","8,652","58,115","143,758",197,-
+NM,Respondent or household member experienced loss of employment income,    Yes,"200,440","6,278","15,856","32,736","77,529","63,785","4,257",-
+NM,Respondent or household member experienced loss of employment income,    No,"196,167","9,166","7,857","1,460","41,571","136,114",-,-
+NM,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+NM,Respondent currently employed,    Yes,"205,832","6,656",170,"14,962","70,234","113,810",-,-
+NM,Respondent currently employed,    No,"190,776","8,788","23,542","19,234","48,866","86,089","4,257",-
+NM,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+NM,Household income,"    Less than $25,000","101,144","6,072","17,866","13,226","25,574","37,878",526,-
+NM,Household income,"    $25,000 - $34,999","109,000","6,180","5,676","3,435","46,267","47,245",197,-
+NM,Household income,"    $35,000 - $49,999","56,923","2,813",170,"12,405","15,841","25,695",-,-
+NM,Household income,"    $50,000 - $74,999","65,695",378,-,"2,774","20,961","38,047","3,534",-
+NM,Household income,"    $75,000 - $99,999","34,353",-,-,"2,356","5,414","26,583",-,-
+NM,Household income,"    $100,000 - $149,999","21,380",-,-,-,"2,412","18,968",-,-
+NM,Household income,"    $150,000 - $199,999","4,058",-,-,-,-,"4,058",-,-
+NM,Household income,"    $200,000 and above",984,-,-,-,-,984,-,-
+NM,Household income,    Did not report,"3,072",-,-,-,"2,632",440,-,-
+NY,Total,Total,"5,066,136","28,137","588,255","1,012,170","1,544,395","1,846,957","5,354","40,868"
+NY,Age,    18 - 24,"96,411","7,870",-,"12,219","22,620","23,524",-,"30,177"
+NY,Age,    25 - 39,"2,636,415","16,143","226,243","399,383","947,559","1,047,087",-,-
+NY,Age,    40 - 54,"950,490","4,124","282,756","191,699","112,607","348,024",588,"10,691"
+NY,Age,    55 - 64,"919,201",-,"79,256","284,763","358,912","196,270",-,-
+NY,Age,    65 and above,"463,620",-,-,"124,106","102,697","232,053","4,766",-
+NY,Sex,    Male,"2,585,627","15,613","282,613","479,869","740,635","1,036,720",-,"30,177"
+NY,Sex,    Female,"2,480,509","12,524","305,642","532,301","803,761","810,237","5,354","10,691"
+NY,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"1,338,422",-,"172,583","470,776","401,767","292,707",588,-
+NY,Hispanic origin and Race,"    White alone, not Hispanic","2,198,094","20,267","124,948","191,211","796,672","1,019,363","4,766","40,868"
+NY,Hispanic origin and Race,"    Black alone, not Hispanic","1,002,895","7,870","246,199","208,843","221,469","318,515",-,-
+NY,Hispanic origin and Race,"    Asian alone, not Hispanic","394,426",-,"12,220","141,340","90,522","150,344",-,-
+NY,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","132,298",-,"32,305",-,"33,965","66,029",-,-
+NY,Education,    Less than high school,"288,386",-,"93,988","117,716","76,682",-,-,-
+NY,Education,    High school or GED,"1,973,947",-,"307,870","296,608","717,490","651,980",-,-
+NY,Education,    Some college/associate’s degree,"1,394,255","15,613","131,480","442,372","435,648","333,612","5,354","30,177"
+NY,Education,    Bachelor’s degree or higher,"1,409,549","12,524","54,918","155,475","314,575","861,366",-,"10,691"
+NY,Marital status,    Married,"1,592,317","16,143","56,474","347,341","487,705","684,066",588,-
+NY,Marital status,    Widowed,"115,312",-,"14,234",-,-,"96,313","4,766",-
+NY,Marital status,    Divorced/separated,"894,965",-,"279,607","161,546","173,282","280,531",-,-
+NY,Marital status,    Never married,"2,352,778","11,994","237,940","503,283","883,409","675,283",-,"40,868"
+NY,Marital status,    Did not report,"110,764",-,-,-,-,"110,764",-,-
+NY,Presence of children under 18 years old,    Children in household,"2,084,711","20,267","207,966","542,076","694,773","619,629",-,-
+NY,Presence of children under 18 years old,    No children,"2,981,425","7,870","380,289","470,094","849,622","1,227,328","5,354","40,868"
+NY,Respondent or household member experienced loss of employment income,    Yes,"3,108,497","12,524","564,108","763,354","1,122,517","640,640","5,354",-
+NY,Respondent or household member experienced loss of employment income,    No,"1,957,639","15,613","24,147","248,817","421,878","1,206,317",-,"40,868"
+NY,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+NY,Respondent currently employed,    Yes,"2,229,309","19,737","69,004","233,671","548,205","1,317,824",-,"40,868"
+NY,Respondent currently employed,    No,"2,836,828","8,400","519,251","778,499","996,191","529,133","5,354",-
+NY,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+NY,Household income,"    Less than $25,000","1,269,711","7,870","303,309","319,852","236,775","401,905",-,-
+NY,Household income,"    $25,000 - $34,999","1,163,922","4,124","119,660","209,199","586,547","244,391",-,-
+NY,Household income,"    $35,000 - $49,999","711,621",-,"14,976","284,384","173,108","234,387","4,766",-
+NY,Household income,"    $50,000 - $74,999","446,513","15,613","58,574","29,980","164,980","176,777",588,-
+NY,Household income,"    $75,000 - $99,999","585,646",-,-,"156,796","191,475","237,376",-,-
+NY,Household income,"    $100,000 - $149,999","318,856",530,-,"11,958","106,356","189,321",-,"10,691"
+NY,Household income,"    $150,000 - $199,999","266,683",-,"81,937",-,"35,971","148,775",-,-
+NY,Household income,"    $200,000 and above","248,108",-,-,-,"34,083","214,025",-,-
+NY,Household income,    Did not report,"55,077",-,"9,800",-,"15,101",-,-,"30,177"
+NC,Total,Total,"2,052,961","117,928","318,198","441,348","464,820","701,290","9,377",-
+NC,Age,    18 - 24,"106,125",-,-,"2,806","42,198","61,121",-,-
+NC,Age,    25 - 39,"966,991","40,779","261,593","116,687","238,720","299,835","9,377",-
+NC,Age,    40 - 54,"594,276","17,067","50,224","228,668","99,833","198,484",-,-
+NC,Age,    55 - 64,"100,083",-,"1,161","57,965","9,932","31,025",-,-
+NC,Age,    65 and above,"285,486","60,082","5,219","35,222","74,137","110,825",-,-
+NC,Sex,    Male,"891,343","66,817","181,316","122,392","270,804","242,858","7,155",-
+NC,Sex,    Female,"1,161,619","51,111","136,882","318,956","194,016","458,432","2,221",-
+NC,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"212,384","11,948",373,"77,716","89,106","23,864","9,377",-
+NC,Hispanic origin and Race,"    White alone, not Hispanic","1,096,663","101,325","242,397","121,997","204,890","426,054",-,-
+NC,Hispanic origin and Race,"    Black alone, not Hispanic","494,102","1,111","29,905","238,829","105,014","119,244",-,-
+NC,Hispanic origin and Race,"    Asian alone, not Hispanic","56,471","3,545","40,304",-,-,"12,622",-,-
+NC,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","193,341",-,"5,219","2,806","65,809","119,506",-,-
+NC,Education,    Less than high school,"173,275","11,948","6,527","61,167","80,580","13,054",-,-
+NC,Education,    High school or GED,"736,718","67,238","245,855","161,186","89,835","172,603",-,-
+NC,Education,    Some college/associate’s degree,"699,240","28,346","57,150","165,830","196,093","251,822",-,-
+NC,Education,    Bachelor’s degree or higher,"443,728","10,396","8,667","53,165","98,312","263,812","9,377",-
+NC,Marital status,    Married,"778,231","29,727","47,058","152,908","284,034","255,126","9,377",-
+NC,Marital status,    Widowed,"7,359",-,-,"5,207",104,"2,048",-,-
+NC,Marital status,    Divorced/separated,"383,883","46,418","47,939","120,696","43,198","125,632",-,-
+NC,Marital status,    Never married,"883,488","41,783","223,201","162,536","137,483","318,485",-,-
+NC,Marital status,    Did not report,-,-,-,-,-,-,-,-
+NC,Presence of children under 18 years old,    Children in household,"853,501","21,538","102,568","242,091","310,897","167,030","9,377",-
+NC,Presence of children under 18 years old,    No children,"1,199,460","96,390","215,630","199,257","153,923","534,260",-,-
+NC,Respondent or household member experienced loss of employment income,    Yes,"852,137","97,549","128,681","243,534","182,472","190,524","9,377",-
+NC,Respondent or household member experienced loss of employment income,    No,"1,200,825","20,379","189,517","197,814","282,348","510,767",-,-
+NC,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+NC,Respondent currently employed,    Yes,"1,135,917","18,930","63,647","244,960","310,294","498,086",-,-
+NC,Respondent currently employed,    No,"917,044","98,998","254,551","196,388","154,526","203,204","9,377",-
+NC,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+NC,Household income,"    Less than $25,000","748,126","90,332","261,593","121,614","54,828","212,603","7,155",-
+NC,Household income,"    $25,000 - $34,999","536,149",-,"39,491","170,845","224,895","100,917",-,-
+NC,Household income,"    $35,000 - $49,999","261,012","9,562",-,"68,966","59,234","123,249",-,-
+NC,Household income,"    $50,000 - $74,999","212,625","4,975","1,223","15,663","89,600","101,164",-,-
+NC,Household income,"    $75,000 - $99,999","132,815","1,111","15,891","12,135","25,132","78,546",-,-
+NC,Household income,"    $100,000 - $149,999","98,443",-,-,"14,295","11,130","70,796","2,221",-
+NC,Household income,"    $150,000 - $199,999","2,451",-,-,-,-,"2,451",-,-
+NC,Household income,"    $200,000 and above","3,814",-,-,-,-,"3,814",-,-
+NC,Household income,    Did not report,"57,527","11,948",-,"37,829",-,"7,751",-,-
+ND,Total,Total,"164,349","5,370","22,979","19,105","53,684","58,903","4,306",-
+ND,Age,    18 - 24,"28,434","1,172","9,503","1,172","11,349","5,237",-,-
+ND,Age,    25 - 39,"59,276","1,226","7,565","9,562","25,064","12,029","3,829",-
+ND,Age,    40 - 54,"32,648","1,355","5,911","3,480","10,103","11,798",-,-
+ND,Age,    55 - 64,"20,539","1,617",-,"4,891","6,048","7,984",-,-
+ND,Age,    65 and above,"23,452",-,-,-,"1,120","21,855",477,-
+ND,Sex,    Male,"80,987",687,"10,267","5,567","22,497","38,100","3,870",-
+ND,Sex,    Female,"83,362","4,683","12,712","13,538","31,187","20,804",437,-
+ND,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"17,625",-,-,"2,844","14,152",629,-,-
+ND,Hispanic origin and Race,"    White alone, not Hispanic","120,908","5,370","13,850","9,314","33,182","54,885","4,306",-
+ND,Hispanic origin and Race,"    Black alone, not Hispanic","9,460",-,"6,191","3,270",-,-,-,-
+ND,Hispanic origin and Race,"    Asian alone, not Hispanic","8,174",-,-,"3,330","2,513","2,331",-,-
+ND,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","8,182",-,"2,939",347,"3,838","1,058",-,-
+ND,Education,    Less than high school,"17,188","1,172",-,"3,833","7,343","4,840",-,-
+ND,Education,    High school or GED,"25,576",687,"3,836","6,974","6,748","7,332",-,-
+ND,Education,    Some college/associate’s degree,"81,544","2,175","18,448","6,243","37,148","14,137","3,392",-
+ND,Education,    Bachelor’s degree or higher,"40,041","1,336",696,"2,056","2,445","32,594",914,-
+ND,Marital status,    Married,"79,963","2,175","18,770","9,562","8,648","37,415","3,392",-
+ND,Marital status,    Widowed,"4,801",-,-,-,"2,215","2,586",-,-
+ND,Marital status,    Divorced/separated,"17,875","2,024","2,754","2,615","2,580","7,426",477,-
+ND,Marital status,    Never married,"61,710","1,172","1,455","6,929","40,241","11,477",437,-
+ND,Marital status,    Did not report,-,-,-,-,-,-,-,-
+ND,Presence of children under 18 years old,    Children in household,"45,351","3,067","2,930","14,963","12,779","8,220","3,392",-
+ND,Presence of children under 18 years old,    No children,"118,998","2,304","20,050","4,142","40,905","50,684",914,-
+ND,Respondent or household member experienced loss of employment income,    Yes,"96,083","3,530","22,082","17,107","34,913","15,058","3,392",-
+ND,Respondent or household member experienced loss of employment income,    No,"68,266","1,840",897,"1,998","18,771","43,845",914,-
+ND,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+ND,Respondent currently employed,    Yes,"107,674","2,175","15,415","6,949","34,611","47,610",914,-
+ND,Respondent currently employed,    No,"56,675","3,196","7,565","12,156","19,073","11,293","3,392",-
+ND,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+ND,Household income,"    Less than $25,000","55,944","2,509","2,593","7,744","34,889","8,208",-,-
+ND,Household income,"    $25,000 - $34,999","21,137",687,"13,500","5,355",-,"1,595",-,-
+ND,Household income,"    $35,000 - $49,999","33,096","1,617","5,632","2,335","10,197","9,486","3,829",-
+ND,Household income,"    $50,000 - $74,999","13,551",-,-,"1,635","5,498","5,940",477,-
+ND,Household income,"    $75,000 - $99,999","9,730",558,696,"2,036","1,794","4,645",-,-
+ND,Household income,"    $100,000 - $149,999","28,115",-,558,-,-,"27,557",-,-
+ND,Household income,"    $150,000 - $199,999","1,237",-,-,-,719,518,-,-
+ND,Household income,"    $200,000 and above",954,-,-,-,-,954,-,-
+ND,Household income,    Did not report,586,-,-,-,586,-,-,-
+OH,Total,Total,"2,339,897","160,109","336,006","358,648","566,644","908,627","9,864",-
+OH,Age,    18 - 24,"141,661",-,"49,752","66,446",-,"25,463",-,-
+OH,Age,    25 - 39,"914,562","33,852","131,250","139,432","199,593","405,038","5,396",-
+OH,Age,    40 - 54,"758,061","125,600","123,438","148,667","149,984","208,200","2,170",-
+OH,Age,    55 - 64,"323,006",-,"31,565","4,103","185,311","102,027",-,-
+OH,Age,    65 and above,"202,607",656,-,-,"31,756","167,898","2,298",-
+OH,Sex,    Male,"820,756","141,581","72,371","100,733","151,669","346,835","7,566",-
+OH,Sex,    Female,"1,519,141","18,527","263,634","257,914","414,975","561,792","2,298",-
+OH,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"90,723",-,"30,059","9,502","48,382","2,780",-,-
+OH,Hispanic origin and Race,"    White alone, not Hispanic","1,631,897","40,010","153,921","203,280","487,890","744,626","2,170",-
+OH,Hispanic origin and Race,"    Black alone, not Hispanic","452,715","120,099","124,725","53,254","30,372","121,967","2,298",-
+OH,Hispanic origin and Race,"    Asian alone, not Hispanic","30,335",-,-,-,-,"24,939","5,396",-
+OH,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","134,227",-,"27,301","92,612",-,"14,314",-,-
+OH,Education,    Less than high school,"130,522",-,"28,196","53,987","30,302","18,038",-,-
+OH,Education,    High school or GED,"1,078,332","153,464","140,736","199,716","275,486","308,929",-,-
+OH,Education,    Some college/associate’s degree,"852,516","3,472","166,291","104,945","222,818","352,692","2,298",-
+OH,Education,    Bachelor’s degree or higher,"278,527","3,172",783,-,"38,038","228,968","7,566",-
+OH,Marital status,    Married,"819,078","34,163",-,"172,558","265,106","341,855","5,396",-
+OH,Marital status,    Widowed,"59,659",656,-,-,"17,948","41,055",-,-
+OH,Marital status,    Divorced/separated,"511,796","4,704","187,878","65,294","55,991","195,631","2,298",-
+OH,Marital status,    Never married,"949,364","120,586","148,128","120,796","227,600","330,085","2,170",-
+OH,Marital status,    Did not report,-,-,-,-,-,-,-,-
+OH,Presence of children under 18 years old,    Children in household,"999,228","155,177","205,662","123,920","248,089","260,984","5,396",-
+OH,Presence of children under 18 years old,    No children,"1,340,669","4,931","130,343","234,728","318,556","647,643","4,468",-
+OH,Respondent or household member experienced loss of employment income,    Yes,"1,233,354","125,719","326,849","263,170","258,970","256,475","2,170",-
+OH,Respondent or household member experienced loss of employment income,    No,"1,106,543","34,389","9,157","95,477","307,674","652,152","7,694",-
+OH,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+OH,Respondent currently employed,    Yes,"1,112,762","33,925","65,342","130,418","320,666","552,546","9,864",-
+OH,Respondent currently employed,    No,"1,227,135","126,183","270,663","228,230","245,978","356,081",-,-
+OH,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+OH,Household income,"    Less than $25,000","854,271","124,803","205,222","123,363","230,286","168,427","2,170",-
+OH,Household income,"    $25,000 - $34,999","463,154",725,"31,873","109,952","128,682","191,923",-,-
+OH,Household income,"    $35,000 - $49,999","408,895","30,302","91,257","68,200","96,678","122,457",-,-
+OH,Household income,"    $50,000 - $74,999","284,944","2,487","3,542","43,248","35,562","200,106",-,-
+OH,Household income,"    $75,000 - $99,999","181,046","1,305",-,"13,885","34,825","131,032",-,-
+OH,Household income,"    $100,000 - $149,999","87,892",487,-,-,"23,669","61,439","2,298",-
+OH,Household income,"    $150,000 - $199,999","30,463",-,-,-,-,"30,463",-,-
+OH,Household income,"    $200,000 and above","25,119",-,-,-,"16,943","2,780","5,396",-
+OH,Household income,    Did not report,"4,113",-,"4,113",-,-,-,-,-
+OK,Total,Total,"1,000,595","47,759","154,235","167,909","199,861","406,669","24,162",-
+OK,Age,    18 - 24,"62,901","18,511","13,496","8,437",-,"22,456",-,-
+OK,Age,    25 - 39,"428,728","4,988","76,043","54,681","126,122","166,894",-,-
+OK,Age,    40 - 54,"284,619","16,278","48,983","42,829","30,970","133,740","11,818",-
+OK,Age,    55 - 64,"135,676","7,982","9,540","57,711","26,434","21,665","12,344",-
+OK,Age,    65 and above,"88,671",-,"6,172","4,250","16,335","61,914",-,-
+OK,Sex,    Male,"442,563","6,304","36,249","101,595","59,507","228,986","9,922",-
+OK,Sex,    Female,"558,032","41,455","117,986","66,314","140,354","177,683","14,240",-
+OK,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"56,806",-,"13,305","9,655","14,141","19,705",-,-
+OK,Hispanic origin and Race,"    White alone, not Hispanic","717,681","34,769","112,974","79,118","157,189","333,632",-,-
+OK,Hispanic origin and Race,"    Black alone, not Hispanic","116,996","8,982","17,776","49,996","1,545","26,353","12,344",-
+OK,Hispanic origin and Race,"    Asian alone, not Hispanic","11,499",-,772,-,"6,356","4,371",-,-
+OK,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","97,612","4,008","9,408","29,139","20,631","22,609","11,818",-
+OK,Education,    Less than high school,"97,281","3,069","20,809","12,052",-,"61,352",-,-
+OK,Education,    High school or GED,"451,489","35,768","85,329","127,863","70,386","119,798","12,344",-
+OK,Education,    Some college/associate’s degree,"315,948","8,922","48,097","15,953","66,541","164,616","11,818",-
+OK,Education,    Bachelor’s degree or higher,"135,877",-,-,"12,041","62,934","60,903",-,-
+OK,Marital status,    Married,"479,444","23,278","86,916","123,144","24,522","211,663","9,922",-
+OK,Marital status,    Widowed,"74,547","1,678","3,069","3,334","9,304","44,819","12,344",-
+OK,Marital status,    Divorced/separated,"160,446","17,863","42,023","5,699","18,698","74,267","1,897",-
+OK,Marital status,    Never married,"285,084","4,941","22,227","35,732","147,337","74,847",-,-
+OK,Marital status,    Did not report,"1,074",-,-,-,-,"1,074",-,-
+OK,Presence of children under 18 years old,    Children in household,"509,558","26,895","106,001","59,235","53,751","253,754","9,922",-
+OK,Presence of children under 18 years old,    No children,"491,037","20,864","48,234","108,674","146,110","152,915","14,240",-
+OK,Respondent or household member experienced loss of employment income,    Yes,"719,641","35,217","141,601","139,803","171,346","209,409","22,265",-
+OK,Respondent or household member experienced loss of employment income,    No,"280,954","12,542","12,634","28,106","28,515","197,261","1,897",-
+OK,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+OK,Respondent currently employed,    Yes,"456,873","17,815","20,135","38,727","118,929","247,026","14,240",-
+OK,Respondent currently employed,    No,"543,721","29,944","134,100","129,182","80,932","159,643","9,922",-
+OK,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+OK,Household income,"    Less than $25,000","322,849","23,756","74,186","115,474","29,619","67,470","12,344",-
+OK,Household income,"    $25,000 - $34,999","346,250","18,511","45,830","31,804","124,951","125,154",-,-
+OK,Household income,"    $35,000 - $49,999","104,770","5,492","19,506","7,902","31,089","28,963","11,818",-
+OK,Household income,"    $50,000 - $74,999","85,990",-,"4,943","9,145","11,031","60,871",-,-
+OK,Household income,"    $75,000 - $99,999","106,246",-,"8,998","1,907",-,"95,341",-,-
+OK,Household income,"    $100,000 - $149,999","18,115",-,-,"1,678","3,170","13,267",-,-
+OK,Household income,"    $150,000 - $199,999","1,545",-,-,-,-,"1,545",-,-
+OK,Household income,"    $200,000 and above",458,-,-,-,-,458,-,-
+OK,Household income,    Did not report,"14,372",-,772,-,-,"13,600",-,-
+OR,Total,Total,"983,676","10,620","96,514","156,673","297,568","366,293","6,202","49,807"
+OR,Age,    18 - 24,"90,131",-,"4,093","19,812","16,419",-,-,"49,807"
+OR,Age,    25 - 39,"463,582","5,445","52,472","85,142","107,467","208,167","4,888",-
+OR,Age,    40 - 54,"291,158","1,346","37,374","50,191","116,891","85,356",-,-
+OR,Age,    55 - 64,"59,298","3,428","2,575","1,529","27,817","22,636","1,314",-
+OR,Age,    65 and above,"79,507",401,-,-,"28,973","50,133",-,-
+OR,Sex,    Male,"436,196","1,112","28,530","67,845","109,116","179,786",-,"49,807"
+OR,Sex,    Female,"547,480","9,508","67,984","88,828","188,452","186,507","6,202",-
+OR,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"217,619",-,"7,012","38,357","33,517","84,040","4,888","49,807"
+OR,Hispanic origin and Race,"    White alone, not Hispanic","665,660","10,620","69,263","114,178","218,327","251,958","1,314",-
+OR,Hispanic origin and Race,"    Black alone, not Hispanic","24,061",-,"8,365","2,069",-,"13,626",-,-
+OR,Hispanic origin and Race,"    Asian alone, not Hispanic","29,063",-,"8,365",-,"14,634","6,063",-,-
+OR,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","47,273",-,"3,508","2,069","31,090","10,606",-,-
+OR,Education,    Less than high school,"41,934",-,"2,326","18,209",-,"21,400",-,-
+OR,Education,    High school or GED,"377,446","7,455","32,839","87,004","93,335","107,007",-,"49,807"
+OR,Education,    Some college/associate’s degree,"347,668",-,"39,310","33,391","148,892","124,761","1,314",-
+OR,Education,    Bachelor’s degree or higher,"216,628","3,165","22,040","18,070","55,341","113,124","4,888",-
+OR,Marital status,    Married,"316,999",-,"33,686","45,106","108,249","125,070","4,888",-
+OR,Marital status,    Widowed,"27,029",-,-,-,"16,561","9,155","1,314",-
+OR,Marital status,    Divorced/separated,"196,912","8,090","20,206","51,138","54,501","62,979",-,-
+OR,Marital status,    Never married,"442,735","2,530","42,622","60,429","118,257","169,089",-,"49,807"
+OR,Marital status,    Did not report,-,-,-,-,-,-,-,-
+OR,Presence of children under 18 years old,    Children in household,"352,432","5,373","65,299","81,481","88,583","106,808","4,888",-
+OR,Presence of children under 18 years old,    No children,"631,243","5,247","31,215","75,192","208,985","259,485","1,314","49,807"
+OR,Respondent or household member experienced loss of employment income,    Yes,"620,546","6,791","96,514","118,567","167,230","176,750","4,888","49,807"
+OR,Respondent or household member experienced loss of employment income,    No,"363,129","3,829",-,"38,106","130,338","189,543","1,314",-
+OR,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+OR,Respondent currently employed,    Yes,"547,236","3,428","17,694","65,256","172,962","231,888","6,202","49,807"
+OR,Respondent currently employed,    No,"436,439","7,192","78,820","91,417","124,605","134,405",-,-
+OR,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+OR,Household income,"    Less than $25,000","358,496","7,689","47,254","75,584","77,752","100,411",-,"49,807"
+OR,Household income,"    $25,000 - $34,999","155,606",-,-,"41,354","74,373","38,565","1,314",-
+OR,Household income,"    $35,000 - $49,999","149,300","1,819","18,197","14,175","37,879","77,231",-,-
+OR,Household income,"    $50,000 - $74,999","150,735",-,"12,863","23,308","61,912","52,652",-,-
+OR,Household income,"    $75,000 - $99,999","70,242","1,112","10,145","2,252","25,199","31,534",-,-
+OR,Household income,"    $100,000 - $149,999","71,871",-,"8,054",-,"12,412","51,405",-,-
+OR,Household income,"    $150,000 - $199,999","13,223",-,-,-,-,"8,335","4,888",-
+OR,Household income,"    $200,000 and above","14,201",-,-,-,"8,042","6,159",-,-
+OR,Household income,    Did not report,-,-,-,-,-,-,-,-
+PA,Total,Total,"2,482,809","94,288","458,196","308,396","736,751","843,035","39,257","2,887"
+PA,Age,    18 - 24,"138,961",-,-,-,"90,360","48,601",-,-
+PA,Age,    25 - 39,"1,124,039","64,217","163,193","167,074","291,198","435,470",-,"2,887"
+PA,Age,    40 - 54,"694,826","1,564","294,854","130,187","139,777","105,488","22,957",-
+PA,Age,    55 - 64,"269,068","1,521",149,"6,993","160,749","83,356","16,299",-
+PA,Age,    65 and above,"255,915","26,986",-,"4,142","54,667","170,120",-,-
+PA,Sex,    Male,"1,251,055","56,186","256,934","120,347","429,798","382,562","2,340","2,887"
+PA,Sex,    Female,"1,231,755","38,101","201,262","188,049","306,953","460,473","36,917",-
+PA,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"188,628","2,340","68,419","45,127","65,545","7,197",-,-
+PA,Hispanic origin and Race,"    White alone, not Hispanic","1,592,706","37,217","184,802","217,724","382,946","748,345","21,672",-
+PA,Hispanic origin and Race,"    Black alone, not Hispanic","529,748","7,623","190,715","34,347","229,397","47,194","17,585","2,887"
+PA,Hispanic origin and Race,"    Asian alone, not Hispanic","34,631",-,-,"5,348","10,141","19,142",-,-
+PA,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","137,096","47,108","14,260","5,850","48,722","21,156",-,-
+PA,Education,    Less than high school,"134,887","7,623","14,260","28,715","84,289",-,-,-
+PA,Education,    High school or GED,"1,234,702",-,"362,884","145,336","386,399","324,839","15,245",-
+PA,Education,    Some college/associate’s degree,"688,746","58,214","71,358","102,777","186,646","245,739","24,012",-
+PA,Education,    Bachelor’s degree or higher,"424,474","28,451","9,695","31,567","79,417","272,456",-,"2,887"
+PA,Marital status,    Married,"942,889","30,152","249,644","103,167","227,420","317,261","15,245",-
+PA,Marital status,    Widowed,"49,705","1,620",-,"3,059","11,234","33,792",-,-
+PA,Marital status,    Divorced/separated,"517,468","47,108","102,388","112,946","65,297","168,057","21,672",-
+PA,Marital status,    Never married,"970,407","15,408","106,163","89,225","432,799","323,925",-,"2,887"
+PA,Marital status,    Did not report,"2,340",-,-,-,-,-,"2,340",-
+PA,Presence of children under 18 years old,    Children in household,"939,510","9,963","183,518","155,855","321,448","234,841","33,885",-
+PA,Presence of children under 18 years old,    No children,"1,543,299","84,325","274,678","152,541","415,303","608,193","5,372","2,887"
+PA,Respondent or household member experienced loss of employment income,    Yes,"1,558,905","87,967","376,027","247,157","521,261","300,648","22,957","2,887"
+PA,Respondent or household member experienced loss of employment income,    No,"923,904","6,320","82,169","61,239","215,490","542,387","16,299",-
+PA,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+PA,Respondent currently employed,    Yes,"1,160,933","49,965","163,358","95,707","353,551","492,981","5,372",-
+PA,Respondent currently employed,    No,"1,321,876","44,323","294,838","212,690","383,200","350,054","33,885","2,887"
+PA,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+PA,Household income,"    Less than $25,000","835,392","56,294","189,885","83,949","299,442","168,905","36,917",-
+PA,Household income,"    $25,000 - $34,999","631,941","30,152","160,304","58,483","151,048","231,954",-,-
+PA,Household income,"    $35,000 - $49,999","317,324","6,320","34,029","121,399","105,050","48,186","2,340",-
+PA,Household income,"    $50,000 - $74,999","275,060","1,521","63,259","8,407","81,348","120,525",-,-
+PA,Household income,"    $75,000 - $99,999","152,058",-,"5,474","11,418","67,368","67,799",-,-
+PA,Household income,"    $100,000 - $149,999","140,523",-,-,"17,118","21,272","102,134",-,-
+PA,Household income,"    $150,000 - $199,999","54,988",-,"5,245",-,"3,740","46,003",-,-
+PA,Household income,"    $200,000 and above","37,788",-,-,"7,623",-,"30,166",-,-
+PA,Household income,    Did not report,"37,733",-,-,-,"7,482","27,364",-,"2,887"
+RI,Total,Total,"215,863","6,982","20,575","28,626","36,572","123,108",-,-
+RI,Age,    18 - 24,"18,708",-,-,-,487,"18,221",-,-
+RI,Age,    25 - 39,"101,330","4,506","14,136","13,336","16,743","52,609",-,-
+RI,Age,    40 - 54,"64,712","1,293","5,781","14,241","10,765","32,632",-,-
+RI,Age,    55 - 64,"12,676",963,-,178,"4,075","7,460",-,-
+RI,Age,    65 and above,"18,437",220,658,871,"4,502","12,186",-,-
+RI,Sex,    Male,"80,625",-,825,"9,390","5,933","64,477",-,-
+RI,Sex,    Female,"135,238","6,982","19,750","19,236","30,639","58,631",-,-
+RI,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"42,433","4,506","9,121","11,564","7,644","9,597",-,-
+RI,Hispanic origin and Race,"    White alone, not Hispanic","150,360","2,476","7,971","14,892","28,384","96,638",-,-
+RI,Hispanic origin and Race,"    Black alone, not Hispanic","17,265",-,-,"1,960",180,"15,125",-,-
+RI,Hispanic origin and Race,"    Asian alone, not Hispanic","5,232",-,"3,484",-,-,"1,748",-,-
+RI,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic",574,-,-,210,364,-,-,-
+RI,Education,    Less than high school,"23,299",-,-,"6,760","9,746","6,794",-,-
+RI,Education,    High school or GED,"64,422","5,469","10,880","7,251","10,642","30,180",-,-
+RI,Education,    Some college/associate’s degree,"68,506","1,293","9,517","11,501","12,571","33,624",-,-
+RI,Education,    Bachelor’s degree or higher,"59,637",220,178,"3,115","3,613","52,510",-,-
+RI,Marital status,    Married,"115,599","2,476","12,002","14,895","3,789","82,437",-,-
+RI,Marital status,    Widowed,"4,549",-,658,-,"3,149",742,-,-
+RI,Marital status,    Divorced/separated,"31,108",-,"2,297","7,041","5,463","16,307",-,-
+RI,Marital status,    Never married,"64,607","4,506","5,618","6,690","24,171","23,622",-,-
+RI,Marital status,    Did not report,-,-,-,-,-,-,-,-
+RI,Presence of children under 18 years old,    Children in household,"98,694","5,799","9,779","15,174","18,949","48,992",-,-
+RI,Presence of children under 18 years old,    No children,"117,170","1,183","10,796","13,453","17,623","74,115",-,-
+RI,Respondent or household member experienced loss of employment income,    Yes,"124,974","1,293","8,993","17,239","29,942","67,507",-,-
+RI,Respondent or household member experienced loss of employment income,    No,"90,890","5,689","11,582","11,388","6,629","55,601",-,-
+RI,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+RI,Respondent currently employed,    Yes,"113,371","2,476","4,670","9,179","13,268","83,778",-,-
+RI,Respondent currently employed,    No,"102,492","4,506","15,905","19,447","23,303","39,330",-,-
+RI,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+RI,Household income,"    Less than $25,000","76,437","4,506","10,641","13,477","18,293","29,519",-,-
+RI,Household income,"    $25,000 - $34,999","19,315",-,-,"6,782","2,167","10,366",-,-
+RI,Household income,"    $35,000 - $49,999","26,260",-,"8,154","4,103","6,916","7,087",-,-
+RI,Household income,"    $50,000 - $74,999","21,390","2,255",-,467,"7,334","11,334",-,-
+RI,Household income,"    $75,000 - $99,999","26,767",-,"1,780","2,403","1,862","20,722",-,-
+RI,Household income,"    $100,000 - $149,999","39,075",-,-,"1,393",-,"37,682",-,-
+RI,Household income,"    $150,000 - $199,999","6,014",-,-,-,-,"6,014",-,-
+RI,Household income,"    $200,000 and above",220,220,-,-,-,-,-,-
+RI,Household income,    Did not report,385,-,-,-,-,385,-,-
+SC,Total,Total,"1,075,262","28,263","94,091","395,232","238,360","300,054","19,262",-
+SC,Age,    18 - 24,"116,937","8,616","12,296","82,770","11,963","1,293",-,-
+SC,Age,    25 - 39,"312,679",-,"31,791","55,094","98,375","125,072","2,346",-
+SC,Age,    40 - 54,"489,836","7,080","27,518","244,336","110,007","100,896",-,-
+SC,Age,    55 - 64,"105,955","3,008","22,486","13,032","5,303","45,210","16,916",-
+SC,Age,    65 and above,"49,856","9,559",-,-,"12,713","27,583",-,-
+SC,Sex,    Male,"468,699","10,844","27,972","215,206","65,378","132,382","16,916",-
+SC,Sex,    Female,"606,563","17,419","66,119","180,026","172,981","167,672","2,346",-
+SC,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"14,228","7,331",-,-,"4,668","2,229",-,-
+SC,Hispanic origin and Race,"    White alone, not Hispanic","445,486","20,932","27,127","52,626","122,694","202,845","19,262",-
+SC,Hispanic origin and Race,"    Black alone, not Hispanic","576,453",-,"65,629","342,606","110,998","57,220",-,-
+SC,Hispanic origin and Race,"    Asian alone, not Hispanic","18,581",-,-,-,-,"18,581",-,-
+SC,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","20,514",-,"1,334",-,-,"19,179",-,-
+SC,Education,    Less than high school,"119,755",-,"26,743","85,788","7,224",-,-,-
+SC,Education,    High school or GED,"480,139","3,008","22,486","268,222","75,934","93,573","16,916",-
+SC,Education,    Some college/associate’s degree,"322,059","7,080","40,216","29,574","121,285","121,557","2,346",-
+SC,Education,    Bachelor’s degree or higher,"153,308","18,175","4,645","11,648","33,916","84,924",-,-
+SC,Marital status,    Married,"322,974","6,948","9,951","40,550","115,737","132,871","16,916",-
+SC,Marital status,    Widowed,"28,804","10,339","14,078",-,726,"3,661",-,-
+SC,Marital status,    Divorced/separated,"387,229","2,360","4,458","237,149","76,984","66,277",-,-
+SC,Marital status,    Never married,"336,256","8,616","65,604","117,533","44,913","97,245","2,346",-
+SC,Marital status,    Did not report,-,-,-,-,-,-,-,-
+SC,Presence of children under 18 years old,    Children in household,"405,958","5,368","65,466","145,026","100,602","87,150","2,346",-
+SC,Presence of children under 18 years old,    No children,"669,304","22,895","28,624","250,206","137,758","212,904","16,916",-
+SC,Respondent or household member experienced loss of employment income,    Yes,"688,557","7,728","80,463","285,640","153,476","141,988","19,262",-
+SC,Respondent or household member experienced loss of employment income,    No,"386,704","20,535","13,627","109,592","84,884","158,066",-,-
+SC,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+SC,Respondent currently employed,    Yes,"554,160","8,616","25,549","186,542","143,073","190,380",-,-
+SC,Respondent currently employed,    No,"521,102","19,648","68,541","208,690","95,287","109,674","19,262",-
+SC,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+SC,Household income,"    Less than $25,000","205,938","14,411","62,770","51,942","56,560","17,909","2,346",-
+SC,Household income,"    $25,000 - $34,999","145,000","11,624","8,588","3,112","71,233","33,527","16,916",-
+SC,Household income,"    $35,000 - $49,999","259,788",-,"7,091","134,918","36,192","81,587",-,-
+SC,Household income,"    $50,000 - $74,999","337,713",-,"2,860","196,677","56,952","81,223",-,-
+SC,Household income,"    $75,000 - $99,999","54,101",-,"12,293",-,"17,423","24,385",-,-
+SC,Household income,"    $100,000 - $149,999","49,971","2,228",488,-,-,"47,255",-,-
+SC,Household income,"    $150,000 - $199,999","5,375",-,-,-,-,"5,375",-,-
+SC,Household income,"    $200,000 and above","8,793",-,-,-,-,"8,793",-,-
+SC,Household income,    Did not report,"8,583",-,-,"8,583",-,-,-,-
+SD,Total,Total,"174,742","5,537","10,408","42,094","40,771","75,700",232,-
+SD,Age,    18 - 24,"1,737",-,-,-,889,847,-,-
+SD,Age,    25 - 39,"104,916","1,463","9,193","37,534","19,058","37,669",-,-
+SD,Age,    40 - 54,"28,206",-,"1,215","2,798","6,426","17,767",-,-
+SD,Age,    55 - 64,"13,162","3,446",-,-,"4,572","5,144",-,-
+SD,Age,    65 and above,"26,720",629,-,"1,762","9,826","14,272",232,-
+SD,Sex,    Male,"89,281","4,075","4,190","26,541","24,054","30,421",-,-
+SD,Sex,    Female,"85,461","1,463","6,217","15,553","16,717","45,279",232,-
+SD,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"4,190",-,"4,190",-,-,-,-,-
+SD,Hispanic origin and Race,"    White alone, not Hispanic","161,916","5,537","6,217","42,094","36,157","71,679",232,-
+SD,Hispanic origin and Race,"    Black alone, not Hispanic","3,501",-,-,-,"3,501",-,-,-
+SD,Hispanic origin and Race,"    Asian alone, not Hispanic",783,-,-,-,783,-,-,-
+SD,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","4,351",-,-,-,330,"4,021",-,-
+SD,Education,    Less than high school,"16,143",-,-,"6,439","1,570","8,134",-,-
+SD,Education,    High school or GED,"63,638","1,463","3,220","30,009","8,099","20,848",-,-
+SD,Education,    Some college/associate’s degree,"73,905","3,674","2,668","2,272","27,944","37,346",-,-
+SD,Education,    Bachelor’s degree or higher,"21,056",400,"4,520","3,374","3,158","9,371",232,-
+SD,Marital status,    Married,"57,089","2,370","3,865","1,149","13,040","36,664",-,-
+SD,Marital status,    Widowed,"4,920",-,-,"1,762","2,058",868,232,-
+SD,Marital status,    Divorced/separated,"34,760","3,167","1,660","2,983","7,927","19,023",-,-
+SD,Marital status,    Never married,"77,803",-,"4,883","36,200","17,575","19,145",-,-
+SD,Marital status,    Did not report,170,-,-,-,170,-,-,-
+SD,Presence of children under 18 years old,    Children in household,"57,865",-,"5,644","10,611","15,089","26,521",-,-
+SD,Presence of children under 18 years old,    No children,"116,877","5,537","4,764","31,483","25,682","49,178",232,-
+SD,Respondent or household member experienced loss of employment income,    Yes,"91,203","1,851","5,973","39,406","30,500","13,472",-,-
+SD,Respondent or household member experienced loss of employment income,    No,"83,539","3,686","4,434","2,688","10,270","62,228",232,-
+SD,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+SD,Respondent currently employed,    Yes,"120,888","4,749","1,660","32,299","27,098","55,083",-,-
+SD,Respondent currently employed,    No,"53,854",789,"8,748","9,795","13,673","20,617",232,-
+SD,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+SD,Household income,"    Less than $25,000","75,755","1,463","4,879","32,475","4,553","32,385",-,-
+SD,Household income,"    $25,000 - $34,999","16,036",228,"2,223",-,"9,024","4,560",-,-
+SD,Household income,"    $35,000 - $49,999","33,500",-,330,"8,006","18,931","6,233",-,-
+SD,Household income,"    $50,000 - $74,999","22,492","1,982",-,-,"4,884","15,394",232,-
+SD,Household income,"    $75,000 - $99,999","14,901","1,476","2,976","1,612",-,"8,837",-,-
+SD,Household income,"    $100,000 - $149,999","6,602",-,-,-,-,"6,602",-,-
+SD,Household income,"    $150,000 - $199,999",-,-,-,-,-,-,-,-
+SD,Household income,"    $200,000 and above",-,-,-,-,-,-,-,-
+SD,Household income,    Did not report,"5,456",388,-,-,"3,379","1,689",-,-
+TN,Total,Total,"1,533,904","49,878","127,426","169,351","722,771","464,478",-,-
+TN,Age,    18 - 24,"115,778",-,-,"33,067","51,194","31,517",-,-
+TN,Age,    25 - 39,"810,434","6,002","80,294","49,339","421,464","253,334",-,-
+TN,Age,    40 - 54,"460,465","38,859","40,752","46,157","204,047","130,650",-,-
+TN,Age,    55 - 64,"78,736",-,"3,647","39,673","9,949","25,466",-,-
+TN,Age,    65 and above,"68,492","5,017","2,733","1,114","36,117","23,512",-,-
+TN,Sex,    Male,"667,867","10,914","10,940","43,430","374,189","228,393",-,-
+TN,Sex,    Female,"866,038","38,964","116,486","125,920","348,581","236,086",-,-
+TN,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"349,549",-,"8,011","11,711","326,090","3,737",-,-
+TN,Hispanic origin and Race,"    White alone, not Hispanic","835,807","28,279","86,774","84,902","246,118","389,733",-,-
+TN,Hispanic origin and Race,"    Black alone, not Hispanic","291,616","21,599","32,641","47,532","130,000","59,844",-,-
+TN,Hispanic origin and Race,"    Asian alone, not Hispanic","14,572",-,-,-,"3,408","11,164",-,-
+TN,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","42,360",-,-,"25,206","17,155",-,-,-
+TN,Education,    Less than high school,"203,537",-,-,"26,934","167,849","8,755",-,-
+TN,Education,    High school or GED,"645,879","1,762","54,451","54,948","377,014","157,704",-,-
+TN,Education,    Some college/associate’s degree,"432,516","40,521","53,976","70,436","120,587","146,997",-,-
+TN,Education,    Bachelor’s degree or higher,"251,972","7,596","18,999","17,033","57,321","151,023",-,-
+TN,Marital status,    Married,"517,223","4,864","54,284","71,961","120,738","265,377",-,-
+TN,Marital status,    Widowed,"51,323","2,732","6,013","14,399",-,"28,179",-,-
+TN,Marital status,    Divorced/separated,"319,788","6,404","17,797","21,843","236,661","37,083",-,-
+TN,Marital status,    Never married,"612,064","35,878","49,333","61,147","342,841","122,865",-,-
+TN,Marital status,    Did not report,"33,505",-,-,-,"22,531","10,974",-,-
+TN,Presence of children under 18 years old,    Children in household,"869,094","19,022","77,532","68,491","495,161","208,887",-,-
+TN,Presence of children under 18 years old,    No children,"664,810","30,856","49,894","100,859","227,609","255,591",-,-
+TN,Respondent or household member experienced loss of employment income,    Yes,"906,295","33,447","113,228","125,348","486,546","147,727",-,-
+TN,Respondent or household member experienced loss of employment income,    No,"627,609","16,431","14,199","44,003","236,225","316,751",-,-
+TN,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+TN,Respondent currently employed,    Yes,"753,408","9,653","56,803","88,307","297,752","300,893",-,-
+TN,Respondent currently employed,    No,"780,496","40,226","70,623","81,043","425,019","163,585",-,-
+TN,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+TN,Household income,"    Less than $25,000","447,314","25,170","66,791","83,357","204,664","67,332",-,-
+TN,Household income,"    $25,000 - $34,999","269,374","4,241","6,315","50,042","161,675","47,102",-,-
+TN,Household income,"    $35,000 - $49,999","288,853","12,871","35,266","12,967","55,820","171,929",-,-
+TN,Household income,"    $50,000 - $74,999","390,330","5,017","7,723","22,984","259,970","94,636",-,-
+TN,Household income,"    $75,000 - $99,999","80,690",-,"11,331",-,"24,547","44,813",-,-
+TN,Household income,"    $100,000 - $149,999","28,562","2,579",-,-,"5,366","20,617",-,-
+TN,Household income,"    $150,000 - $199,999","12,837",-,-,-,658,"12,179",-,-
+TN,Household income,"    $200,000 and above","5,872",-,-,-,-,"5,872",-,-
+TN,Household income,    Did not report,"10,072",-,-,-,"10,072",-,-,-
+TX,Total,Total,"7,167,494","483,437","1,310,446","1,717,767","1,490,238","2,113,615","51,459",531
+TX,Age,    18 - 24,"352,680",-,"8,426","112,190","67,579","164,484",-,-
+TX,Age,    25 - 39,"4,095,931","221,677","856,089","1,363,510","766,612","887,039","1,004",-
+TX,Age,    40 - 54,"1,419,973","101,270","294,571","205,720","279,083","516,723","22,075",531
+TX,Age,    55 - 64,"688,406","30,706","151,360","10,738","283,333","212,269",-,-
+TX,Age,    65 and above,"610,504","129,785",-,"25,609","93,630","333,100","28,380",-
+TX,Sex,    Male,"3,100,689","316,803","749,755","496,689","524,523","1,012,919",-,-
+TX,Sex,    Female,"4,066,805","166,634","560,691","1,221,078","965,715","1,100,697","51,459",531
+TX,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"2,348,955","261,203","375,306","555,102","801,038","356,306",-,-
+TX,Hispanic origin and Race,"    White alone, not Hispanic","2,755,900","98,181","485,386","628,347","472,598","1,062,663","8,193",531
+TX,Hispanic origin and Race,"    Black alone, not Hispanic","1,612,257","124,053","441,265","346,198","156,681","519,126","24,934",-
+TX,Hispanic origin and Race,"    Asian alone, not Hispanic","299,382",-,-,"149,153","10,463","121,433","18,332",-
+TX,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","151,001",-,"8,488","38,968","49,458","54,087",-,-
+TX,Education,    Less than high school,"524,382","17,759","90,708","200,039","186,280","11,263","18,332",-
+TX,Education,    High school or GED,"3,295,863","257,153","933,966","786,597","509,087","809,060",-,-
+TX,Education,    Some college/associate’s degree,"2,308,970","183,969","204,772","668,985","555,247","688,809","7,189",-
+TX,Education,    Bachelor’s degree or higher,"1,038,278","24,556","80,999","62,147","239,624","604,483","25,937",531
+TX,Marital status,    Married,"2,911,048","261,659","596,256","555,977","608,026","869,794","19,336",-
+TX,Marital status,    Widowed,"178,978","5,607","12,433","33,976","14,760","112,202",-,-
+TX,Marital status,    Divorced/separated,"1,361,189","69,816","283,262","299,183","375,643","332,753",-,531
+TX,Marital status,    Never married,"2,716,279","146,355","418,495","828,632","491,808","798,866","32,122",-
+TX,Marital status,    Did not report,-,-,-,-,-,-,-,-
+TX,Presence of children under 18 years old,    Children in household,"3,861,761","172,178","858,836","1,153,663","847,860","806,497","22,195",531
+TX,Presence of children under 18 years old,    No children,"3,305,733","311,259","451,610","564,105","642,378","1,307,118","29,263",-
+TX,Respondent or household member experienced loss of employment income,    Yes,"4,135,135","142,346","1,017,323","1,467,256","897,372","588,643","22,195",-
+TX,Respondent or household member experienced loss of employment income,    No,"3,032,358","341,092","293,123","250,511","592,866","1,524,972","29,263",531
+TX,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+TX,Respondent currently employed,    Yes,"3,553,353","206,204","557,402","856,044","654,639","1,256,457","22,075",531
+TX,Respondent currently employed,    No,"3,614,141","277,233","753,044","861,723","835,599","857,158","29,384",-
+TX,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+TX,Household income,"    Less than $25,000","2,433,822","265,495","554,244","899,208","207,699","498,984","8,193",-
+TX,Household income,"    $25,000 - $34,999","915,247","5,607","180,449","237,391","378,106","113,694",-,-
+TX,Household income,"    $35,000 - $49,999","1,100,858","29,047","103,919","252,295","438,749","237,324","39,524",-
+TX,Household income,"    $50,000 - $74,999","1,516,127","7,365","374,420","145,226","267,286","721,831",-,-
+TX,Household income,"    $75,000 - $99,999","551,969","60,839","16,283","170,503","141,535","159,066","3,742",-
+TX,Household income,"    $100,000 - $149,999","304,199","2,444","61,304","4,516","36,627","199,308",-,-
+TX,Household income,"    $150,000 - $199,999","154,286","111,716","18,713",-,"4,975","18,882",-,-
+TX,Household income,"    $200,000 and above","85,383",923,-,-,-,"84,460",-,-
+TX,Household income,    Did not report,"105,601",-,"1,114","8,628","15,262","80,067",-,531
+UT,Total,Total,"527,085","11,747","24,971","108,591","98,358","262,600","20,818",-
+UT,Age,    18 - 24,"105,513",-,-,"2,816","20,756","81,941",-,-
+UT,Age,    25 - 39,"247,213","7,110","22,876","76,565","33,162","87,900","19,599",-
+UT,Age,    40 - 54,"87,692",-,"2,095","27,795","30,043","26,540","1,219",-
+UT,Age,    55 - 64,"27,960","3,609",-,"1,414","11,359","11,578",-,-
+UT,Age,    65 and above,"58,707","1,028",-,-,"3,038","54,641",-,-
+UT,Sex,    Male,"215,142","7,313","6,297","17,099","38,084","126,749","19,599",-
+UT,Sex,    Female,"311,943","4,434","18,673","91,491","60,274","135,851","1,219",-
+UT,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"34,354",-,566,"5,721","17,064","11,003",-,-
+UT,Hispanic origin and Race,"    White alone, not Hispanic","434,811","11,747","24,405","92,452","62,692","242,296","1,219",-
+UT,Hispanic origin and Race,"    Black alone, not Hispanic","8,920",-,-,-,"6,794","2,127",-,-
+UT,Hispanic origin and Race,"    Asian alone, not Hispanic","30,431",-,-,-,"9,149","1,683","19,599",-
+UT,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","18,568",-,-,"10,417","2,659","5,492",-,-
+UT,Education,    Less than high school,"27,614",-,-,"12,632","4,891","10,090",-,-
+UT,Education,    High school or GED,"156,702","1,981","6,297","65,300","19,812","43,713","19,599",-
+UT,Education,    Some college/associate’s degree,"244,774","5,442","7,822","21,200","61,681","148,629",-,-
+UT,Education,    Bachelor’s degree or higher,"97,995","4,325","10,851","9,459","11,973","60,169","1,219",-
+UT,Marital status,    Married,"321,108","4,082","2,095","74,429","63,975","176,527",-,-
+UT,Marital status,    Widowed,"5,455",-,-,-,"1,028","4,427",-,-
+UT,Marital status,    Divorced/separated,"73,481","1,981","1,308","15,570","12,872","41,751",-,-
+UT,Marital status,    Never married,"125,822","5,685","21,569","18,591","20,483","39,896","19,599",-
+UT,Marital status,    Did not report,"1,219",-,-,-,-,-,"1,219",-
+UT,Presence of children under 18 years old,    Children in household,"216,664",-,"9,279","84,440","52,824","68,903","1,219",-
+UT,Presence of children under 18 years old,    No children,"310,421","11,747","15,692","24,151","45,534","193,697","19,599",-
+UT,Respondent or household member experienced loss of employment income,    Yes,"301,754","7,010","23,141","42,652","56,532","152,819","19,599",-
+UT,Respondent or household member experienced loss of employment income,    No,"224,349","4,738","1,830","65,938","40,844","109,781","1,219",-
+UT,Respondent or household member experienced loss of employment income,    Did not report,982,-,-,-,982,-,-,-
+UT,Respondent currently employed,    Yes,"349,190","5,685","1,830","84,625","72,197","183,635","1,219",-
+UT,Respondent currently employed,    No,"177,895","6,063","23,141","23,966","26,161","78,965","19,599",-
+UT,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+UT,Household income,"    Less than $25,000","172,647","3,003","22,311","23,460","25,973","78,301","19,599",-
+UT,Household income,"    $25,000 - $34,999","128,668","3,609","1,830","70,726","23,739","28,764",-,-
+UT,Household income,"    $35,000 - $49,999","51,222","1,426",-,"6,476","16,411","26,910",-,-
+UT,Household income,"    $50,000 - $74,999","90,697","3,710",831,"7,515","16,954","61,688",-,-
+UT,Household income,"    $75,000 - $99,999","45,078",-,-,-,"11,126","33,952",-,-
+UT,Household income,"    $100,000 - $149,999","12,898",-,-,413,"1,537","10,948",-,-
+UT,Household income,"    $150,000 - $199,999","7,919",-,-,-,"1,532","6,387",-,-
+UT,Household income,"    $200,000 and above","2,304",-,-,-,"1,085",-,"1,219",-
+UT,Household income,    Did not report,"15,651",-,-,-,-,"15,651",-,-
+VT,Total,Total,"82,332","12,562",340,"5,645","23,442","40,003",-,340
+VT,Age,    18 - 24,391,-,-,391,-,-,-,-
+VT,Age,    25 - 39,"41,989","1,113",-,"1,981","15,723","23,171",-,-
+VT,Age,    40 - 54,"17,059","2,222",340,814,"5,217","8,126",-,340
+VT,Age,    55 - 64,"17,161","9,071",-,"2,458","1,336","4,296",-,-
+VT,Age,    65 and above,"5,731",156,-,-,"1,166","4,409",-,-
+VT,Sex,    Male,"39,214","9,682",-,171,"14,433","14,929",-,-
+VT,Sex,    Female,"43,117","2,881",340,"5,474","9,009","25,074",-,340
+VT,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"6,958",727,-,920,432,"4,879",-,-
+VT,Hispanic origin and Race,"    White alone, not Hispanic","74,541","11,835",340,"4,430","23,010","34,587",-,340
+VT,Hispanic origin and Race,"    Black alone, not Hispanic",-,-,-,-,-,-,-,-
+VT,Hispanic origin and Race,"    Asian alone, not Hispanic",834,-,-,296,-,538,-,-
+VT,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic",-,-,-,-,-,-,-,-
+VT,Education,    Less than high school,"10,579",-,-,"1,386","9,192",-,-,-
+VT,Education,    High school or GED,"16,389",-,-,-,"4,099","12,290",-,-
+VT,Education,    Some college/associate’s degree,"35,753","10,472",340,"1,330","5,706","17,566",-,340
+VT,Education,    Bachelor’s degree or higher,"19,611","2,090",-,"2,930","4,445","10,146",-,-
+VT,Marital status,    Married,"25,116","1,709",-,"2,707","5,316","15,385",-,-
+VT,Marital status,    Widowed,"1,179",883,-,296,-,-,-,-
+VT,Marital status,    Divorced/separated,"22,038",-,340,440,"15,340","5,917",-,-
+VT,Marital status,    Never married,"25,523","1,495",-,"2,202","2,786","18,701",-,340
+VT,Marital status,    Did not report,"8,476","8,476",-,-,-,-,-,-
+VT,Presence of children under 18 years old,    Children in household,"23,981","1,113",-,"1,432","15,212","5,884",-,340
+VT,Presence of children under 18 years old,    No children,"58,351","11,449",340,"4,214","8,230","34,119",-,-
+VT,Respondent or household member experienced loss of employment income,    Yes,"27,787","1,206",340,"5,178","12,992","8,071",-,-
+VT,Respondent or household member experienced loss of employment income,    No,"53,621","11,356",-,467,"10,450","31,008",-,340
+VT,Respondent or household member experienced loss of employment income,    Did not report,924,-,-,-,-,924,-,-
+VT,Respondent currently employed,    Yes,"42,418","3,111",-,"3,044","6,019","29,904",-,340
+VT,Respondent currently employed,    No,"39,914","9,452",340,"2,601","17,423","10,099",-,-
+VT,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+VT,Household income,"    Less than $25,000","23,227",-,340,"1,419","14,174","7,295",-,-
+VT,Household income,"    $25,000 - $34,999","14,194","1,269",-,"2,218","3,767","6,940",-,-
+VT,Household income,"    $35,000 - $49,999","8,838",93,-,"1,061",-,"7,684",-,-
+VT,Household income,"    $50,000 - $74,999","23,763","10,473",-,-,"4,750","8,540",-,-
+VT,Household income,"    $75,000 - $99,999","6,353",-,-,947,752,"4,654",-,-
+VT,Household income,"    $100,000 - $149,999","4,377",-,-,-,-,"4,377",-,-
+VT,Household income,"    $150,000 - $199,999",513,-,-,-,-,513,-,-
+VT,Household income,"    $200,000 and above",-,-,-,-,-,-,-,-
+VT,Household income,    Did not report,"1,067",727,-,-,-,-,-,340
+VA,Total,Total,"2,016,203","32,849","188,047","254,267","673,466","859,819","7,755",-
+VA,Age,    18 - 24,"138,561",-,"7,803","4,857","39,605","86,295",-,-
+VA,Age,    25 - 39,"781,553","20,430","80,534","79,825","247,058","345,952","7,755",-
+VA,Age,    40 - 54,"669,099","3,853","89,013","102,357","262,710","211,166",-,-
+VA,Age,    55 - 64,"243,684","4,276","10,697","67,228","65,347","96,136",-,-
+VA,Age,    65 and above,"183,305","4,289",-,-,"58,745","120,271",-,-
+VA,Sex,    Male,"987,777","21,420","107,190","69,673","368,763","412,977","7,755",-
+VA,Sex,    Female,"1,028,425","11,429","80,858","184,594","304,702","446,843",-,-
+VA,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"206,422",-,"56,239","2,755","98,925","48,503",-,-
+VA,Hispanic origin and Race,"    White alone, not Hispanic","1,141,086","30,598","68,869","66,062","365,000","610,558",-,-
+VA,Hispanic origin and Race,"    Black alone, not Hispanic","452,278","2,251","54,466","155,869","138,764","100,927",-,-
+VA,Hispanic origin and Race,"    Asian alone, not Hispanic","83,449",-,"8,473","8,235","38,757","27,983",-,-
+VA,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","132,968",-,-,"21,346","32,019","71,848","7,755",-
+VA,Education,    Less than high school,"33,818",-,-,-,"6,263","27,554",-,-
+VA,Education,    High school or GED,"973,439",-,"148,300","154,530","409,978","260,631",-,-
+VA,Education,    Some college/associate’s degree,"572,071","22,395","35,789","75,935","199,318","230,879","7,755",-
+VA,Education,    Bachelor’s degree or higher,"436,875","10,454","3,958","23,801","57,907","340,755",-,-
+VA,Marital status,    Married,"853,723","22,637","68,284","57,834","261,780","443,188",-,-
+VA,Marital status,    Widowed,"131,572","4,289","8,473","21,346","69,455","28,009",-,-
+VA,Marital status,    Divorced/separated,"350,856","1,602","84,700","41,382","78,124","145,048",-,-
+VA,Marital status,    Never married,"673,939","4,320","26,590","133,704","257,994","243,575","7,755",-
+VA,Marital status,    Did not report,"6,113",-,-,-,"6,113",-,-,-
+VA,Presence of children under 18 years old,    Children in household,"908,193","22,214","68,868","164,034","312,520","340,557",-,-
+VA,Presence of children under 18 years old,    No children,"1,108,010","10,635","119,179","90,233","360,946","519,262","7,755",-
+VA,Respondent or household member experienced loss of employment income,    Yes,"1,255,775","6,634","188,047","174,957","472,626","413,511",-,-
+VA,Respondent or household member experienced loss of employment income,    No,"760,428","26,215",-,"79,310","200,840","446,308","7,755",-
+VA,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+VA,Respondent currently employed,    Yes,"1,145,510","24,706","17,629","179,513","404,135","519,526",-,-
+VA,Respondent currently employed,    No,"867,509","8,142","170,418","74,754","266,147","340,293","7,755",-
+VA,Respondent currently employed,    Did not report,"3,183",-,-,-,"3,183",-,-,-
+VA,Household income,"    Less than $25,000","470,964","4,370","76,166","40,586","247,458","102,384",-,-
+VA,Household income,"    $25,000 - $34,999","237,651","4,568","36,775","27,068","109,602","51,883","7,755",-
+VA,Household income,"    $35,000 - $49,999","259,597","4,227","64,409","65,194","69,636","56,131",-,-
+VA,Household income,"    $50,000 - $74,999","511,160","14,266","10,697","57,567","190,546","238,084",-,-
+VA,Household income,"    $75,000 - $99,999","226,434",-,-,"23,916","21,939","180,579",-,-
+VA,Household income,"    $100,000 - $149,999","160,368",742,-,"7,377","17,985","134,263",-,-
+VA,Household income,"    $150,000 - $199,999","79,858",-,-,-,"13,505","66,353",-,-
+VA,Household income,"    $200,000 and above","26,357","4,676",-,-,"2,794","18,887",-,-
+VA,Household income,    Did not report,"43,813",-,-,"32,559",-,"11,254",-,-
+WA,Total,Total,"1,856,861","123,264","115,835","253,212","431,117","910,821","16,565","6,048"
+WA,Age,    18 - 24,"77,876",-,-,-,"12,379","61,164","4,332",-
+WA,Age,    25 - 39,"942,453","40,120","34,286","146,629","236,028","481,205","3,296",889
+WA,Age,    40 - 54,"515,326","60,184","32,617","75,743","154,696","185,601","2,424","4,062"
+WA,Age,    55 - 64,"200,689","19,686","19,805","28,357","17,619","114,126",-,"1,097"
+WA,Age,    65 and above,"120,517","3,273","29,127","2,483","10,395","68,725","6,513",-
+WA,Sex,    Male,"817,349","98,854","1,870","85,132","250,303","372,690","6,513","1,986"
+WA,Sex,    Female,"1,039,512","24,409","113,964","168,080","180,814","538,131","10,052","4,062"
+WA,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"368,754","89,465","68,938","65,025","61,371","73,108","10,845",-
+WA,Hispanic origin and Race,"    White alone, not Hispanic","1,129,268","27,683","30,513","107,743","255,973","695,589","5,719","6,048"
+WA,Hispanic origin and Race,"    Black alone, not Hispanic","73,239",-,959,"3,700","9,441","59,138",-,-
+WA,Hispanic origin and Race,"    Asian alone, not Hispanic","137,686","6,116","2,995","23,213","56,281","49,082",-,-
+WA,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","147,914",-,"12,428","53,531","48,050","33,904",-,-
+WA,Education,    Less than high school,"167,030","18,129","43,529","9,064","7,154","89,154",-,-
+WA,Education,    High school or GED,"538,835","40,286","41,054","151,404","135,899","162,834","3,296","4,062"
+WA,Education,    Some college/associate’s degree,"656,709","39,225","26,974","68,685","207,224","305,664","8,937",-
+WA,Education,    Bachelor’s degree or higher,"494,288","25,624","4,278","24,058","80,840","353,169","4,332","1,986"
+WA,Marital status,    Married,"840,204","33,647","74,975","128,578","195,011","401,386","5,719",889
+WA,Marital status,    Widowed,"52,051","1,557",-,-,"19,695","30,799",-,-
+WA,Marital status,    Divorced/separated,"345,531","40,650","30,391","41,341","95,441","131,194","6,513",-
+WA,Marital status,    Never married,"615,472","47,410","10,469","83,293","120,969","343,840","4,332","5,159"
+WA,Marital status,    Did not report,"3,603",-,-,-,-,"3,603",-,-
+WA,Presence of children under 18 years old,    Children in household,"632,554","46,766","97,992","94,279","153,436","235,573","4,508",-
+WA,Presence of children under 18 years old,    No children,"1,224,307","76,498","17,843","158,933","277,681","675,248","12,057","6,048"
+WA,Respondent or household member experienced loss of employment income,    Yes,"874,489","97,852","107,981","124,253","235,568","301,252","2,424","5,159"
+WA,Respondent or household member experienced loss of employment income,    No,"979,077","25,412","7,853","128,959","195,549","609,570","10,845",889
+WA,Respondent or household member experienced loss of employment income,    Did not report,"3,296",-,-,-,-,-,"3,296",-
+WA,Respondent currently employed,    Yes,"1,014,073","35,198","10,107","95,051","277,127","580,463","14,141","1,986"
+WA,Respondent currently employed,    No,"842,789","88,066","105,727","158,161","153,990","330,359","2,424","4,062"
+WA,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+WA,Household income,"    Less than $25,000","367,217","60,322","71,977","61,352","84,229","89,337",-,-
+WA,Household income,"    $25,000 - $34,999","253,724","6,480","8,333","90,613","44,476","103,821",-,-
+WA,Household income,"    $35,000 - $49,999","229,744","35,007","11,529","24,330","25,224","129,321","4,332",-
+WA,Household income,"    $50,000 - $74,999","384,583","1,557","22,783","51,388","129,493","174,853","4,508",-
+WA,Household income,"    $75,000 - $99,999","229,401","19,898",-,"19,454","83,817","106,232",-,-
+WA,Household income,"    $100,000 - $149,999","247,677",-,-,"6,074","51,848","187,446","1,211","1,097"
+WA,Household income,"    $150,000 - $199,999","77,387",-,-,-,"12,029","64,469",-,889
+WA,Household income,"    $200,000 and above","42,523",-,-,-,-,"42,523",-,-
+WA,Household income,    Did not report,"24,607",-,"1,213",-,-,"12,819","6,513","4,062"
+WV,Total,Total,"238,661","37,377","21,933","34,200","33,152","111,257",742,-
+WV,Age,    18 - 24,"14,125",-,-,"11,610",979,"1,537",-,-
+WV,Age,    25 - 39,"65,554","12,371","2,236","4,673","10,667","35,607",-,-
+WV,Age,    40 - 54,"99,424","3,780","19,697","17,917","10,353","47,314",363,-
+WV,Age,    55 - 64,"25,293","3,982",-,-,"3,428","17,505",378,-
+WV,Age,    65 and above,"34,265","17,243",-,-,"7,726","9,295",-,-
+WV,Sex,    Male,"106,081","18,714","19,697","14,600","1,297","51,773",-,-
+WV,Sex,    Female,"132,580","18,663","2,236","19,600","31,855","59,484",742,-
+WV,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"5,442",-,-,-,-,"5,442",-,-
+WV,Hispanic origin and Race,"    White alone, not Hispanic","220,117","36,481","21,933","32,001","31,422","97,539",742,-
+WV,Hispanic origin and Race,"    Black alone, not Hispanic","9,141",895,-,-,835,"7,411",-,-
+WV,Hispanic origin and Race,"    Asian alone, not Hispanic",866,-,-,-,-,866,-,-
+WV,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","3,094",-,-,"2,199",895,-,-,-
+WV,Education,    Less than high school,"7,987","6,252",-,-,"1,735",-,-,-
+WV,Education,    High school or GED,"140,516","20,021","20,577","24,992","22,121","52,804",-,-
+WV,Education,    Some college/associate’s degree,"50,466","5,176","1,355","5,296","3,522","34,374",742,-
+WV,Education,    Bachelor’s degree or higher,"39,693","5,928",-,"3,912","5,773","24,079",-,-
+WV,Marital status,    Married,"93,764","28,548",-,"6,406","17,639","41,171",-,-
+WV,Marital status,    Widowed,"17,920",-,"1,204",-,"6,327","10,025",363,-
+WV,Marital status,    Divorced/separated,"62,868","1,269","19,697","7,137","5,400","28,987",378,-
+WV,Marital status,    Never married,"64,108","7,560","1,032","20,656","3,786","31,073",-,-
+WV,Marital status,    Did not report,-,-,-,-,-,-,-,-
+WV,Presence of children under 18 years old,    Children in household,"94,044","12,831","1,355","23,528","13,825","42,504",-,-
+WV,Presence of children under 18 years old,    No children,"144,617","24,546","20,577","10,672","19,327","68,753",742,-
+WV,Respondent or household member experienced loss of employment income,    Yes,"98,863","16,127","21,052","18,754","16,240","26,311",378,-
+WV,Respondent or household member experienced loss of employment income,    No,"139,798","21,250",881,"15,446","16,912","84,946",363,-
+WV,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+WV,Respondent currently employed,    Yes,"116,683","10,046",881,"26,607","18,445","60,705",-,-
+WV,Respondent currently employed,    No,"121,978","27,331","21,052","7,593","14,707","50,553",742,-
+WV,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+WV,Household income,"    Less than $25,000","95,264","10,800","1,355","25,778","10,902","46,050",378,-
+WV,Household income,"    $25,000 - $34,999","42,300","1,840","20,577","1,262","8,838","9,419",363,-
+WV,Household income,"    $35,000 - $49,999","54,978","17,264",-,"5,961","11,036","20,717",-,-
+WV,Household income,"    $50,000 - $74,999","27,150","2,176",-,"1,199","1,670","22,104",-,-
+WV,Household income,"    $75,000 - $99,999","8,778","4,760",-,-,-,"4,018",-,-
+WV,Household income,"    $100,000 - $149,999","5,727",536,-,-,706,"4,485",-,-
+WV,Household income,"    $150,000 - $199,999","4,273",-,-,-,-,"4,273",-,-
+WV,Household income,"    $200,000 and above",191,-,-,-,-,191,-,-
+WV,Household income,    Did not report,-,-,-,-,-,-,-,-
+WI,Total,Total,"1,332,652","26,631","82,639","146,748","345,935","696,747",-,"33,951"
+WI,Age,    18 - 24,"45,836",-,-,-,"9,232","36,605",-,-
+WI,Age,    25 - 39,"521,575","13,249","4,177","78,341","127,912","263,946",-,"33,951"
+WI,Age,    40 - 54,"322,696","8,821","31,298","51,264","87,295","144,019",-,-
+WI,Age,    55 - 64,"205,855","4,562","42,264",-,"53,544","105,485",-,-
+WI,Age,    65 and above,"236,690",-,"4,900","17,144","67,953","146,693",-,-
+WI,Sex,    Male,"578,009","8,821","16,362","52,742","186,405","313,678",-,-
+WI,Sex,    Female,"754,643","17,810","66,277","94,006","159,530","383,069",-,"33,951"
+WI,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"119,342",-,-,"6,833","19,525","91,956",-,"1,027"
+WI,Hispanic origin and Race,"    White alone, not Hispanic","991,356","24,737","40,375","113,873","242,603","536,844",-,"32,924"
+WI,Hispanic origin and Race,"    Black alone, not Hispanic","82,003","1,894","42,264","5,583","12,157","20,105",-,-
+WI,Hispanic origin and Race,"    Asian alone, not Hispanic","125,065",-,-,"20,459","71,650","32,956",-,-
+WI,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","14,885",-,-,-,-,"14,885",-,-
+WI,Education,    Less than high school,"99,551",-,-,"7,656","57,603","34,292",-,-
+WI,Education,    High school or GED,"605,008",-,"55,471","23,475","203,252","322,810",-,-
+WI,Education,    Some college/associate’s degree,"382,835","13,249","25,440","76,490","69,443","165,289",-,"32,924"
+WI,Education,    Bachelor’s degree or higher,"245,258","13,382","1,728","39,128","15,637","174,356",-,"1,027"
+WI,Marital status,    Married,"479,819","10,306",-,"50,774","174,994","243,745",-,-
+WI,Marital status,    Widowed,"47,377",-,-,-,"2,857","44,520",-,-
+WI,Marital status,    Divorced/separated,"349,256","6,163","78,463","60,419","35,710","168,501",-,-
+WI,Marital status,    Never married,"456,200","10,162","4,177","35,555","132,375","239,980",-,"33,951"
+WI,Marital status,    Did not report,-,-,-,-,-,-,-,-
+WI,Presence of children under 18 years old,    Children in household,"595,152","18,994","73,562","72,764","181,264","214,618",-,"33,951"
+WI,Presence of children under 18 years old,    No children,"737,500","7,637","9,077","73,985","164,672","482,129",-,-
+WI,Respondent or household member experienced loss of employment income,    Yes,"712,676","8,068","38,647","113,712","290,256","228,044",-,"33,951"
+WI,Respondent or household member experienced loss of employment income,    No,"619,975","18,563","43,993","33,037","55,679","468,703",-,-
+WI,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+WI,Respondent currently employed,    Yes,"633,677","20,468",-,"49,517","108,738","421,003",-,"33,951"
+WI,Respondent currently employed,    No,"698,975","6,163","82,639","97,232","237,198","275,744",-,-
+WI,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+WI,Household income,"    Less than $25,000","317,957","6,163","50,294","19,275","82,552","159,672",-,-
+WI,Household income,"    $25,000 - $34,999","301,846",-,-,"58,166","125,273","118,408",-,-
+WI,Household income,"    $35,000 - $49,999","263,964","3,988","31,298","17,907","97,405","113,367",-,-
+WI,Household income,"    $50,000 - $74,999","176,589",-,-,"27,577","38,257","110,755",-,-
+WI,Household income,"    $75,000 - $99,999","83,613","6,174","1,047","10,425","2,448","63,519",-,-
+WI,Household income,"    $100,000 - $149,999","110,934","5,745",-,"10,689",-,"94,500",-,-
+WI,Household income,"    $150,000 - $199,999","29,218",-,-,-,-,"29,218",-,-
+WI,Household income,"    $200,000 and above","10,208","4,562",-,-,-,"5,646",-,-
+WI,Household income,    Did not report,"38,323",-,-,"2,710",-,"1,662",-,"33,951"
+WY,Total,Total,"95,796","5,662","11,289","8,079","11,714","58,735",-,318
+WY,Age,    18 - 24,"3,843",-,"2,932",-,378,534,-,-
+WY,Age,    25 - 39,"54,352","2,081","2,351","7,287","6,586","36,048",-,-
+WY,Age,    40 - 54,"12,829",375,-,288,"1,504","10,662",-,-
+WY,Age,    55 - 64,"8,113","1,508",217,504,848,"4,719",-,318
+WY,Age,    65 and above,"16,658","1,699","5,790",-,"2,398","6,772",-,-
+WY,Sex,    Male,"53,803","3,206","10,533",-,"6,497","33,567",-,-
+WY,Sex,    Female,"41,993","2,456",756,"8,079","5,217","25,168",-,318
+WY,Hispanic origin and Race,    Hispanic or Latino (may be of any race),"6,910","1,683",-,288,"1,688","3,250",-,-
+WY,Hispanic origin and Race,"    White alone, not Hispanic","83,000","2,290","9,694","7,791","9,609","53,297",-,318
+WY,Hispanic origin and Race,"    Black alone, not Hispanic","1,242",-,-,-,-,"1,242",-,-
+WY,Hispanic origin and Race,"    Asian alone, not Hispanic",-,-,-,-,-,-,-,-
+WY,Hispanic origin and Race,"    Two or more races + Other races, not Hispanic","4,644","1,688","1,595",-,416,945,-,-
+WY,Education,    Less than high school,"2,668",-,-,-,-,"2,668",-,-
+WY,Education,    High school or GED,"57,299","4,199","5,790","7,287","7,346","32,677",-,-
+WY,Education,    Some college/associate’s degree,"21,019",521,"5,499",792,"3,726","10,163",-,318
+WY,Education,    Bachelor’s degree or higher,"14,810",942,-,-,642,"13,227",-,-
+WY,Marital status,    Married,"50,664","2,903",-,"3,665",416,"43,361",-,318
+WY,Marital status,    Widowed,"1,794",-,-,504,649,642,-,-
+WY,Marital status,    Divorced/separated,"30,085","1,070","7,384","2,222","9,549","9,860",-,-
+WY,Marital status,    Never married,"13,253","1,688","3,905","1,688","1,100","4,872",-,-
+WY,Marital status,    Did not report,-,-,-,-,-,-,-,-
+WY,Presence of children under 18 years old,    Children in household,"58,314",392,756,"7,042","9,251","40,873",-,-
+WY,Presence of children under 18 years old,    No children,"37,483","5,269","10,533","1,037","2,463","17,862",-,318
+WY,Respondent or household member experienced loss of employment income,    Yes,"31,261","1,688","8,357","7,042","2,222","11,634",-,318
+WY,Respondent or household member experienced loss of employment income,    No,"64,535","3,974","2,932","1,037","9,492","47,101",-,-
+WY,Respondent or household member experienced loss of employment income,    Did not report,-,-,-,-,-,-,-,-
+WY,Respondent currently employed,    Yes,"68,590",217,"10,316","4,414","7,032","46,292",-,318
+WY,Respondent currently employed,    No,"27,207","5,445",973,"3,665","4,682","12,442",-,-
+WY,Respondent currently employed,    Did not report,-,-,-,-,-,-,-,-
+WY,Household income,"    Less than $25,000","22,691","3,354",973,"5,569","6,060","6,736",-,-
+WY,Household income,"    $25,000 - $34,999","12,750",-,"7,384","1,977","1,102","2,287",-,-
+WY,Household income,"    $35,000 - $49,999","11,399",-,-,-,"4,364","7,035",-,-
+WY,Household income,"    $50,000 - $74,999","13,859","2,091","2,932",534,189,"8,114",-,-
+WY,Household income,"    $75,000 - $99,999","23,705",217,-,-,-,"23,488",-,-
+WY,Household income,"    $100,000 - $149,999","6,456",-,-,-,-,"6,456",-,-
+WY,Household income,"    $150,000 - $199,999","1,242",-,-,-,-,"1,242",-,-
+WY,Household income,"    $200,000 and above",-,-,-,-,-,-,-,-
+WY,Household income,    Did not report,"3,695",-,-,-,-,"3,377",-,318

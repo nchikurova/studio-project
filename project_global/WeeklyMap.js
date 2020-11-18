@@ -38,7 +38,7 @@ class WeeklyMap {
             })
         )
         //console.log("noconfByState", this.noconfByState)
-
+        // console.log("totalobj", this.totalObject)
         this.colorScale = d3.scaleLinear()
             //.range(["#e7eff0", "#C8E1E5", "#B7D0D0", "#82C0CC", "#458A93", "#16697A", "#1C474D", "#0e2629"])//"#1C474D"])
             .domain([0.05, 0.2]) //d3.min(state.week_1, d => [d.noconf / d.total]))
@@ -48,6 +48,28 @@ class WeeklyMap {
 
         //formatTime = d3.format(",") //if value interpreted by number
         this.formatPercentage = d3.format(".0%")
+        // this.selectWeek = d3
+        //     .select("#dropdown1")
+        //     .selectAll("option")
+        //     .data(this.states)
+        //     .join("option")
+        //     .attr("value", d => d)
+        //     .text(d => d);
+
+        // this.button1 = document.querySelector('#week_1');
+        // handle click button
+        // button1.onclick = function () {
+        //     const rbs = document.querySelectorAll('input[name="choice"]');
+        //     let selectedValue;
+        //     for (const rb of rbs) {
+        //         if (rb.checked) {
+        //             selectedValue = rb.value;
+        //             break;
+        //         }
+        //     }
+        //     alert(selectedValue);
+        // };
+
 
         this.svg
             .selectAll(".state")

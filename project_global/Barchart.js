@@ -4,9 +4,9 @@ class Barchart {
     constructor(state, setGlobalState) {
 
         console.log("state data", state.week_1)
-        this.width = 360,
-            this.height = 300,
-            this.margin = { top: 20, bottom: 70, left: 70, right: 40 }
+        this.width = 380,
+            this.height = 320,
+            this.margin = { top: 20, bottom: 60, left: 50, right: 40 }
 
         this.svg_b = d3
             .select("#barchart-container")
@@ -22,7 +22,7 @@ class Barchart {
 
         this.categories = new Set(d3.map(state.week_1, d => d.category))
         console.log("categories", this.categories)
-
+        /////////////// DATA WRANGLING
         this.level1 = new Set(d3.map(state.week_1, d => (d.noconf + d.slightconf)))// gives all characteristics
         this.level2 = new Set(d3.map(state.week_1, d => (d.modconf + d.highconf)))
         //.filter(obj => obj.category === state.selectedCategory).map(d => d.characteristics))
@@ -31,24 +31,38 @@ class Barchart {
         // this.level = new Set(state.week_1
         //     .filter(obj => obj.category === state.selectedCategory)
         //     .map(d => d.characteristics))
-        console.log("level", this.level)
+        //console.log("level", this.level)
 
-        console.log("level1", this.level1)
-        console.log("level2", this.level2)
-        console.log("levels", this.levels)
+        //console.log("level1", this.level1)
+        //console.log("level2", this.level2)
+        //console.log("levels", this.levels)
         this.level = new Set(d3.map(state.week_1, d => d.noconf))
-        console.log("level", this.level)
+        //console.log("level", this.level)
 
-        /////???????????  // this.cleanData = d3.groups(state.week_1, d => d.category)
-        // this.totalsByState = new Map(
-        //     this.cleanData
-        //         .map(d => {
-        //             this.levelObject = d[1].filter(r => r.category === state.selectedCategory);
-        //             return [d[0], this.levelObject.noconf];
-        //         })
-        // )
-        // console.log("totalsByState", this.totalsByState)
 
+        this.cleanData = d3.groups(state.week_1, d => d.characteristics.noconf)
+        //console.log("cleandata", this.cleanData)
+        this.cleanData2 = d3.groups(this.cleanData, d => d.category)
+        //console.log("cleandata2", this.cleanData2)
+
+        this.totalsByState = new Map(
+            this.cleanData2
+                .map(d => {
+                    this.levelObject = d[1].filter(r => r.characteristics === state.selectedCategory);
+                    return [d[0], this.levelObject];
+                })
+        )
+        this.totalsByStateC = new Map(
+            this.cleanData2
+                .map(d => {
+                    this.levelObject = d[1].filter(r => r.category === state.selectedCategory);
+                    return [d[0], this.levelObject];
+                })
+        )
+        console.log("totalsByState", this.totalsByState)
+        console.log("totalsByStateC", this.totalsByStateC)
+        console.log("levelObj", this.levelObject)
+        //////////////////
         this.selectState = d3
             .select("#dropdown1")
             .selectAll("option")
@@ -65,14 +79,14 @@ class Barchart {
             .attr("value", d => d)
             .text(d => d);
 
-        this.selectLevel = d3
-            .select("#dropdown3")
-            .selectAll("option")
-            //.data(this.levels)
-            .data(["None or slight confidence", "Moderate or high confidence"])
-            .join("option")
-            .attr("value", d => d)
-            .text(d => d)
+        // this.selectLevel = d3
+        //     .select("#dropdown3")
+        //     .selectAll("option")
+        //     .data(this.totalsByStateC)
+        //     //.data(["None or slight confidence", "Moderate or high confidence"])
+        //     .join("option")
+        //     .attr("value", d => d)
+        //     .text(d => d)
 
         // click events
         this.selectState = d3
@@ -93,15 +107,15 @@ class Barchart {
                         selectedCategory: this.value,
                     })
                 })
-        this.selectLevel = d3
-            .select("dropdown3")
-            .on("change",
-                function () {
-                    console.log("The new selected level", this.value)
-                    setGlobalState({
-                        selectedLevel: this.value,
-                    })
-                })
+        // this.selectLevel = d3
+        //     .select("dropdown3")
+        //     .on("change",
+        //         function () {
+        //             console.log("The new selected level", this.value)
+        //             setGlobalState({
+        //                 selectedLevel: this.value,
+        //             })
+        //         })
 
 
     }
@@ -135,39 +149,43 @@ class Barchart {
                 } else if (state.selectedCategory !== "All categories") {
                     return d.category === state.selectedCategory;
                     // } else if (state.selectedLevel !== "All levels") {
-                    //     return this.level === state.selectedLevel;
-                } else if (state.selectedState === "All States" || state.selectedCategory === "All category") {// || state.selectedLevel === "All levels") {
-                    return state.data
+                    //     return this.totalsByState === state.selectedLevel;
+                    // } else if (state.selectedState === "All States" || state.selectedCategory === "All category") {// || state.selectedLevel === "All levels") {
+                    //     return state.data
                 }
 
             })
 
-        const bars = this.svg_b
-            .selectAll("g.bar")
-            .data(filteredData, d => d.noconf)
+        this.bars = this.svg_b
+            .selectAll("g.rect")
+            .data(filteredData)
             .join(
                 enter => enter
                     .append("g")
-                    .attr("class", "bar")
-                    .call(enter => enter.append("rect")),
-                //.call(enter => enter.append("text")),
+                    .attr("class", "rect")
+                    .attr("transform",
+                        d => `translate(${this.xScale(d.selectedCategory)},${this.yScale(d.noconf)})`)
+
+                    .attr("width", this.xScale.bandwidth())
+                    .attr("height", d => this.height - this.yScale(d.noconf))
+                    .attr("fill", "purple"),
                 update => update,
                 exit => exit.remove()
             )
 
-        bars
-            .transition()
-            .duration(3000)
-            .attr("transform",
-                d => `translate(${xScale(d.characteristics)},${yScale(d.noconf)})`)
-            .attr("fill", "purple")
+        // this.bars
+        //     .transition()
+        //     .duration(3000)
+        //     .attr("transform",
+        //         d => `translate(${this.xScale(d.characteristics)},${this.yScale(d.noconf)})`)
+        //     .attr("fill", "purple")
 
-        bars
-            .select("rect")
-            .transition()
-            .duration(3000)
-            .attr("width", this.xScale.bandwidth())
-            .attr("height", d => this.height - this.yScale(d.noconf))
+        // this.bars
+        //     .select("rect")
+        //     .transition()
+        //     .duration(3000)
+        //     .attr("width", this.xScale.bandwidth())
+        //     .attr("height", d => this.height - this.yScale(d.noconf))
 
         this.xAxis = d3.axisBottom(this.xScale);
         this.yAxis = d3.axisLeft(this.yScale).tickFormat(d3.format('.2s'));

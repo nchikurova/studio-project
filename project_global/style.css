@@ -2,10 +2,19 @@
 
 body {
   font-family: 'Inria Serif', serif;
-  padding: 1em 3em;
+  /* padding: 1em 3em; */
   background-color: #e7eff0;
-
+margin: 0%;
 }
+h1 {
+  font-family: Bold;
+  font-weight: 900;
+  color: #E8E9E9;
+  font-size: 75px;
+  /* line-height: 0.2; */
+  /* padding-left: 15%; */
+}
+
 div.tooltip {	
   position: absolute;			
   text-align: left;			
@@ -25,6 +34,15 @@ div.tooltip {
   border-width: thin;	
   line-height: 1.2;	
 }
+#images{
+  display: grid;
+  grid-template-columns: 4fr 4fr;
+  width: 100vw;
+}
+
+img {
+  width: 100%;
+} 
 
 /* INTRO CONTAINER */
 
@@ -35,6 +53,7 @@ div.tooltip {
   margin: 0;
   color: white;
   text-align: center;
+  width: 100%;
 }
 
 #intro-text {
@@ -56,7 +75,7 @@ div.tooltip {
 
 #intro-subtitle {
   font-family: 'IBM Plex Serif';
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 28px;
   color: #e7eff0;
@@ -75,37 +94,54 @@ div.tooltip {
   /* display: grid;
   grid-template-columns: 5fr 4fr;
   column-gap: 3%; */
-  width: 90vw;
+  width: 100vw;
   /* height: 70vh; */
-}
-.axis.x-axis {
-  font-size: 12; 
-  color: black;
-  position: 2em;
 }
 #heatmap-title{
   text-align: center;
   font-family: 'IBM Plex Serif';
   font-size: 22px;
   font-weight: 700;
-  padding: 5% 0% 0% 0%; 
+  /* padding: 5% 0% 0% 0%;  */
   line-height: 1.6;
 }
+#heatmap-container{
+  display: grid;
+  grid-template-columns: 0.5fr 10fr 1fr;
+}
 
-/* #heatmap-text{
+#note{
+  /* width: 90vw; */
+  height: 10vh;
+  font-size: 12px;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 2fr 10fr 2fr;
+}
+.axis.x-axis {
+  font-size: 12; 
+  color: black;
+  position: 2em;
+}
+/* doesn't work!!! */
+div.rect:hover {
+  stroke: black;
+  stroke-width: 2px;
+  fill: #A48894;
+} 
+/* #second-article{
   font-size: 20px;
   text-align: left;
   
 } */
 
-/* MAP CONTAINER */
+/* MAP CONTENT */
 
 #map-content {
   display: grid;
-  grid-template-columns: 5fr 3fr;
-  column-gap: 3%;
-
-  width: 90vw;
+  grid-template-columns: 0.5fr 5fr 3fr 0.5fr;
+  /* column-gap: 1%; */
+  /* width: 90vw; */
   /* height: 60vh; */
 }
 
@@ -124,14 +160,27 @@ div.tooltip {
   /* padding: 5% 5% 5% 5%; */
   line-height: 1.4;
 }
-h1 {
-  font-family: Bold;
-  font-weight: 900;
-  color: #E8E9E9;
-  font-size: 75px;
-  /* line-height: 0.2; */
-  /* padding-left: 15%; */
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+
+  border: 2px solid #999;
+  transition: 0.2s all linear;
+  margin-right: 5px;
+
+  position: relative;
+  top: 4px;
 }
+
+input:checked {
+  border: 6px solid black;
+}
+
 
 
 path.state:hover {
@@ -150,18 +199,11 @@ font-size: 20px;
   grid-template-columns: 1fr 10fr 1fr;
   line-height: 1.4;
 }
-#note{
-  width: 90vw;
-  height: 10vh;
-  font-size: 12px;
-  text-align: left;
-  display: grid;
-  grid-template-columns: 2fr 10fr 1fr;
-}
+
 /* BARCHART CONTENT */
 #barchart-content{
 display: grid;
-grid-template-columns: 5fr 3fr;
+grid-template-columns: 1fr 5fr 3fr 1fr;
 /* column-gap: 3%; */
 }
 #barchart-title {

@@ -28,7 +28,7 @@ let state = {
 }
 Promise.all([
     d3.json("../data/usState.json"),
-    d3.csv("../data/totals_date.csv", d => ({
+    d3.csv("../data/totals_by_week.csv", d => ({
         ...d,
         count: +d.count.split(",").join(""),
         level: d.level,
@@ -43,8 +43,22 @@ Promise.all([
         deferred: +d.deferred.split(",").join(""),
         didnottenure: +d.didnottenure.split(",").join(""),
         state: d.state,
-        category: d.category,
-        characteristics: d.characteristics,
+        category: d.category.trim(),
+        characteristics: d.characteristics.trim(),
+
+    })),
+    d3.csv("../data/week_2.csv", d => ({
+        total: +d.total.split(",").join(""),
+        wrent: +d.wrent.split(",").join(""),
+        noconf: +d.noconf.split(",").join(""),
+        slightconf: +d.slightconf.split(",").join(""),
+        modconf: +d.modconf.split(",").join(""),
+        highconf: +d.highconf.split(",").join(""),
+        deferred: +d.deferred.split(",").join(""),
+        didnottenure: +d.didnottenure.split(",").join(""),
+        state: d.state,
+        category: d.category.trim(),
+        characteristics: d.characteristics.trim(),
 
     })),
 ]).then(([geojson, heatmap, week_1, week_2]) => {
