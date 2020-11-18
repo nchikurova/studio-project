@@ -5,7 +5,7 @@ class WeeklyMap {
 
         this.width = 360;
         this.height = 300;
-        this.margin = { top: 60, bottom: 50, left: 20, right: 40 };
+        this.margin = { top: 60, bottom: 50, left: 40, right: 40 };
 
         const projection = d3.geoAlbersUsa().fitSize([this.width, this.height], state.geojson);
         const path = d3.geoPath().projection(projection);

@@ -140,7 +140,7 @@ div.rect:hover {
 #map-content {
   display: grid;
   grid-template-columns: 0.5fr 5fr 3fr 0.5fr;
-  /* column-gap: 1%; */
+  column-gap: 3%;
   /* width: 90vw; */
   /* height: 60vh; */
 }
@@ -152,13 +152,16 @@ div.rect:hover {
   font-weight: 700;
   padding: 5% 0% 0% 0%; 
 }
-
+#map-container{
+  grid-area: 'map-container'
+}
 #map-article {
 /* background-color: #B7D0D0;; */
   font-size: 20px;
   text-align: left;
   /* padding: 5% 5% 5% 5%; */
   line-height: 1.4;
+  grid-area: 'map-article'
 }
 input {
   -webkit-appearance: none;
@@ -204,7 +207,9 @@ font-size: 20px;
 #barchart-content{
 display: grid;
 grid-template-columns: 1fr 5fr 3fr 1fr;
-/* column-gap: 3%; */
+
+column-gap: 3%;
+grid-area: 'barchart';
 }
 #barchart-title {
 text-align: center;
@@ -216,4 +221,21 @@ padding: 5% 0% 0% 0%; }
 #barchart-text{
 font-size: 20px;
 text-align: left;
+}
+
+@media only screen and (max-width:800px) {
+#map-content{
+  grid-template-columns: 1fr;
+  padding: 1em 3em;
+  grid-template-areas: 
+  'map-container'
+  'map-article';
+}
+#barchart-content{
+  grid-template-columns: 1fr;
+   padding: 1em 3em;
+  grid-template-areas: 
+  'barchart-container'
+  'barchart-article';
+}
 }
