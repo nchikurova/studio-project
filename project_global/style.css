@@ -4,6 +4,7 @@ body {
   font-family: 'Inria Serif', serif;
   /* padding: 1em 3em; */
   background-color: #e7eff0;
+  width: 100%;
 margin: 0%;
 }
 h1 {
@@ -190,7 +191,7 @@ path.state:hover {
   stroke-width: 2px;
   fill: #A48894;
 }
-div.rect:hover {
+.rect:hover {
   stroke: black;
   stroke-width: 2px;
   fill: #A48894;
