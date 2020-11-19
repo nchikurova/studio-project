@@ -162,7 +162,7 @@ class Barchart {
             .attr("y", "50%") //in the middle of line
             .attr("dx", "-4em")
             .attr("writing-mode", "vertical-rl")
-            .text("Count, millions")
+            .text("Millions")
             .attr("fill", "black")
     }
 }

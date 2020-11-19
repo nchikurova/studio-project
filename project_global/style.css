@@ -133,7 +133,7 @@ img {
   font-size: 12px;
   text-align: left;
   display: grid;
-  grid-template-columns: 3fr 10fr 2fr;
+  grid-template-columns: 3fr 10fr 2.5fr;
 }
 .axis.x-axis {
   font-size: 12; 
@@ -156,7 +156,7 @@ div.rect:hover {
 
 #map-content {
   display: grid;
-  grid-template-columns: 0.5fr 5fr 3fr 0.5fr;
+  grid-template-columns: 1fr 5fr 3fr 1fr;
   column-gap: 3%;
   /* width: 90vw; */
   /* height: 60vh; */
@@ -238,9 +238,11 @@ padding: 5% 0% 0% 0%; }
 #barchart-text{
 font-size: 20px;
 text-align: left;
+
+line-height: 1.4;
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:900px) {
 #map-content{
   grid-template-columns: 1fr;
   padding: 1em 3em;
