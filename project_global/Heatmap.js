@@ -36,7 +36,7 @@ class Heatmap {
 
         this.svg_h = d3.select("#heatmap-container")
             .append("svg")
-            .attr("viewBox", "0 0 800 220")
+            .attr("viewBox", "0 0 770 220")
             .attr("transform", "translate(0,0)")
             .append("g")
 
