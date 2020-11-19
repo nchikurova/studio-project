@@ -46,23 +46,53 @@ img {
 } 
 
 /* INTRO CONTAINER */
-
-#intro-content {
-  /* background-color: #16697A; */
+#w-title{
   background-color: #1C474D;
   padding: 0;
   margin: 0;
   color: white;
   text-align: center;
   width: 100%;
+  /* font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+ 
+  color: #e7eff0;
+  padding: 10% 0% 0% 0%; */
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
 }
-
+/* #intro-content {
+  /* background-color: #16697A; */
+  /* background-color: #1C474D;
+  padding: 0;
+  margin: 0;
+  color: white;
+  text-align: center;
+  width: 100%;
+} */ 
+#w-subtitle{
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  background-color: #1C474D;
+  position: sticky;
+  top: 0.25rem;
+  
+  
+}
+#w-subtext{
+  background-color: #1C474D;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    
+  
+}
 #intro-text {
   font-family: 'IBM Plex Sans';
   /* background-color:#16697A; */
   background-color: #1C474D;
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  /* display: grid;
+  grid-template-columns: 1fr 3fr 1fr; */
 }
 
 #intro-title {
@@ -71,7 +101,7 @@ img {
   line-height: 50px;
   /* color: white; */
   color: #e7eff0;
-  padding: 10% 0% 5% 0%;
+  padding: 10% 0% 0% 0%;
 }
 
 #intro-subtitle {
@@ -80,13 +110,19 @@ img {
   font-weight: 700;
   line-height: 28px;
   color: #e7eff0;
-  padding: 5% 0% 0% 0%;
+  padding: 3% 0% 3% 0%;
+  background-color: #1C474D;
+  position: sticky;
+  top: 0.25rem;
+  text-align: center;
 }
 
 #intro-subtext {
   font-size: 18px;
   color: #82C0CC;
+  background-color: #1C474D;
   padding: 3% 0% 0% 0%;
+  text-align: center;
 }
 
 /* HEATMAP CONTENT */
@@ -203,6 +239,14 @@ font-size: 20px;
   grid-template-columns: 1fr 10fr 1fr;
   line-height: 1.4;
 }
+
+#second-article {
+  font-size: 20px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    line-height: 1.4;
+  }
 
 /* BARCHART CONTENT */
 #barchart-content{
