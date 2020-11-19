@@ -5,7 +5,7 @@ body {
   /* padding: 1em 3em; */
   background-color: #e7eff0;
   width: 100%;
-margin: 0%;
+  margin: 0%;
 }
 h1 {
   font-family: Bold;
@@ -106,7 +106,7 @@ img {
   /* padding: 5% 0% 0% 0%;  */
   line-height: 1.6;
 }
-#heatmap-container{
+#heatmap{
   display: grid;
   grid-template-columns: 0.5fr 10fr 1fr;
 }
@@ -128,7 +128,7 @@ img {
 div.rect:hover {
   stroke: black;
   stroke-width: 2px;
-  fill: #A48894;
+  color: #A48894;
 } 
 /* #second-article{
   font-size: 20px;

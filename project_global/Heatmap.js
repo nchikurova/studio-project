@@ -7,7 +7,7 @@ class Heatmap {
     constructor(state, setGlobalState) {
         this.width_h = 780,
             this.height_h = 130,
-            this.margin_h = { top: 60, bottom: 90, left: 100, right: 0 }
+            this.margin_h = { top: 60, bottom: 90, left: 100, right: 20 }
 
         this.myGroups = [...new Set(state.heatmap.map(d => d.week))]
         this.myVars = [...new Set(state.heatmap.map(d => d.level))]
@@ -201,7 +201,7 @@ class Heatmap {
             .attr("width", 40)
             .attr("height", 10)
             .attr("y", 180)
-            .attr("x", function (d, i) { return 500 + i * 40 })
+            .attr("x", function (d, i) { return 480 + i * 40 })
             .style("fill", d => this.legendColor(d))
 
         this.svg_h.selectAll("mylabels")
@@ -210,7 +210,7 @@ class Heatmap {
             .append("text")
             .style("font-size", 12)
             .attr("y", 200)
-            .attr("x", function (d, i) { return 510 + i * 40 })
+            .attr("x", function (d, i) { return 490 + i * 40 })
             .style("fill", "black")
             .text(d => d)
             .style("text-anchor", "center")
