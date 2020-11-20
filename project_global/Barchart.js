@@ -61,8 +61,7 @@ class Barchart {
         const ageMap = [...Array.from(new Set(state.week_1.filter(obj => obj.category === 'Age').map(d => d.characteristics)))]
         console.log("ageMap", ageMap)
 
-        const idColumn = Object.keys(state.week_1)
-        console.log("IdColumn", idColumn)
+
     }
     draw(state, setGlobalState) {
         console.log("new barchart is drawing")
