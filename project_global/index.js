@@ -4,27 +4,18 @@ import { Barchart } from "./Barchart.js";
 import { Heatmap } from "./Heatmap.js";
 
 let map, barchart, heatmap;
-let svg;
-let projection;
-let path;
-let div;
-let xScale;
-let yScale;
-let yAxis;
-let xAxis;
-
 
 //global state
 let state = {
-    geojson: null,
-    week_1: null,
+    geojson: [],
+    week_1: [],
     week_2: [],
     heatmap: [],
-    // domain:[],
+    selection: "week_1",
     selectedCategory: "All categories", //selectedMetric
     selectedLevel: "All levels",
     selecteState: "All states",
-
+    currentData: [],
 }
 Promise.all([
     d3.json("../data/usState.json"),
@@ -86,9 +77,9 @@ function draw() {
     barchart.draw(state, setGlobalState);
     heatmap.draw(state, setGlobalState);
 }
-// UTILITY FUNCTION: state updating function that we pass toour components so that they are able to update our global state object
-function setGlobalState() {
+// UTILITY FUNCTION: state updating function that we pass to our components so that they are able to update our global state object
+function setGlobalState(nextState) {
     state = { ...state, ...nextState };
-    console.log("new state", state);
+    console.log("new state", nextState);
     draw();
 }

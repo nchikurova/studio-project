@@ -17,105 +17,33 @@ class WeeklyMap {
             .append("g")
             .attr("transform", "translate(0,0)")
 
-        this.cleanData = d3.groups(state.week_1, d => d.state)
-        this.cleanData2 = d3.groups(state.week_2, d => d.state)
-        //console.log("clean data", this.cleanData)
-        //Map state => total noconfidence
-        this.totalsByState = new Map(
-            this.cleanData
-                .map(d => {
-                    this.totalObject = d[1].find(r => r.category === 'Total');
-                    return [d[0], this.totalObject];
-                })
-        )
-        this.totalsByState2 = new Map(
-            this.cleanData2
-                .map(d => {
-                    this.totalObject2 = d[1].find(r => r.category === 'Total');
-                    return [d[0], this.totalObject2];
-                })
-        )
-        //console.log("totalsByState", this.totalsByState)
-
-        // GETTING ONE NEEDED VALUE OUT OF OBJECT - noconf
-        this.noconfByState = new Map(
-            this.cleanData.map(d => {
-                this.totalObject = d[1].find(r => r.category === 'Total');
-                return [d[0], this.totalObject.noconf / this.totalObject.total];
-            })
-        )
-        this.noconfByState2 = new Map(
-            this.cleanData2.map(d => {
-                this.totalObject2 = d[1].find(r => r.category === 'Total');
-                return [d[0], this.totalObject2.noconf / this.totalObject2.total];
-            })
-        )
-        //console.log("noconfByState", this.noconfByState)
-        // console.log("totalobj", this.totalObject)
-
         this.colorScale = d3.scaleLinear()
             //.range(["#e7eff0", "#C8E1E5", "#B7D0D0", "#82C0CC", "#458A93", "#16697A", "#1C474D", "#0e2629"])//"#1C474D"])
-            .domain([0.05, 0.2]) //d3.min(state.week_1, d => [d.noconf / d.total]))
+            .domain([0.05, 0.2])
             .range(["#C8E1E5", "#0e2629"])
         //console.log("colorDomain", this.colorScale.domain())
 
         //formatTime = d3.format(",") //if value interpreted by number
         this.formatPercentage = d3.format(".0%")
 
-        this.buttons = d3.selectAll("input")
 
-        this.buttons.on("change", function (d) {
-            console.log("button changed to ", this.value)
-            this.selection = this.value;
-            draw()
-            //draw(this.selection, filteredData);
-            //draw(state, setGlobalState);
+        this.buttons = d3
+            .selectAll("input")
+            .on("change",
+                function () {
+                    // console.log("button changed to", this.value)
 
-        })
-
-
-
-        this.svg
-            .selectAll(".state")
-            // all of the features of the geojson, meaning all the states as individuals
-            .data(state.geojson.features)
-            .join("path")
-            .attr("d", this.path)
-            .attr("class", "state")
-            .style("stroke", "black")
-            .attr("fill", d => {
-                //console.log("d", d)
-                let value = this.noconfByState.get(d.properties.STUSPS);
-                return (value != 0 ? this.colorScale(value) : "grey")
-                //console.log("value", value)
-            })
-            .on('mouseover', (event, d) => {
-                //console.log("d for tooltips", d)
-                this.div
-                    .transition()
-                    .duration(50)
-                    .style('opacity', 1);
-                this.div
-                    .html("<strong>By April 23rd,</strong>" + '<br>'
-                        + "<strong>" + this.formatPercentage(this.noconfByState.get(d.properties.STUSPS)) + "</strong>"
-                        + " of survey participants had no confidence in paying rent next month in " + '<br>'
-                        + "<strong>" + d.properties.NAME + "</strong>"
-                    )
-                    .style("left", (event.pageX + 10) + "px")
-                    .style("top", (event.pageY - 28) + "px");
-            })
-            .on('mouseout', () => {
-                this.div
-                    .transition()//
-                    .duration(100)
-                    .style('opacity', 0);
-            })
+                    setGlobalState({
+                        selection: this.value
+                    })
+                })
 
 
         this.div = d3.select("body").append("div")
             .attr("class", "tooltip")
             .style("opacity", 0);
 
+        // LEGENDS
         this.keys = ["3%", "5%", "8%", "12%", "14%", "16%", "19%"]
         this.legendColor = d3.scaleOrdinal().domain(["3%", "5%", "8%", "12%", "14%", "16%", "19%"]).range(["#c4dde1",
             "#a4bdc1",
@@ -146,93 +74,105 @@ class WeeklyMap {
             .style("text-anchor", "center")
             .style("alignment-baseline", "middle")
 
+
     }
     // called every times state is updated
+
     draw(state, setGlobalState) {
+        // let currentData; 
 
-        let filteredData;
-        if (this.selection == "week_1") {
-            filteredData = state.week_1;
-        }
-        else if (this.selection = "week_2") {
-            filteredData = state.week_2
-        }
-        console.log("filtered weekly data", filteredData)
+        // console.log("filtered weekly data", state.selection, this.currentData)
 
+        this.updateData(state);
 
         this.svg
             .selectAll(".state")
             // all of the features of the geojson, meaning all the states as individuals
             .data(state.geojson.features)
-            .join("path")
-            .attr("d", this.path)
-            .attr("class", "state")
-            .style("stroke", "black")
-            .attr("fill", d => {
-                //console.log("d", d)
-                let value = this.noconfByState.get(d.properties.STUSPS);
-                return (value != 0 ? this.colorScale(value) : "grey")
-                //console.log("value", value)
-            })
-            .on('mouseover', (event, d) => {
-                //console.log("d for tooltips", d)
-                this.div
-                    .transition()
-                    .duration(50)
-                    .style('opacity', 1);
-                this.div
-                    .html("<strong>By April 23rd,</strong>" + '<br>'
-                        + "<strong>" + this.formatPercentage(this.noconfByState.get(d.properties.STUSPS)) + "</strong>"
-                        + " of survey participants had no confidence in paying rent next month in " + '<br>'
-                        + "<strong>" + d.properties.NAME + "</strong>"
-                    )
-                    .style("left", (event.pageX + 10) + "px")
-                    .style("top", (event.pageY - 28) + "px");
-            })
-            .on('mouseout', () => {
-                this.div
-                    .transition()//
-                    .duration(100)
-                    .style('opacity', 0);
-            })
+            .join(
+                enter => enter.append("path")
+                    .attr("d", this.path)
+                    .attr("class", "state")
+                    .style("stroke", "black")
+                    .attr("fill", d => {
+                        // console.log("d", d)
+                        let value = this.noconfByState.get(d.properties.STUSPS);
+                        return (value != 0 ? this.colorScale(value) : "grey")
+
+                    })
+                    .on('mouseover', (event, d) => {
+                        //console.log("d for tooltips", d)
+                        this.div
+                            .transition()
+                            .duration(50)
+                            .style('opacity', 1);
+                        this.div
+                            .html("<strong>" + this.formatPercentage(this.noconfByState.get(d.properties.STUSPS)) + "</strong>"
+                                + " of survey participants had no confidence in paying rent next month in " + '<br>'
+                                + "<strong>" + d.properties.NAME + "</strong>"
+                            )
+                            .style("left", (event.pageX + 10) + "px")
+                            .style("top", (event.pageY - 28) + "px");
+                    })
+                    .on('mouseout', () => {
+                        this.div
+                            .transition()//
+                            .duration(100)
+                            .style('opacity', 0);
+
+                    }).call(enter => enter
+                        .transition()
+                        .duration(3000)),
+
+                update => update
+                    .attr("fill", d => {
+                        let value = this.noconfByState.get(d.properties.STUSPS);
+                        return (value != 0 ? this.colorScale(value) : "grey")
+
+                    }),
+                exit => exit.call(exit =>
+                    // exit selections -- all the `.dot` element that no longer match to HTML elements
+                    exit
+                        .transition()
+                        .duration(3000)
+                        .remove()
+                ).call(
+                    selection =>
+                        selection
+                            .transition() // initialize transition
+                            .duration(3000))
+
+            )
 
 
-        this.svg
-            .selectAll(".state")
-            // all of the features of the geojson, meaning all the states as individuals
-            .data(state.geojson.features)
-            .join("path")
-            .attr("d", this.path)
-            .attr("class", "state")
-            .style("stroke", "black")
-            .attr("fill", d => {
-                //console.log("d", d)
-                let value = this.noconfByState2.get(d.properties.STUSPS);
-                return (value != 0 ? this.colorScale(value) : "grey")
-                //console.log("value", value)
-            })
-            .on('mouseover', (event, d) => {
-                //console.log("d for tooltips", d)
-                this.div
-                    .transition()
-                    .duration(50)
-                    .style('opacity', 1);
-                this.div
-                    .html("<strong>By April 23rd,</strong>" + '<br>'
-                        + "<strong>" + this.formatPercentage(this.noconfByState2.get(d.properties.STUSPS)) + "</strong>"
-                        + " of survey participants had no confidence in paying rent next month in " + '<br>'
-                        + "<strong>" + d.properties.NAME + "</strong>"
-                    )
-                    .style("left", (event.pageX + 10) + "px")
-                    .style("top", (event.pageY - 28) + "px");
-            })
-            .on('mouseout', () => {
-                this.div
-                    .transition()
-                    .duration(100)
-                    .style('opacity', 0);
-            })
     }
+    //creating new method
+    updateData(state) {
+        const currentData = state.selection === "week_1" ? state.week_1 : state.week_2;
+
+        this.cleanData = d3.groups(currentData, d => d.state)
+
+        // getting "No confidence" totals by state through the category "Total"
+        this.totalsByState = new Map(
+            this.cleanData
+                .map(d => {
+                    this.totalObject = d[1].find(r => r.category === 'Total');
+                    return [d[0], this.totalObject];
+                })
+        )
+        // console.log("totalsByState", this.totalsByState)
+
+        // GETTING ONE NEEDED VALUE OUT OF OBJECT -  % of noconf out of total responds
+        this.noconfByState = new Map(
+            this.cleanData.map(d => {
+                this.totalObject = d[1].find(r => r.category === 'Total');
+                return [d[0], this.totalObject.noconf / this.totalObject.total];
+            })
+        )
+        // console.log("noconf", this.noconfByState)
+
+    }
+
 }
 
 export { WeeklyMap };

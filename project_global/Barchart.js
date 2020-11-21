@@ -3,7 +3,7 @@ class Barchart {
     // only runs one time for each instance
     constructor(state, setGlobalState) {
 
-        console.log("state data", state.week_1)
+        //  console.log("state data", state.week_1)
         this.width = 380,
             this.height = 320,
             this.margin = { top: 20, bottom: 60, left: 50, right: 40 }
@@ -64,7 +64,7 @@ class Barchart {
 
     }
     draw(state, setGlobalState) {
-        console.log("new barchart is drawing")
+        //    console.log("new barchart is drawing")
 
         // adding dropdowns
 
@@ -74,14 +74,14 @@ class Barchart {
                 ...Array.from(new Set(state.week_1.filter(obj => obj.category === state.selectedCategory).map(d => d.characteristics)))
             ]))
             .range([this.margin.left, this.width - this.margin.right]);
-        console.log("x domain", this.xScale.domain())
+        //  console.log("x domain", this.xScale.domain())
 
 
         this.yScale = d3
             .scaleLinear()
             .domain(d3.extent(state.week_1, d => d.noconf))
             .range([this.height - this.margin.bottom, this.margin.top]);
-        console.log("y domain", this.yScale.domain())
+        //  console.log("y domain", this.yScale.domain())
 
         // this.level = new Set(this.levels.filter(obj => obj.category === state.selectedCategory).map(d => d.characteristics))
         // console.log("level", this.level)
@@ -103,38 +103,38 @@ class Barchart {
         this.bars = d3
             .selectAll("g.rect")
             .data(filteredData, d => d.noconf)
-            .join("rect")
-            //enter => enter
-            .append("g")
-            .attr("class", "rect")
-            .attr("x", d => this.xScale(d.characteristics))
-            .attr("y", d => this.yScale(d.noconf))
-            .attr("opacity", 1)
-            // .attr("transform",
-            //     d => `translate(${this.xScale()},${this.yScale(d.noconf)})`)
+            .join(
+                enter => enter
+                    .append("g")
+                    .attr("class", "rect")
+                    .attr("x", d => this.xScale(d.characteristics))
+                    .attr("y", d => this.yScale(d.noconf))
+                    .attr("opacity", 1)
+                    // .attr("transform",
+                    //     d => `translate(${this.xScale()},${this.yScale(d.noconf)})`)
 
-            .attr("width", this.xScale.bandwidth())
-            .attr("height", d => this.height - this.yScale(d.noconf))
-            .attr("fill", "purple"),
-            // update => update,
-            // exit => exit.remove()
-            //   )
+                    .attr("width", this.xScale.bandwidth())
+                    .attr("height", d => this.height - this.yScale(d.noconf))
+                    .attr("fill", "purple"),
+                update => update,
+                exit => exit.remove()
+            )
 
-            // this.bars
-            //     .transition()
-            //     .duration(3000)
-            //     .attr("transform",
-            //         d => `translate(${this.xScale(d.characteristics)},${this.yScale(d.noconf)})`)
-            //     .attr("fill", "purple")
+        // this.bars
+        //     .transition()
+        //     .duration(3000)
+        //     .attr("transform",
+        //         d => `translate(${this.xScale(d.characteristics)},${this.yScale(d.noconf)})`)
+        //     .attr("fill", "purple")
 
-            // this.bars
-            //     .select("rect")
-            //     .transition()
-            //     .duration(3000)
-            //     .attr("width", this.xScale.bandwidth())
-            //     .attr("height", d => this.height - this.yScale(d.noconf))
+        // this.bars
+        //     .select("rect")
+        //     .transition()
+        //     .duration(3000)
+        //     .attr("width", this.xScale.bandwidth())
+        //     .attr("height", d => this.height - this.yScale(d.noconf))
 
-            this.xAxis = d3.axisBottom(this.xScale);
+        this.xAxis = d3.axisBottom(this.xScale);
         this.yAxis = d3.axisLeft(this.yScale).tickFormat(d3.format('.2s'));
 
         // add the xAxis
