@@ -12,10 +12,11 @@ let state = {
     week_2: [],
     heatmap: [],
     selection: "week_1",
-    selectedCategory: "All categories", //selectedMetric
+    selectedCategory: "All categories",
     selectedLevel: "All levels",
-    selecteState: "All states",
+    selectedState: "All states",
     currentData: [],
+    filteredData: []
 }
 Promise.all([
     d3.json("../data/usState.json"),

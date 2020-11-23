@@ -3,6 +3,9 @@
 /* add a. style for links */
 /* add padding to the subtext */
 /* change transition to map colors*/
+/* translate heatmap into percentage*/
+
+/* replace question mark in bacherols degree everywhere */
 
 /* COLOR PALETTE */
 
@@ -89,7 +92,7 @@ img {
   font-weight: 700;
   line-height: 28px;
   color: #e7eff0;
-  padding: 3% 0% 3% 0%;
+  padding: 2% 0% 2% 0%;
   background-color: #1C474D;
   position: sticky;
   top: 0 rem;
@@ -229,7 +232,7 @@ path.state:hover {
 /* BARCHART CONTENT */
 #barchart-content{
 display: grid;
-grid-template-columns: 1fr 5fr 3fr 1fr;
+grid-template-columns: 0.5fr 10fr 0.5fr;
 
 column-gap: 3%;
 grid-area: 'barchart';
