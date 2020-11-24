@@ -1,9 +1,11 @@
 // import our components
+
+import { Heatmap } from "./Heatmap.js";
 import { WeeklyMap } from "./WeeklyMap.js";
 import { Barchart } from "./Barchart.js";
-import { Heatmap } from "./Heatmap.js";
+import { Scatterplot } from "./Scatterplot.js";
 
-let map, barchart, heatmap;
+let map, barchart, heatmap, scatterplot
 
 //global state
 let state = {
@@ -12,6 +14,7 @@ let state = {
     week_2: [],
     heatmap: [],
     selection: "week_1",
+    selection1: "week_1",
     selectedCategory: "All categories",
     selectedLevel: "All levels",
     selectedState: "All states",
@@ -69,7 +72,8 @@ function init() {
     // console.log("barchart", barchart)
     heatmap = new Heatmap(state, setGlobalState);
     //console.log("heatmap", heatmap)
-
+    scatterplot = new Scatterplot(state, setGlobalState);
+    //console.log("heatmap", heatmap)
     draw();
 }
 
@@ -77,6 +81,7 @@ function draw() {
     map.draw(state, setGlobalState);
     barchart.draw(state, setGlobalState);
     heatmap.draw(state, setGlobalState);
+    scatterplot.draw(state, setGlobalState);
 }
 // UTILITY FUNCTION: state updating function that we pass to our components so that they are able to update our global state object
 function setGlobalState(nextState) {

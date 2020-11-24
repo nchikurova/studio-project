@@ -1,33 +1,42 @@
 body.colors  { 
-    background-color: #E7E7E5; 
-    background-color: #e7eff0;
-    background-color: #C8E1E5;
-    background-color: #B7D0D0;
-    background-color: #82C0CC;
-    background-color: #458A93;
-    background-color: #16697A;
-    background-color: #1C474D;
-    background-color: #23679A;
-    background-color: #0e2629;
+    color: #E7E7E5; 
+    color: #e7eff0;
+    color: #C8E1E5;
+    color: #B7D0D0;
+    color: #82C0CC;
+    color: #458A93;
+    color: #16697A;
+    color: #1C474D;
+    color: #23679A;
+    color: #0e2629;
 
-    background-color: #c4dde1;
-    background-color: #a4bdc1;
-    background-color: #8ca5a8;
-    background-color: #5b7377;
-    background-color: #455d61;
-    background-color: #3d5558;
-    background-color: #122a2d;
+    color: #c4dde1;
+    color: #a4bdc1;
+    color: #8ca5a8;
+    color: #5b7377;
+    color: #455d61;
+    color: #3d5558;
+    color: #122a2d;
 
-    background-color: #A9D6E5;
-    background-color: #89C2D9;
-    background-color: #61A5C2;
-    background-color: #2C7DA0;
-    background-color: #2A6F97;
-    background-color: #23679A;
-    background-color: #013A63;
-    "#e7eff0", "#C8E1E5", "#B7D0D0", "#82C0CC", "#458A93", "#16697A", "#1C474D", "#0e2629"
+    color: #A9D6E5;
+    color: #89C2D9;
+    color: #61A5C2;
+    color: #2C7DA0;
+    color: #2A6F97;
+    color: #23679A;
+    color: #013A63;
+ /* scatterplot colors */
+    color: "#122a2d";
+    color: "#455d61";
+    color: "#16697A";
+    color: "#23679A";
+    color: "#758dc5";
+    color: "#6251b2";
+    color: "#792767";
+    color: "#520122"; 
+    color: "#cb3070"; 
+    color: "#2f2461";
 }
-
 body {
   font-family: 'Inria Serif', serif;
   padding: 1em 3em;

@@ -26,7 +26,6 @@ class WeeklyMap {
         //formatTime = d3.format(",") //if value interpreted by number
         this.formatPercentage = d3.format(".0%")
 
-
         this.buttons = d3
             .selectAll("input")
             .on("change",
@@ -34,10 +33,10 @@ class WeeklyMap {
                     // console.log("button changed to", this.value)
 
                     setGlobalState({
-                        selection: this.value
+                        selection: this.value,
+                        selection1: this.value
                     })
                 })
-
 
         this.div = d3.select("body").append("div")
             .attr("class", "tooltip")
@@ -81,7 +80,7 @@ class WeeklyMap {
     draw(state, setGlobalState) {
         // let currentData; 
 
-        // console.log("filtered weekly data", state.selection, this.currentData)
+        console.log("filtered weekly data map", state.selection, this.currentData)
 
         this.updateData(state);
 
@@ -90,7 +89,8 @@ class WeeklyMap {
             // all of the features of the geojson, meaning all the states as individuals
             .data(state.geojson.features)
             .join(
-                enter => enter.append("path")
+                enter => enter
+                    .append("path")
                     .attr("d", this.path)
                     .attr("class", "state")
                     .style("stroke", "black")
@@ -108,7 +108,7 @@ class WeeklyMap {
                             .style('opacity', 1);
                         this.div
                             .html("<strong>" + this.formatPercentage(this.noconfByState.get(d.properties.STUSPS)) + "</strong>"
-                                + " of survey participants had no confidence in paying rent next month in " + '<br>'
+                                + " of total state survey participants had no confidence in paying rent next month in " + '<br>'
                                 + "<strong>" + d.properties.NAME + "</strong>"
                             )
                             .style("left", (event.pageX + 10) + "px")
@@ -160,7 +160,7 @@ class WeeklyMap {
                     return [d[0], this.totalObject];
                 })
         )
-        // console.log("totalsByState", this.totalsByState)
+        console.log("totalsByState", this.totalsByState)
 
         // GETTING ONE NEEDED VALUE OUT OF OBJECT -  % of noconf out of total responds
         this.noconfByState = new Map(
@@ -169,7 +169,7 @@ class WeeklyMap {
                 return [d[0], this.totalObject.noconf / this.totalObject.total];
             })
         )
-        // console.log("noconf", this.noconfByState)
+        console.log("noconf", this.noconfByState)
 
     }
 

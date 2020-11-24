@@ -6,7 +6,7 @@
 /* translate heatmap into percentage*/
 
 /* replace question mark in bacherols degree everywhere */
-
+/* check why INPUT is not black */
 /* COLOR PALETTE */
 
 
@@ -149,8 +149,13 @@ img {
   color: black;
   position: 2em;
 }
-/* doesn't work!!! */
-div.rect:hover {
+/* color doesn't work!!! */
+.rect:hover {
+  stroke: black;
+  stroke-width: 2px;
+  fill: #A48894;
+} 
+.bars:hover {
   stroke: black;
   stroke-width: 2px;
   fill: #A48894;
@@ -165,7 +170,7 @@ div.rect:hover {
 
 #map-content {
   display: grid;
-  grid-template-columns: 1fr 5fr 3fr 1fr;
+  grid-template-columns: 1fr 5fr 4fr 1fr;
   column-gap: 3%;
   /* width: 90vw; */
   /* height: 60vh; */
@@ -181,17 +186,17 @@ div.rect:hover {
 #map-container{
   grid-area: 'map-container'
 }
-#map-article {
-/* background-color: #B7D0D0;; */
+/* #map-article {
+/* background-color: #B7D0D0;; 
   font-size: 20px;
   text-align: left;
-  /* padding: 5% 5% 5% 5%; */
+  /* padding: 5% 5% 5% 5%; 
   line-height: 1.4;
   grid-area: 'map-article'
-}
+} */
 input {
-  /* -webkit-appearance: none; */
-  /* -moz-appearance: none; */
+  -webkit-appearance: none; 
+  -moz-appearance: none;
   appearance: none;
 
   border-radius: 50%;
@@ -229,41 +234,41 @@ path.state:hover {
   line-height: 1.4;
   }
 
-/* BARCHART CONTENT */
-#barchart-content{
+/* SCATTERPLOT CONTENT */
+#scatterplot-content{
 display: grid;
 grid-template-columns: 0.5fr 10fr 0.5fr;
 
 column-gap: 3%;
 grid-area: 'barchart';
 }
-#barchart-title {
+#scatterplot-title {
 text-align: center;
 font-family: 'IBM Plex Serif';
 font-size: 22px;
 font-weight: 700;
 padding: 5% 0% 0% 0%; }
 
-#barchart-text{
+#scatterplot-text{
 font-size: 20px;
 text-align: left;
 
 line-height: 1.4;
 }
 
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:700px) {
 #map-content{
   grid-template-columns: 1fr;
   padding: 1em 3em;
   grid-template-areas: 
   'map-container'
-  'map-article';
+  'barchart-container';
 }
-#barchart-content{
+/* #barchart-content{
   grid-template-columns: 1fr;
    padding: 1em 3em;
   grid-template-areas: 
   'barchart-container'
   'barchart-article';
-}
+} */
 }
