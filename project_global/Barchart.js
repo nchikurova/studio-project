@@ -20,7 +20,7 @@ class Barchart {
 
         this.colorScale = d3.scaleLinear()
             //.range(["#e7eff0", "#C8E1E5", "#B7D0D0", "#82C0CC", "#458A93", "#16697A", "#1C474D", "#0e2629"])//"#1C474D"])
-            .domain([0.05, 0.5])
+            .domain([this.barNames])
             .range(["#C8E1E5", "#0e2629"])
 
         // this.buttons2 = d3
@@ -57,6 +57,7 @@ class Barchart {
             .text(d => d) //"None", "Slight", "Moderate", "High")
             .style("text-anchor", "center")
             .style("alignment-baseline", "middle")
+
     }
     draw(state, setGlobalState) {
         //    console.log("new barchart is drawing")
@@ -82,7 +83,7 @@ class Barchart {
             .scaleLinear()
             .domain([0, 0.45])
             .range([this.height, this.margin.top]);
-        console.log("y domain", this.yScale.domain())
+        //console.log("y domain", this.yScale.domain())
 
         this.formatPercentage = d3.format(".0%")
 
@@ -90,12 +91,49 @@ class Barchart {
             .attr("class", "tooltip")
             .style("opacity", 0);
 
+
+        this.xAxis = d3.axisBottom(this.xScale).tickFormat("").tickValues([]);
+        this.yAxis = d3.axisLeft(this.yScale).tickFormat(this.formatPercentage)//.tickFormat(d3.format('.2s'));
+
+        // add the xAxis
+        this.svg_b
+            .append("g")
+            .attr("class", "axis x-axis")
+            .attr("transform", `translate(0,${this.height})`)
+            .call(this.xAxis)
+            .append("text")
+            .attr("class", "axis-label")
+            .attr("x", "50%")
+            .attr("dy", "4em")
+            .text("Confidence")
+            .attr("font-size", 14)
+            .attr("fill", "black");
+
+        // add the yAxis
+        this.svg_b
+            .append("g")
+            .attr("class", "axis y-axis")
+            .attr("transform", `translate(${this.margin.left},0)`)
+            .call(this.yAxis)
+            .append("text")
+            .attr("class", "axis-label")
+            .attr("y", "50%") //in the middle of line
+            .attr("dx", "-4em")
+            .attr("writing-mode", "vertical-rl")
+
+        this.yAxisGrid = d3.axisLeft(this.yScale).tickSize(- this.width).tickFormat('').ticks(10);
+        this.svg_b.append('g')
+            .attr('class', 'grid')
+            .call(this.yAxisGrid)
+            .attr("transform", `translate(${this.margin.left},0)`)
+
         this.svg_b
             .selectAll(".bars")
             // .data(filteredData, d => d.noconf)
             .data(this.barNames)
             .join(
                 enter => enter
+
                     .append("g")
                     .append("rect")
                     .attr("class", "bars")
@@ -126,13 +164,16 @@ class Barchart {
                             .transition()//
                             .duration(100)
                             .style('opacity', 0);
-                    }).call(enter => enter
+                    })
+                    .call(enter => enter
                         .transition()
-                        .duration(3000)),
+                        .duration(3000))
+                ,
                 update =>
                     update.call(update =>
                         update.transition()
                             .duration(2000)
+
                             .attr("x", (d, i) => (60 + i * 50))
                             .attr("width", this.xScale.bandwidth())
                             .attr('y', d => this.yScale(d))
@@ -148,6 +189,7 @@ class Barchart {
                             .remove()
 
                     )
+
                 // })
                 // }).attr("height", d => this.yScale(0) - this.yScale(d))
                 // .attr("fill", "#455d61")
@@ -158,40 +200,8 @@ class Barchart {
                 //             .duration(3000))
             )
 
-        this.xAxis = d3.axisBottom(this.xScale).tickFormat("").tickValues([]);
-        this.yAxis = d3.axisLeft(this.yScale)//.tickFormat(d3.format('.2s'))
-            ;
-
-        // add the xAxis
-        this.svg_b
-            .append("g")
-            .attr("class", "axis x-axis")
-            .attr("transform", `translate(0,${this.height})`)
-            .call(this.xAxis)
-            .append("text")
-            .attr("class", "axis-label")
-            .attr("x", "40%")
-            .attr("dy", "4em")
-            .text("Confidence")
-            .attr("font-size", 14)
-            //.attr("font-weight", 100)
 
 
-            .attr("fill", "black");
-
-        // add the yAxis
-        this.svg_b
-            .append("g")
-            .attr("class", "axis y-axis")
-            .attr("transform", `translate(${this.margin.left},0)`)
-            .call(this.yAxis)
-            .append("text")
-            .attr("class", "axis-label")
-            .attr("y", "50%") //in the middle of line
-            .attr("dx", "-4em")
-            .attr("writing-mode", "vertical-rl")
-        // .text("Millions")
-        // .attr("fill", "black")
     }
 
     //creating new method

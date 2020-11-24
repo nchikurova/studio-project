@@ -157,8 +157,9 @@ img {
 } 
 .bars:hover {
   stroke: black;
-  stroke-width: 2px;
-  fill: #A48894;
+  stroke-width: 3px;
+  opacity: 1;
+  z-index: 100;
 } 
 /* #second-article{
   font-size: 20px;
@@ -186,7 +187,14 @@ img {
 #map-container{
   grid-area: 'map-container'
 }
-/* #map-article {
+/* #barchart-container */
+
+.grid {
+  color:#1C474D;
+  z-index: 0;
+  opacity: 0.2;
+}
+
 /* background-color: #B7D0D0;; 
   font-size: 20px;
   text-align: left;
@@ -219,11 +227,11 @@ path.state:hover {
   stroke-width: 2px;
   fill: #A48894;
 }
-.rect:hover {
+/* .rect:hover {
   stroke: black;
   stroke-width: 2px;
-  fill: #A48894; /* doesn't work!*/
-}
+  fill: #A48894; 
+} */
 
 
 .text {
