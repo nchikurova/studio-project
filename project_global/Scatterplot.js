@@ -91,6 +91,7 @@ class Scatterplot {
         //     else if (d.category === "Income") return "#2f2461"
         // })
 
+        //labels for category
         this.svg_b.selectAll("mylabels")
             .data(["Age", "Sex", "Race"])
             .enter()
@@ -101,7 +102,6 @@ class Scatterplot {
             .style("fill", "black")
             .text(d => d)
             .style("text-anchor", "right")
-
 
         this.svg_b.selectAll("mylabels")
             .data(["Education", "Marital status"])
@@ -183,11 +183,6 @@ class Scatterplot {
         this.div = d3.select("body").append("div")
             .attr("class", "tooltip")
             .style("opacity", 0);
-        this.yAxisGrid = d3.axisLeft(this.yScale).tickSize(- this.width).tickFormat('').ticks(10);
-        this.svg_b.append('g')
-            .attr('class', 'grid')
-            .call(this.yAxisGrid)
-            .attr("transform", `translate(${this.margin.left},0)`)
 
         this.svg_b
             .selectAll("circle.circle")
