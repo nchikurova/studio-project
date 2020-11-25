@@ -11,149 +11,24 @@ class Scatterplot {
         this.svg_b = d3
             .select("#scatterplot-container")
             .append("svg")
-            .attr("viewBox", "0 0 500 320")
+            .attr("viewBox", "0 0 540 320")
             .attr("transform", "translate(0,0)")
             .append("g")
 
-
-    }
-    draw(state, setGlobalState) {
-        //    console.log("new barchart is drawing")
-
-
-        this.data = state.week_1.filter(d => d.state === "US")
-        // console.log("data", this.data)
-
-
-        this.xScale = d3
-            .scaleBand()
-            .domain(state.week_1.filter(d => d.state === "US").map(d => d.characteristics))
-            .range([this.margin.left, this.width - this.margin.right]);
-        // console.log("x domain", this.xScale.domain())
-
-
-        this.yScale = d3
-            .scaleLinear()
-            //.domain(d3.extent(this.data, d => d.noconf))
-            .domain([60, 10000000])
-            .range([this.height - this.margin.bottom, this.margin.top])
-        //.domain([0.01, 1])
-        // console.log("y domain", this.yScale.domain())
-
+        this.buttons2 = d3
+            .selectAll("input")
+            .on("change",
+                function () {
+                    // console.log("button changed to", this.value)
+                    setGlobalState({
+                        selection2: this.value,
+                    })
+                })
 
         // Add a scale for bubble size
         this.zScale = d3.scaleSqrt()
             .domain([59, 7500000])
             .range([2, 25]);
-
-        this.formatPercentage = d3.format(".0%")
-        this.formatNumber = d3.format(",")
-
-
-
-        this.colorScale = d3.scaleOrdinal()
-            .range(["#122a2d", "#455d61", "#16697A", "#23679A", "#758dc5", "#6251b2", "#792767", "#520122", "#cb3070", "#2f2461"])
-            //.domain(d3.extent(this.data, d => d.noconf))
-            .domain(["Total", "Age", "Sex", "Hispanic origin and Race", "Education", "Marital status", "Presence of children under 18 years old", "Respondent or household member experienced loss of employment income", "Respondent currently employed", "Income"])
-        //.domain(this.data, d => d.category)
-        //.range(["#C8E1E5", "#0e2629"])
-        //console.log("colorDomain", this.colorScale.domain())
-
-
-        this.div = d3.select("body").append("div")
-            .attr("class", "tooltip")
-            .style("opacity", 0);
-
-        this.svg_b
-            .selectAll(".dot")
-
-            .data(this.data, d => d.noconf)
-            .join(
-                enter => enter
-                    .append("g")
-                    .append("circle")
-                    .attr("class", "dot")
-                    .attr("cx", d => this.xScale(d.characteristics))
-                    .attr("cy", d => this.yScale(d.noconf))
-                    .attr("r", d => this.zScale(d.noconf))
-                    .attr("opacity", 0.7)
-                    .attr("stroke", "black")
-                    // .append("text")
-                    // .attr("class", "text-labels")
-                    // // .style("left", (pageX + 10) + "px")
-                    // // .style("top", (pageY - 28) + "px")
-                    // .attr("x", "50%")
-                    // .attr("dy", d => d.noconf)
-                    // .attr("text", d => d.category)
-                    .attr("fill", d => this.colorScale(d.category))//"purple")
-                    // d => {
-                    //     if (d.category === "Age") return "#455d61";
-                    //     else if (d.category === "Sex") return "#16697A";
-                    //     else if (d.category === "Hispanic origin and Race") return "#23679A";
-                    //     else if (d.category === "Education") return "#758dc5";
-                    //     else if (d.category === "Total") return "#122a2d";
-                    //     else if (d.category === "Marital status") return "#6251b2";
-                    //     else if (d.category === "Presence of children under 18 years old") return "#792767";
-                    //     else if (d.category === "Respondent or household member experienced loss of employment income") return "#520122";
-                    //     else if (d.category === "Respondent currently employed") return "#cb3070";
-                    //     else return "#2f2461";
-                    // })
-                    .on('mouseover', (event, d) => {
-                        this.div
-                            .transition()
-                            .duration(50)
-                            .style('opacity', 1);
-                        this.div
-                            .html("<strong>" + this.formatNumber(d.noconf) + " or " + this.formatPercentage(d.noconf / '75266101') + " " + d.noconf / '75266101' + "</strong>"
-                                + " of survey participants had no confidence in paying rent next month in " + '<br>'
-                                + "<strong>" + d.category + " : " + d.characteristics + "</strong>"
-                            )
-                            .style("left", (event.pageX + 10) + "px")
-                            .style("top", (event.pageY - 28) + "px");
-                    })
-                    .on('mouseout', () => {
-                        this.div
-                            .transition()//
-                            .duration(100)
-                            .style('opacity', 0);
-                    })
-
-            )
-
-        this.xAxis = d3.axisBottom(this.xScale).tickFormat("");//.ticks(state.week_1.length);
-        this.yAxis = d3.axisLeft(this.yScale).tickFormat(d3.format('.2s'));
-
-        // add the xAxis
-        this.svg_b
-            .append("g")
-            .attr("class", "axis x-axis")
-            .attr("transform", `translate(0,${this.height - this.margin.bottom})`)
-            .call(this.xAxis)
-            .append("text")
-            .attr("class", "axis-label")
-            .attr("x", "50%")
-            .attr("dy", "3em")
-            .attr("transform", "rotate(90)")
-            // .text("Category")
-            // .attr("writing-mode", "vertical-rl")
-
-            .attr("fill", "black");
-
-        // add the yAxis
-        this.svg_b
-            .append("g")
-            .attr("class", "axis y-axis")
-            .attr("transform", `translate(${this.margin.left},0)`)
-            .call(this.yAxis)
-            .append("text")
-            .attr("class", "axis-label")
-            .attr("y", "50%") //in the middle of line
-            .attr("dx", "-4em")
-            .attr("writing-mode", "vertical-rl")
-            .text("Millions")
-            .attr("fill", "black")
-
-
         // Add legend for zScale: circles from https://www.d3-graph-gallery.com/graph/bubble_template.html
         this.valuesToShow = [300000, 3000000, 8000000]
 
@@ -213,7 +88,7 @@ class Scatterplot {
         //     else if (d.category === "Presence of children under 18 years old") return "#792767";
         //     else if (d.category === "Respondent or household member experienced loss of employment income") return "#520122";
         //     else if (d.category === "Respondent currently employed") return "#cb3070";
-        //     else return "#2f2461";
+        //     else if (d.category === "Income") return "#2f2461"
         // })
 
         this.svg_b.selectAll("mylabels")
@@ -261,54 +136,166 @@ class Scatterplot {
             .style("fill", "black")
             .text(d => d)
             .style("text-anchor", "right")
+
+
+    }
+
+
+    draw(state, setGlobalState) {
+        //    console.log("new barchart is drawing")
+
+        this.updateData3(state);
+
+        this.xScale = d3
+            .scaleBand()
+            .domain(d3.map(this.data, d => d.characteristics))
+            .range([this.margin.left, this.width - this.margin.right]);
+        //console.log("x domain", this.xScale.domain())
+
+        this.yScale = d3
+            .scaleLinear()
+            //.domain(d3.extent(this.data, d => d.noconf))
+            .domain([60, 11500000])
+            .range([this.height - this.margin.bottom, this.margin.top])
+        //.domain([0.01, 1])
+        // console.log("y domain", this.yScale.domain())
+
+        // formatting numbers ( 1000 -> 1,000)
+        this.formatNumber = d3.format(",")
+
+        //formatting percentage ((".2%"): 0.0024 -> 0.24%, (".0%"): 0.12 -> 12%)
+        this.formatPercentage = function (d) {
+            if (d < 0.01)
+                return d3.format(".2%")(d);
+            else {
+                return d3.format(".0%")(d);
+            }
+        }
+
+        this.colorScale = d3.scaleOrdinal()
+            .range(["#122a2d", "#455d61", "#16697A", "#23679A", "#758dc5", "#6251b2", "#792767", "#520122", "#cb3070", "#2f2461"])
+            //.domain(d3.extent(this.data, d => d.noconf))
+            .domain(["Total", "Age", "Sex", "Hispanic origin and Race", "Education", "Marital status", "Presence of children under 18 years old", "Respondent or household member experienced loss of employment income", "Respondent currently employed", "Income"])
+        //.domain(this.data, d => d.category)
+        //.range(["#C8E1E5", "#0e2629"])
+        //console.log("colorDomain", this.colorScale.domain())
+
+        this.div = d3.select("body").append("div")
+            .attr("class", "tooltip")
+            .style("opacity", 0);
+        this.yAxisGrid = d3.axisLeft(this.yScale).tickSize(- this.width).tickFormat('').ticks(10);
+        this.svg_b.append('g')
+            .attr('class', 'grid')
+            .call(this.yAxisGrid)
+            .attr("transform", `translate(${this.margin.left},0)`)
+
+        this.svg_b
+            .selectAll("circle.circle")
+            .data(this.data, d => d.noconf.toString())
+            .join(
+                enter => enter
+                    //.append("g")
+                    .append("circle")
+                    .attr("class", "circle")
+                    .attr("cx", d => this.xScale(d.characteristics))
+                    .attr("cy", d => this.yScale(d.noconf))
+                    .attr("r", d => this.zScale(d.noconf))
+                    .attr("opacity", 0.7)
+                    .attr("stroke", "black")
+                    .attr("fill", d => this.colorScale(d.category))
+                    // d => {
+                    //     if (d.category === "Age") return "#455d61";
+                    //     else if (d.category === "Sex") return "#16697A";
+                    //     else if (d.category === "Hispanic origin and Race") return "#23679A";
+                    //     else if (d.category === "Education") return "#758dc5";
+                    //     else if (d.category === "Total") return "#122a2d";
+                    //     else if (d.category === "Marital status") return "#6251b2";
+                    //     else if (d.category === "Presence of children under 18 years old") return "#792767";
+                    //     else if (d.category === "Respondent or household member experienced loss of employment income") return "#520122";
+                    //     else if (d.category === "Respondent currently employed") return "#cb3070";
+                    //     else return "#2f2461";
+                    // })
+                    .on('mouseover', (event, d) => {
+                        this.div
+                            .transition()
+                            .duration(50)
+                            .style('opacity', 1);
+                        this.div
+                            .html("<strong>" + this.formatNumber(d.noconf) + " or " + this.formatPercentage(d.noconf / '75266101') + " " + "</strong>"
+                                + " of Americans who participated in survey had " + "<strong>" + "No confidence " + "</strong>" + "in paying rent next month in " + '<br>'
+                                + "<strong>" + d.category + ": " + d.characteristics + "</strong>"
+                            )
+                            .style("left", (event.pageX + 10) + "px")
+                            .style("top", (event.pageY - 28) + "px");
+                    })
+                    .on('mouseout', () => {
+                        this.div
+                            .transition()//
+                            .duration(100)
+                            .style('opacity', 0);
+                    }).call(enter => enter
+                        .transition()
+                        .delay(d => 500 * d.noconf) // delay on each element
+                        .duration(500) // duration 500ms
+                        .attr("cy", d => this.yScale(d.noconf)),
+                        update => update
+                            .attr("class", "circle")
+                            .attr("cx", d => this.xScale(d.characteristics))
+                            .attr("cy", d => this.yScale(d.noconf))
+                            .attr("r", d => this.zScale(d.noconf))
+                            .attr("opacity", 0.7)
+                            .attr("stroke", "black")
+                            .attr("fill", d => this.colorScale(d.category)).call(update =>
+                                update // initialize transition
+                                    .transition()
+                                    .duration(250)
+                                    .attr("stroke", "black")
+                                    .transition()
+                                    .duration(250)
+                                    .attr("stroke", "lightgrey")
+                            ),
+                        exit => exit.remove()
+                            .call(exit =>
+                                // exit selections -- all the `.dot` element that no longer match to HTML elements
+                                exit
+                                    .transition()
+                                    .delay(d => 50 * d.characteristics)
+                                    .duration(1000)
+                                    .attr("cx", width)
+                                    .remove()
+                            )
+                    ))
+        this.xAxis = d3.axisBottom(this.xScale).tickFormat("");//.ticks(state.week_1.length);
+        this.yAxis = d3.axisLeft(this.yScale).tickFormat(d3.format('.2s'));
+
+        // add the xAxis
+        this.svg_b
+            .append("g")
+            .attr("class", "axis x-axis")
+            .attr("transform", `translate(0,${this.height - this.margin.bottom})`)
+            .call(this.xAxis)
+
+        // add the yAxis
+        this.svg_b
+            .append("g")
+            .attr("class", "axis y-axis")
+            .attr("transform", `translate(${this.margin.left},0)`)
+            .call(this.yAxis)
+            .append("text")
+            .attr("class", "axis-label")
+            .attr("y", "50%") //in the middle of line
+            .attr("dx", "-4em")
+            .attr("writing-mode", "vertical-rl")
+            .text("Millions")
+            .attr("fill", "black")
+
+    }
+    updateData3(state) {
+        const currentData3 = state.selection2 === "week_1" ? state.week_1 : state.week_2;
+
+        this.data = currentData3.filter(d => d.state === "US")
+        console.log("data", this.data)
     }
 }
 export { Scatterplot };
 
- // Dropdowns data wrapping
- //this.states = new Set(d3.map(state.week_1, d => d.state))
- //console.log("states", this.states)
-
- //this.categories = new Set(d3.map(state.week_1, d => d.category))
- //console.log("categories", this.categories)
- /////////////// DATA WRANGLING
- //this.level1 = new Set(d3.map(state.week_1, d => (d.noconf + d.slightconf)))// gives all characteristics
- //this.level2 = new Set(d3.map(state.week_1, d => (d.modconf + d.highconf)))
- //.filter(obj => obj.category === state.selectedCategory).map(d => d.characteristics))
- //this.levels = new Set([...this.level1, ...this.level2])
-
- // this.level = new Set(state.week_1
- //     .filter(obj => obj.category === state.selectedCategory)
- //     .map(d => d.characteristics))
- //console.log("level", this.level)
-
- //console.log("level1", this.level1)
- //console.log("level2", this.level2)
- //console.log("levels", this.levels)
- //this.level = new Set(d3.map(state.week_1, d => d.noconf))
- //console.log("level", this.level)
-
-
- //this.cleanData = d3.groups(state.week_1, d => d.characteristics.noconf)
- //console.log("cleandata", this.cleanData)
- //this.cleanData2 = d3.groups(this.cleanData, d => d.category)
- //console.log("cleandata2", this.cleanData2)
-
- // this.totalsByState = new Map(
- //     this.cleanData2
- //         .map(d => {
- //             this.levelObject = d[1].filter(r => r.characteristics === state.selectedCategory);
- //             return [d[0], this.levelObject];
- //         })
- // )
- // this.totalsByStateC = new Map(
- //     this.cleanData2
- //         .map(d => {
- //             this.levelObject = d[1].filter(r => r.category === state.selectedCategory);
- //             return [d[0], this.levelObject];
- //         })
- // )
- // console.log("totalsByState", this.totalsByState)
- // console.log("totalsByStateC", this.totalsByStateC)
- // console.log("levelObj", this.levelObject)
- //////////////////
