@@ -15,10 +15,13 @@ let state = {
     heatmap: [],
     selection: "week_1",
     selection1: "week_1",
+    selection2: "week_1",
     selectedCategory: "All categories",
     selectedLevel: "All levels",
-    selectedState: "All states",
+    selectedState: "US",
     currentData: [],
+    currentData2: [],
+    currentData3: [],
     filteredData: []
 }
 Promise.all([
