@@ -1,12 +1,31 @@
 /* TO DO LIST */
 
 /* add a. style for links */
-/* add padding to the subtext */
+/* add padding to the subtext  -- DONE */
 /* change transition to map colors*/
 /* translate heatmap into percentage*/
 
 /* replace question mark in bacherols degree everywhere */
-/* check why INPUT is not black */
+/* check why INPUT is not black  -- DONE*/
+
+/* QUESTIONS */
+
+/* why grids are overwriting itself when data is changed */
+/* why grids are in front of rects */
+
+/* //////////////////// GET RID OF ? MARK IN BACHEROLS DEGREE */
+/* CHECK FIRST  */
+/* how to get to  multiple values through groped data */
+/* MAYBE GROUP IT THROUGH NONCOFN */
+
+/* If i need change current Data to data1 data2 data3 */
+/* Transitions are not working */
+
+/* add text to rects in barchart - inside the rect */
+
+/* maybe add dates and/ or explanation of articles */
+
+
 /* COLOR PALETTE */
 
 
@@ -159,14 +178,15 @@ img {
   stroke: black;
   stroke-width: 3px;
   opacity: 1;
-  z-index: 100;
+ 
 } 
-/* #second-article{
-  font-size: 20px;
-  text-align: left;
-  
-} */
-
+.bars{
+  z-index: 100;
+}
+.circle:hover{
+opacity: 1;
+stroke-width: 2px;
+}
 /* MAP CONTENT */
 
 #map-content {
@@ -227,12 +247,6 @@ path.state:hover {
   stroke-width: 2px;
   fill: #A48894;
 }
-/* .rect:hover {
-  stroke: black;
-  stroke-width: 2px;
-  fill: #A48894; 
-} */
-
 
 .text {
   font-size: 20px;
@@ -241,7 +255,10 @@ path.state:hover {
   grid-template-columns: 2fr 10fr 2fr;
   line-height: 1.4;
   }
-
+#third-article{
+  display: grid;
+  grid-template-columns: 2fr 10fr 2fr;
+}
 /* SCATTERPLOT CONTENT */
 #scatterplot-content{
 display: grid;
