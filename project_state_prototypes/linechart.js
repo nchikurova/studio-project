@@ -3,7 +3,7 @@
 /**
  * LOAD DATA
  * */
-d3.csv("../data/totals_weeks.csv",
+d3.csv("../data/weekly_totals_old_new.csv",
     d => ({
         count: +d.count.split(",").join(""),
         week: +d.week,
@@ -74,6 +74,9 @@ d3.csv("../data/totals_weeks.csv",
         .attr("dy", "3em")
         .text("Week");
 
+    div = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0);
     // add the yAxis
     svg_line
         .append("g")
@@ -105,5 +108,27 @@ d3.csv("../data/totals_weeks.csv",
         .append("text")
         .attr("class", "label")
         .data("text", d => d.key)
+        .on('mouseover', (event, d) => {
+            console.log("d for tooltips", d)
+            this.div
+                .transition()
+                .duration(50)
+                .style('opacity', 1);
+            this.div
+                .html("<strong>" + d + " " + "</strong>" + "<br>"
+                    + " of Americans who participated in survey had this level of confidence in paying rent next month in " +
+                    "<strong>" + d + "</strong>"
+                )
+                .style("left", (event.pageX + 10) + "px")
+                .style("top", (event.pageY - 28) + "px");
 
-});
+            //add d.state to tooltip -> move to the corner?
+        })
+        .on('mouseout', () => {
+            this.div
+                .transition()//
+                .duration(100)
+                .style('opacity', 0);
+
+        })
+})

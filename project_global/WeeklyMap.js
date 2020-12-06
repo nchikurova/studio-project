@@ -31,10 +31,9 @@ class WeeklyMap {
             .on("change",
                 function () {
                     // console.log("button changed to", this.value)
-
                     setGlobalState({
                         selection: this.value,
-                        selection1: this.value
+                        //selectedState: this.value,
                     })
                 })
 
@@ -78,12 +77,11 @@ class WeeklyMap {
     // called every times state is updated
 
     draw(state, setGlobalState) {
-        // let currentData; 
 
-        console.log("filtered weekly data map", state.selection, this.currentData)
+
 
         this.updateData(state);
-
+        console.log("filtered weekly data map", state.selection, this.currentData)
         this.svg
             .selectAll(".state")
             // all of the features of the geojson, meaning all the states as individuals
@@ -108,7 +106,7 @@ class WeeklyMap {
                             .style('opacity', 1);
                         this.div
                             .html("<strong>" + this.formatPercentage(this.noconfByState.get(d.properties.STUSPS)) + "</strong>"
-                                + " of total state survey participants had no confidence in paying rent next month in " + '<br>'
+                                + " of total number of the state survey participants had no confidence in paying rent next month in " + '<br>'
                                 + "<strong>" + d.properties.NAME + "</strong>"
                             )
                             .style("left", (event.pageX + 10) + "px")
@@ -120,31 +118,49 @@ class WeeklyMap {
                             .duration(100)
                             .style('opacity', 0);
 
-                    }).call(enter => enter
-                        .transition()
-                        .duration(3000)),
+                    })
+                // .attr("d", this.path)
+                // .on("click",
+                //     function (event, data) {
+                //         console.log("state changed to", this.value, data, event)
 
+                //         setGlobalState({
+
+                //             selectedState: data.properties.STUSPS
+                //             // }).attr("fill", d => {
+                //             //     if (this.path = this.value)
+                //             //         return "#A48894";
+                //             // }).attr("stroke", d => {
+                //             //     if (this.path = this.value)
+                //             //         return "black"
+                //             // }).attr("stroke-width", d => {
+                //             //     if (this.path = this.value)
+                //             //         return "2px"
+                //         })
+                //     }),
+                ,
                 update => update
                     .attr("fill", d => {
                         let value = this.noconfByState.get(d.properties.STUSPS);
                         return (value != 0 ? this.colorScale(value) : "grey")
-
                     }),
                 exit => exit.call(exit =>
-                    // exit selections -- all the `.dot` element that no longer match to HTML elements
                     exit
-                        .transition()
-                        .duration(3000)
-                        .remove()
-                ).call(
-                    selection =>
-                        selection
-                            .transition() // initialize transition
-                            .duration(3000))
+                )
 
+
+                    .transition().remove()
             )
+        // .on("click",
+        //     function (event, data) {
+        //         console.log("state changed to", this.value, data, event)
 
+        //         setGlobalState({
 
+        //             selectedState: data.properties.STUSPS
+
+        //         })
+        //     })
     }
     //creating new method
     updateData(state) {
@@ -160,7 +176,7 @@ class WeeklyMap {
                     return [d[0], this.totalObject];
                 })
         )
-        console.log("totalsByState", this.totalsByState)
+        //console.log("totalsByState", this.totalsByState)
 
         // GETTING ONE NEEDED VALUE OUT OF OBJECT -  % of noconf out of total responds
         this.noconfByState = new Map(
@@ -169,7 +185,7 @@ class WeeklyMap {
                 return [d[0], this.totalObject.noconf / this.totalObject.total];
             })
         )
-        console.log("noconf", this.noconfByState)
+        //console.log("noconf", this.noconfByState)
 
     }
 

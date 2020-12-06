@@ -16,7 +16,7 @@ class Scatterplot {
             .append("g")
 
         this.buttons2 = d3
-            .selectAll("input")
+            .selectAll("input_hhh")
             .on("change",
                 function () {
                     // console.log("button changed to", this.value)
@@ -136,19 +136,17 @@ class Scatterplot {
             .style("fill", "black")
             .text(d => d)
             .style("text-anchor", "right")
-
-
     }
 
-
     draw(state, setGlobalState) {
-        //    console.log("new barchart is drawing")
+        //console.log("new barchart is drawing")
 
-        this.updateData3(state);
+        this.updateData(state);
 
         this.xScale = d3
             .scaleBand()
             .domain(d3.map(this.data, d => d.characteristics))
+
             .range([this.margin.left, this.width - this.margin.right]);
         //console.log("x domain", this.xScale.domain())
 
@@ -157,7 +155,7 @@ class Scatterplot {
             //.domain(d3.extent(this.data, d => d.noconf))
             .domain([60, 11500000])
             .range([this.height - this.margin.bottom, this.margin.top])
-        //.domain([0.01, 1])
+
         // console.log("y domain", this.yScale.domain())
 
         // formatting numbers ( 1000 -> 1,000)
@@ -229,10 +227,8 @@ class Scatterplot {
                             .duration(100)
                             .style('opacity', 0);
                     }).call(enter => enter
-                        .transition()
-                        .delay(d => 500 * d.noconf) // delay on each element
-                        .duration(500) // duration 500ms
-                        .attr("cy", d => this.yScale(d.noconf)),
+                        //.transition()
+                        ,
                         update => update
                             .attr("class", "circle")
                             .attr("cx", d => this.xScale(d.characteristics))
@@ -242,12 +238,12 @@ class Scatterplot {
                             .attr("stroke", "black")
                             .attr("fill", d => this.colorScale(d.category)).call(update =>
                                 update // initialize transition
-                                    .transition()
-                                    .duration(250)
-                                    .attr("stroke", "black")
-                                    .transition()
-                                    .duration(250)
-                                    .attr("stroke", "lightgrey")
+                                // .transition()
+                                // .duration(250)
+                                // .attr("stroke", "black")
+                                // .transition()
+                                // .duration(250)
+                                // .attr("stroke", "lightgrey")
                             ),
                         exit => exit.remove()
                             .call(exit =>
@@ -276,20 +272,22 @@ class Scatterplot {
             .attr("class", "axis y-axis")
             .attr("transform", `translate(${this.margin.left},0)`)
             .call(this.yAxis)
-            .append("text")
-            .attr("class", "axis-label")
-            .attr("y", "50%") //in the middle of line
-            .attr("dx", "-4em")
-            .attr("writing-mode", "vertical-rl")
-            .text("Millions")
-            .attr("fill", "black")
+        //     .append("text")
+        //     .attr("class", "axis-label")
+        //     .attr("y", "50%") //in the middle of line
+        //     .attr("dx", "-4em")
+        //     .attr("writing-mode", "vertical-rl")
+        //     .text("Millions")
+        //     .attr("fill", "black")
 
     }
-    updateData3(state) {
-        const currentData3 = state.selection2 === "week_1" ? state.week_1 : state.week_2;
+    updateData(state) {
+        const currentData = state.selection === "week_1" ? state.week_1 : state.week_2;
 
-        this.data = currentData3.filter(d => d.state === "US")
-        console.log("data", this.data)
+        this.data = currentData.filter(d => d.state === "US")
+
+        //  console.log("data", this.data)
+        this.grouppedData = d3.map(this.data, d => d.category)
     }
 }
 export { Scatterplot };

@@ -14,15 +14,13 @@ let state = {
     week_2: [],
     heatmap: [],
     selection: "week_1",
-    selection1: "week_1",
+    // selection1: "week_1",
     selection2: "week_1",
-    selectedCategory: "All categories",
-    selectedLevel: "All levels",
     selectedState: "US",
     currentData: [],
-    currentData2: [],
-    currentData3: [],
-    filteredData: []
+    // currentData2: [],
+    // currentData3: [],
+    // filteredData: []
 }
 Promise.all([
     d3.json("../data/usState.json"),
@@ -89,6 +87,6 @@ function draw() {
 // UTILITY FUNCTION: state updating function that we pass to our components so that they are able to update our global state object
 function setGlobalState(nextState) {
     state = { ...state, ...nextState };
-    console.log("new state", nextState);
+    console.log("new state", state);
     draw();
 }

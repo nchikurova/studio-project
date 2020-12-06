@@ -180,9 +180,9 @@ img {
   opacity: 1;
  
 } 
-.bars{
+/* .bars{
   z-index: 100;
-}
+} */
 .circle:hover{
 opacity: 1;
 stroke-width: 2px;
@@ -211,8 +211,8 @@ stroke-width: 2px;
 
 .grid {
   color:#1C474D;
-  z-index: 0;
-  opacity: 0.2;
+  /* z-index: 0; */
+  /* opacity: 0.2; */
 }
 
 /* background-color: #B7D0D0;; 
