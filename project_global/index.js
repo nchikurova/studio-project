@@ -14,13 +14,11 @@ let state = {
     week_2: [],
     heatmap: [],
     selection: "week_1",
-    // selection1: "week_1",
     selection2: "week_1",
-    selectedState: "US",
+    // selectedState: "US", //if needed
     currentData: [],
-    // currentData2: [],
-    // currentData3: [],
-    // filteredData: []
+    currentData2: [],
+
 }
 Promise.all([
     d3.json("../data/usState.json"),
@@ -40,7 +38,7 @@ Promise.all([
         didnottenure: +d.didnottenure.split(",").join(""),
         state: d.state,
         category: d.category.trim(),
-        characteristics: d.characteristics.trim(),
+        characteristics: d.characteristics.trim().replace("�", "'"),
 
     })),
     d3.csv("../data/week_2.csv", d => ({
@@ -54,7 +52,7 @@ Promise.all([
         didnottenure: +d.didnottenure.split(",").join(""),
         state: d.state,
         category: d.category.trim(),
-        characteristics: d.characteristics.trim(),
+        characteristics: d.characteristics.trim().replace("�", "'"),
 
     })),
 ]).then(([geojson, heatmap, week_1, week_2]) => {

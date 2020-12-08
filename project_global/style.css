@@ -214,7 +214,11 @@ stroke-width: 2px;
   /* z-index: 0; */
   /* opacity: 0.2; */
 }
+.mylabels_legends {
+  /* font-family: 'Sansita Swashed', cursive; */
+  font-family: 'Bebas Neue';
 
+  }
 /* background-color: #B7D0D0;; 
   font-size: 20px;
   text-align: left;

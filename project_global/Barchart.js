@@ -80,10 +80,6 @@ class Barchart {
         this.updateData(state);
         //    console.log("new barchart is drawing")
 
-        console.log("data_bar", this.data_bar)
-
-        console.log("bar names", this.barNames)
-
         //////// filtering data by state; the structure of the data does not let me get state values without intercecting with Total US values
         /// in a file NewBarchart.js
 
@@ -224,16 +220,8 @@ class Barchart {
                             .attr('opacity', .5)
                             .text(d => this.formatPercentage(d))
                     )
-                // ,
-                // exit =>
-                //     exit
-                // .call(exit =>
-                //     exit
-                //         .transition() // initialize transition
-                //         .duration(2000)
-                //     // .remove()
-                // )
             )
+
         this.xAxis = d3.axisBottom(this.xScale).tickFormat("").tickValues([]);
 
         this.div = d3.select("body").append("div")
@@ -265,10 +253,11 @@ class Barchart {
 
         this.data_bar = currentData.filter(d => d.state === "US").find(r => r.category === "Total")
 
-        console.log("data_bar", this.data_bar)
+        //console.log("data_bar", this.data_bar)
 
         this.barNames = [this.data_bar.noconf / this.data_bar.total, this.data_bar.slightconf / this.data_bar.total, this.data_bar.modconf / this.data_bar.total, this.data_bar.highconf / this.data_bar.total]
 
+        //console.log("bar names", this.barNames)
 
 
     }

@@ -525,67 +525,11 @@ class Barchart {
 
 
 
-        this.legend1 = this.svg1.selectAll(".legend1")
-            .data(['Made Shot', 'Missed Shot'])
-            .enter()
-            .append("g")
 
-        this.legend2 = this.svg2.selectAll(".legend2")
-            .data(['Made Shot', 'Missed Shot'])
-            .enter()
-            .append("g")
 
-        this.legend1.append("rect")
-            .attr("fill", d => {
-                if (d === 'Made Shot') {
-                    return "green"
-                } else {
-                    return "red"
-                }
-            })
-            .attr('opacity', .5)
-            .attr("width", 20)
-            .attr("height", 20)
-            .attr("y", function (d, i) {
-                return (i * 40) + 60;
-            })
-            .attr("x", this.width - 70);
 
-        this.legend1.append("text")
-            .attr("y", function (d, i) {
-                return (i * 40) + 70
-            })
-            .attr('x', this.width - 135)
-            .attr('fill', 'white')
-            .attr('font-size', '11px')
-            .attr('font-family', 'Fjalla One,sans-serif')
-            .text(d => { return d })
 
-        this.legend2.append("rect")
-            .attr("fill", d => {
-                if (d === 'Made Shot') {
-                    return "green"
-                } else {
-                    return "red"
-                }
-            })
-            .attr('opacity', .5)
-            .attr("width", 20)
-            .attr("height", 20)
-            .attr("y", function (d, i) {
-                return (i * 40) + 60;
-            })
-            .attr("x", this.width - 70);
 
-        this.legend2.append("text")
-            .attr("y", function (d, i) {
-                return (i * 40) + 70
-            })
-            .attr('x', this.width - 135)
-            .attr('fill', 'white')
-            .attr('font-size', '11px')
-            .attr('font-family', 'Fjalla One,sans-serif')
-            .text(d => { return d })
 
     }
 
