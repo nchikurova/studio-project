@@ -308,7 +308,7 @@ class Scatterplot {
                             .style('opacity', 0);
                     })
                     .call(enter => enter
-                        .transition()
+
                     )
                 ,
                 update => update
@@ -332,9 +332,6 @@ class Scatterplot {
                     .call(exit =>
                         // exit selections -- all the `.dot` element that no longer match to HTML elements
                         exit
-                            // .transition(this.t)
-                            //.duration(500)
-
                             .remove()
                     )
             )
