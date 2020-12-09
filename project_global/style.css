@@ -168,6 +168,11 @@ img {
   color: black;
   position: 2em;
 }
+.axis.y-axis {
+  font-size: 12; 
+  color: black;
+  position: 2em;
+}
 /* color doesn't work!!! */
 .rect:hover {
   stroke: black;

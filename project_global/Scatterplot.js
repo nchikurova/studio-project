@@ -3,7 +3,8 @@ class Scatterplot {
     // only runs one time for each instance
     constructor(state, setGlobalState) {
 
-        //  console.log("state data", state.week_1)
+        //console.log("state data", state.week_1)
+
         this.width = 460,
             this.height = 280,
             this.margin = { top: 10, bottom: 10, left: 50, right: 0 }
@@ -15,9 +16,11 @@ class Scatterplot {
                 .attr("viewBox", "0 0 540 320")
                 .attr("transform", "translate(0,0)")
                 .append("g")
-        this.t = d3.transition()
-            .duration(750)
-            .ease(d3.easeLinear);
+
+        //If i want to use transition        
+        // this.t = d3.transition()
+        //     .duration(750)
+        //     .ease(d3.easeLinear);
         this.buttons2 = d3
             .selectAll("#week_s")//("input")
             .on("change",
@@ -201,17 +204,30 @@ class Scatterplot {
 
         this.svg_b
             .append("g")
+            .attr("class", "axis x-axis")
+            .attr("transform", `translate(0,${this.height - this.margin.bottom})`)
+        // .append("text")
+        // .attr("opacity", 0.8)
+        // .attr("class", "axis-label")
+        // .attr("y", "5%")
+        // .attr("dx", "50%")
+        // .text("Category")
+        // .attr("fill", "black")
+        // .attr("font-size", 13)
+
+        this.svg_b
+            .append("g")
             .attr("class", "axis y-axis")
             .attr("transform", `translate(${this.margin.left},0)`)
-            //   .call(this.yAxis)
             .append("text")
+            .attr("opacity", 0.8)
             .attr("class", "axis-label")
-            .attr("y", "50%") //in the middle of line
+            .attr("y", "35%")
             .attr("dx", "-3em")
             .attr("writing-mode", "vertical-rl")
             .text("Millions")
             .attr("fill", "black")
-            .attr("font-size", 14)
+            .attr("font-size", 13)
     }
 
     draw(state, setGlobalState) {
@@ -333,10 +349,12 @@ class Scatterplot {
             .attr("class", "axis x-axis")
             .attr("transform", `translate(0,${this.height - this.margin.bottom})`)
             .call(this.xAxis)
+            .append("text")
+            .attr("class", "axis-label")
 
         // add the yAxis
         this.svg_b
-            .append("g")
+            .select("g")
             .attr("class", "axis y-axis")
             .attr("transform", `translate(${this.margin.left},0)`)
             .call(this.yAxis)
