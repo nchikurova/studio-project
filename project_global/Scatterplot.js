@@ -21,6 +21,7 @@ class Scatterplot {
         // this.t = d3.transition()
         //     .duration(750)
         //     .ease(d3.easeLinear);
+
         this.buttons2 = d3
             .selectAll("#week_s")//("input")
             .on("change",
@@ -331,8 +332,8 @@ class Scatterplot {
                     .call(exit =>
                         // exit selections -- all the `.dot` element that no longer match to HTML elements
                         exit
-                            .transition()
-                            .duration(500)
+                            // .transition(this.t)
+                            //.duration(500)
 
                             .remove()
                     )
