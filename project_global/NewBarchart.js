@@ -245,7 +245,6 @@ class Barchart {
 
     }
 
-
 }
 export { Barchart };
 

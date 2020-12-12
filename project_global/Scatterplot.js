@@ -17,10 +17,18 @@ class Scatterplot {
                 .attr("transform", "translate(0,0)")
                 .append("g")
 
-        //If i want to use transition        
-        // this.t = d3.transition()
-        //     .duration(750)
-        //     .ease(d3.easeLinear);
+        // FORMATTING NUMBERS
+        // Formatting numbers ( 1000 -> 1,000)
+        this.formatNumber = d3.format(",")
+
+        // Formatting percentage ((".2%"): 0.0024 -> 0.24%, (".0%"): 0.12 -> 12%)
+        this.formatPercentage = function (d) {
+            if (d < 0.01)
+                return d3.format(".2%")(d);
+            else {
+                return d3.format(".0%")(d);
+            }
+        }
 
         this.buttons2 = d3
             .selectAll("#week_s")//("input")
@@ -30,7 +38,7 @@ class Scatterplot {
                     setGlobalState({
                         selection2: this.value,
                     })
-                })
+                }).transition().duration(1000)
 
         // Add a scale for bubble size
         this.zScale = d3.scaleSqrt()
@@ -73,11 +81,6 @@ class Scatterplot {
             .attr("text-anchor", "middle")
 
         //Add legends for Categories
-
-        // this.keysCat = ["Total", "Age", "Sex", "Race", "Education", "Marital status", "Children", "Loss of employment", "Currently employed", "Income"]
-        // this.legendColor = d3.scaleOrdinal()
-        //     .domain([this.keysCat])
-        //     .range(["#122a2d", "#455d61", "#16697A", "#23679A", "#758dc5", "#6251b2", "#792767", "#520122", "#cb3070", "#2f2461"])
 
         this.svg_b.selectAll("myrect")
             .data(["Total", "Age", "Sex", "Race", "Education", "Marital status", "Children", "Loss of employment", "Currently employed", "Income"])
@@ -246,28 +249,13 @@ class Scatterplot {
             .scaleLinear()
             .domain([60, 11500000])
             .range([this.height - this.margin.bottom, this.margin.top])
-
         // console.log("x domain:", this.xScale.domain(),"y domain:", this.yScale.domain())
-
-        // Formatting numbers ( 1000 -> 1,000)
-        this.formatNumber = d3.format(",")
-
-        // Formatting percentage ((".2%"): 0.0024 -> 0.24%, (".0%"): 0.12 -> 12%)
-        this.formatPercentage = function (d) {
-            if (d < 0.01)
-                return d3.format(".2%")(d);
-            else {
-                return d3.format(".0%")(d);
-            }
-        }
 
         this.colorScale = d3.scaleOrdinal()
             .range(["#122a2d", "#455d61", "#16697A", "#23679A", "#a1bacb", "#c1a4c2", "#815d9d", "#6c3c6e", "#2f2461", "#8a86c1"])
             //previous version colors
             // .range(["#122a2d", "#455d61", "#16697A", "#23679A", "#758dc5", "#6251b2", "#792767", "#520122", "#cb3070", "#2f2461"])
-
             .domain(["Total", "Age", "Sex", "Hispanic origin and Race", "Education", "Marital status", "Presence of children under 18 years old", "Respondent or household member experienced loss of employment income", "Respondent currently employed", "Income"])
-
         //console.log("colorDomain", this.colorScale.domain())
 
         this.div = d3.select("body").append("div")
@@ -308,7 +296,7 @@ class Scatterplot {
                             .style('opacity', 0);
                     })
                     .call(enter => enter
-
+                        .transition()
                     )
                 ,
                 update => update
@@ -324,7 +312,6 @@ class Scatterplot {
                             .attr("opacity", 0.7)
                             .attr("stroke", "black")
                             .attr("fill", d => this.colorScale(d.category))
-
                     ),
                 exit => exit
                     // .transition()
@@ -335,8 +322,6 @@ class Scatterplot {
                             .remove()
                     )
             )
-
-
 
         this.xAxis = d3.axisBottom(this.xScale).tickValues([])//.tickFormat("");
         this.yAxis = d3.axisLeft(this.yScale).tickFormat(d3.format('.2s'));
@@ -367,12 +352,7 @@ class Scatterplot {
         this.data = currentData2.filter(d => d.state === "US")
 
         //  console.log("data", this.data)
-        this.grouppedData = d3.map(this.data, d => d.category)
-        // console.log("categories", this.grouppedData)
 
-        this.grouppedCategories = d3.groups(this.data, d => d.category)
-
-        console.log("categories groupped", this.grouppedCategories)
     }
 }
 export { Scatterplot };
