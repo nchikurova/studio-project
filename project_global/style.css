@@ -188,6 +188,15 @@ img {
 opacity: 1;
 stroke-width: 2px;
 }
+a:link {
+  color:#0e2629;
+}
+a:visited{
+  color: purple;
+}
+a:hover{
+  color: #458A93;
+}
 /* MAP CONTENT */
 
 #map-content {

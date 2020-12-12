@@ -65,7 +65,7 @@ class Scatterplot {
             .enter()
             .append("text")
             .attr('x', 450)
-            .attr("y", (d, i) => this.height - (235 + i * 19))
+            .attr("y", (d, i) => this.height - (235 + i * 18))
             .text(d => d / 1000000)
             .style("font-size", 9)
             .style('alignment-baseline', 'middle')
