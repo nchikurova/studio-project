@@ -93,7 +93,7 @@ class WeeklyMap {
                     .attr("class", "state")
                     .style("stroke", "black")
                     .attr("fill", d => {
-                        // console.log("d", d)
+                        //console.log("d", d)
                         let value = this.noconfByState.get(d.properties.STUSPS);
                         return (value != 0 ? this.colorScale(value) : "grey")
 
@@ -119,37 +119,24 @@ class WeeklyMap {
                             .style('opacity', 0);
 
                     })
-                // .attr("d", this.path)
-                // .on("click",
-                //     function (event, data) {
-                //         console.log("state changed to", this.value, data, event)
-
-                //         setGlobalState({
-
-                //             selectedState: data.properties.STUSPS
-                //             // }).attr("fill", d => {
-                //             //     if (this.path = this.value)
-                //             //         return "#A48894";
-                //             // }).attr("stroke", d => {
-                //             //     if (this.path = this.value)
-                //             //         return "black"
-                //             // }).attr("stroke-width", d => {
-                //             //     if (this.path = this.value)
-                //             //         return "2px"
-                //         })
-                //     }),
+                    .call(enter => enter
+                        .transition()
+                        .duration(3000))
                 ,
-                update => update
-                    .attr("fill", d => {
-                        let value = this.noconfByState.get(d.properties.STUSPS);
-                        return (value != 0 ? this.colorScale(value) : "grey")
-                    }),
+                update => update.call(update =>
+                    update.transition()
+                        .duration(2000)
+                        .attr("fill", d => {
+                            let value = this.noconfByState.get(d.properties.STUSPS);
+                            return (value != 0 ? this.colorScale(value) : "grey")
+                        })
+                ),
                 exit => exit.call(exit =>
                     exit
                 )
 
 
-                    .transition().remove()
+                    .transition().duration(3000).remove()
             )
         // .on("click",
         //     function (event, data) {
