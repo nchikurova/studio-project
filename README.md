@@ -1,9 +1,8 @@
 # Coronavirus rent crisis
 
-No doubt 2020 will be remembered. We are making history right now and grandchildren of our grandchildren will probably learn about this year in school. Unforeseen and unpredictable Coronavirus pandemic began in China and has expanded all over the world in few months. Millions of people around the world have been sickened and hundreds of thousands of others have died. Many countries declared restrictive measures, such as lockdown, shelter in place, or stay at home orders, to contain the pandemic at a local level. One day it will all become history and when reading about this experience people would only imagine what we’ve been through. 
-
-The coronavirus pandemic has made it difficult for many Americans to generate income, and as a result, pay their rent.
-
+Coronavirus is the most important event of 2020 and one of the most important events in the history. Millions of people around the world have been sickened and hundreds of thousands of others have died. The entire lifestyle has been changed. As for December 2020, we all still required to wear masks and preferably stay home. 
+The most important part for me is what we can learn and how we can get prepared for such a global event like Coronavirus. I decided to look for the available data of the impact of Coronavirus on Americans. I came across U.S. Census House Hold Survey, which was designed specifically for measuring the impact of Coronavirus on household. The House Hold survey includes many different tables; each of them describes one of these categories: education, employment, housing, food sufficiency, health, social security, spending and transportation. All of those indicators are important however the first thing we need is the shelter over our heads. The loss of employment caused decrease of household income and, therefore, brought lack of confidence to pay rent. To explore percentage and number of people and their lack of confidence during 2020, for my analysis I chose Housing Tables. 
+My main goal of this project is to show people that big percentage of us were not prepared for such event, which categories were affected the most and what we can do to prepare ourselves for the future events like that. 
 
  ### Prototypes
  
@@ -26,6 +25,9 @@ The coronavirus pandemic has made it difficult for many Americans to generate in
  * * [`dataframe`](https://github.com/nchikurova/advanced-studio/blob/master/Data_manipulation_dataframe.ipynb)
  * * [`openpuxl`](https://github.com/nchikurova/advanced-studio/blob/master/Data_openpyxl_new.ipynb)
  * * [`xlrd`](https://github.com/nchikurova/advanced-studio/blob/master/Data_xlrd_new.ipynb)
+ 
+  * [Data Structure](https://github.com/nchikurova/studio-project/blob/main/data/week_1.csv)
+ 
  
  ### Stable Links
  
