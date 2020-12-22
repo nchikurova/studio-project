@@ -5,7 +5,7 @@ No doubt 2020 will be remembered. We are making history right now and grandchild
 The coronavirus pandemic has made it difficult for many Americans to generate income, and as a result, pay their rent.
 
 
-### Prototypes
+ ### Prototypes
  
  * [US Map](https://observablehq.com/@nchikurova/us-map-by-household-median-income-2017)
  * [Heatmap](https://observablehq.com/@nchikurova/heatmap)
@@ -13,18 +13,21 @@ The coronavirus pandemic has made it difficult for many Americans to generate in
  * [Data wrangling](https://observablehq.com/d/65408b7a9bd98edd)
  * [Code prototype](https://github.com/nchikurova/studio-project/tree/main/project_state_prototypes)
  
- * * [Project Brief - Visual Desk Drfat](https://drive.google.com/file/d/1cAxLVb19tX-V9ysfmJltnS2aD_roqO1O/view?usp=sharing)
+ * [Project Brief - Visual Desk Drfat](https://drive.google.com/file/d/1cAxLVb19tX-V9ysfmJltnS2aD_roqO1O/view?usp=sharing)
  
  ### Data Documentation
  
- [Data Source](https://www.census.gov/programs-surveys/household-pulse-survey/data.html#phase1)
- [Census.gov](https://www.census.gov/)
+ * [Data Source](https://www.census.gov/programs-surveys/household-pulse-survey/data.html#phase1)
+ * [Census.gov](https://www.census.gov/)
 
- [Data Structure](https://github.com/nchikurova/studio-project/blob/main/data/week_1.csv)
+ * [Data Structure](https://github.com/nchikurova/studio-project/blob/main/data/week_1.csv)
  
- Data Manipulation in Python
- * [`dataframe`](https://github.com/nchikurova/advanced-studio/blob/master/Data_manipulation_dataframe.ipynb)
- * [`openpuxl`](https://github.com/nchikurova/advanced-studio/blob/master/Data_openpyxl_new.ipynb)
- * [`xlrd`](https://github.com/nchikurova/advanced-studio/blob/master/Data_xlrd_new.ipynb)
+ * Data Manipulation in Python
+ * * [`dataframe`](https://github.com/nchikurova/advanced-studio/blob/master/Data_manipulation_dataframe.ipynb)
+ * * [`openpuxl`](https://github.com/nchikurova/advanced-studio/blob/master/Data_openpyxl_new.ipynb)
+ * * [`xlrd`](https://github.com/nchikurova/advanced-studio/blob/master/Data_xlrd_new.ipynb)
  
-[Prerecorded walkthrough](https://drive.google.com/file/d/1Vo47aRRwCOqAlID00kRKO2NfCTfiMmRT/view?usp=sharing)
+ ### Stable Links
+ 
+ * [Prerecorded walkthrough](https://drive.google.com/file/d/1Vo47aRRwCOqAlID00kRKO2NfCTfiMmRT/view?usp=sharing)
+ * [Project link](https://nchikurova.github.io/studio-project/project_global/)
