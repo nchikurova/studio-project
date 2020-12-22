@@ -38,7 +38,7 @@ class Scatterplot {
                     setGlobalState({
                         selection2: this.value,
                     })
-                }).transition().duration(1000)
+                })
 
         // Add a scale for bubble size
         this.zScale = d3.scaleSqrt()
@@ -105,6 +105,7 @@ class Scatterplot {
                     else if (d === "Income") return "#122a2d";//"#2f2461"
                 })
         // colors "#2f2461","#815d9d","#6c3c6e","#956f96","#c1a4c2","#8a86c1"
+
         //labels for category
         this.svg_b.selectAll(".mylabels")
             .attr("class", "mylabels_legends")
@@ -264,7 +265,7 @@ class Scatterplot {
 
         this.svg_b
             .selectAll("circle.circle")
-            .data(this.data, d => d.noconf)
+            .data(this.data, d => d.category + d.characteristics)
             .join(
                 enter => enter
                     .append("circle")
@@ -296,15 +297,15 @@ class Scatterplot {
                             .style('opacity', 0);
                     })
                     .call(enter => enter
-                        .transition()
+
                     )
                 ,
                 update => update
                     .call(update =>
                         update
                             .transition()
-                            .duration(3000)
-                            .attr("class", "circle")
+                            .duration(2000)
+                            // .attr("class", "circle")
                             //.attr("cx", d => this.xScale(d.characteristics))
                             .attr("cx", (d, i) => 55 + i * 13)
                             .attr("cy", d => this.yScale(d.noconf))
@@ -314,11 +315,11 @@ class Scatterplot {
                             .attr("fill", d => this.colorScale(d.category))
                     ),
                 exit => exit
-                    // .transition()
-                    //     .remove()
+                    .remove()
                     .call(exit =>
                         // exit selections -- all the `.dot` element that no longer match to HTML elements
-                        exit
+                        exit.transition()
+                            .duration(2000)
                             .remove()
                     )
             )
