@@ -22,7 +22,7 @@ My initial plan was to explore the US total number for all weeks at first to see
 
 For the first part of the analysis I decided to take US total numbers from all weeks, and for other analysis, to compare the first two weeks of the Household Survey in order to see Americans' "first reaction" to the pandemic. I assumed that the first two weeks would show the level of preparedness better than all other weeks for a few reasons: not all Americans filled up the unemployment benefits application yet; stimulus checks from the government were sending out; I believe that human nature tends to adjust and adapt the environment, so the more people understood how serious the virus situation was, the more of them would find new jobs. I think that the true reaction of Americans to the pandemic was hidden in the first weeks of the survey. The change in total numbers of US supported my suggestion, the percentage of the participants who had "High confidence" in the first week decreased, while the percentage of "No Confidence" and "Slight Confidence" increased. However, the logic of the percentage of "No Confidence" level changing by the state was not that clear. Some of the numbers went up, some went down. To prove my suggestion right or wrong we will need to make more analysis.
 
-### Design Desicions & Main Challenges
+### Design Decisions & Main Challenges
 
 The idea of the color palette was taken from [New York State Department of Labor](https://dol.ny.gov/). I liked the variety of dark turquoise color and how its shades merge with white, grey, and black. Later on, I decided to add some more colors since I needed them for a variety of categories. 
 
