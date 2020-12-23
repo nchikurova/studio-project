@@ -2,6 +2,7 @@
 
   Coronavirus is the most important event of 2020 and one of the most important events in the history. Millions of people around the world have been sickened and hundreds of thousands of others have died. The entire lifestyle has been changed. As for December 2020, we all still required to wear masks and preferably stay home. 
   
+  ![](images/confidence.png) ![](images/conf.png)
   The most important part for me is what we can learn and how we can get prepared for such a global event like Coronavirus. I decided to look for the available data of the impact of Coronavirus on Americans. I came across U.S. Census House Hold Survey, which was designed specifically for measuring the impact of Coronavirus on household. The House Hold survey includes many different tables; each of them describes one of these categories: education, employment, housing, food sufficiency, health, social security, spending and transportation. All of those indicators are important however the first thing we need is the shelter over our heads. The loss of employment caused decrease of household income and, therefore, brought lack of confidence to pay rent. To explore percentage and number of people and their lack of confidence during 2020, for my analysis I chose Housing Tables. 
   
   My main goal of this project is to show people that big percentage of us were not prepared for such event, which categories were affected the most and what we can do to prepare ourselves for the future events like that. 
