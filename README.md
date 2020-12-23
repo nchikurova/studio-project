@@ -1,4 +1,4 @@
-# Coronavirus rent crisis
+# [Coronavirus rent crisis](https://nchikurova.github.io/studio-project/project_global/)
 
  ![](confidence.png)
  ![](conf.png)
@@ -69,4 +69,5 @@ Even though the idea of changing data and the theme of my project showed up in m
  ### Stable Links
  
  * [Prerecorded walkthrough](https://drive.google.com/file/d/1Vo47aRRwCOqAlID00kRKO2NfCTfiMmRT/view?usp=sharing)
+ 
  * [Project link](https://nchikurova.github.io/studio-project/project_global/)
