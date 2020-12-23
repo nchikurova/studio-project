@@ -1,7 +1,6 @@
 # Coronavirus rent crisis
 
- ![](confidence.png)
- ![](conf.png)
+ ![](confidence.png) ![](conf.png)
  
  ### About 
  
