@@ -35,6 +35,8 @@ Although the structure of the data did not let some of my ideas come to life I d
 
 Even though the idea of changing data and the theme of my project showed up in my head a few times, I do not regret my choice. I have learned how to filter and map the data through the challenges I accepted. And more than that, beautifully visualize it. 
 
+By the end of my article I talk about our responsibility to get prepared for this kind of events. While we can't predict any viruses and rise of unemployment, we can always lear how to take care of ourselves and our family financially. I included a few articles about financial literacy and first steps how to start saving money. 
+
  * Data Manipulation in Jupyter Notebooks
  * * [`dataframe`](https://github.com/nchikurova/advanced-studio/blob/master/Data_manipulation_dataframe.ipynb)
  * * [`openpuxl`](https://github.com/nchikurova/advanced-studio/blob/master/Data_openpyxl_new.ipynb)
