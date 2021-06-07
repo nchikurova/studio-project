@@ -74,3 +74,5 @@ By the end of my article I talk about our responsibility to get prepared for thi
  * [Prerecorded walkthrough](https://drive.google.com/file/d/1Vo47aRRwCOqAlID00kRKO2NfCTfiMmRT/view?usp=sharing)
  
  * [Project link](https://nchikurova.github.io/studio-project/project_global/)
+
+The code to this project could be find in `project_global` folder.
